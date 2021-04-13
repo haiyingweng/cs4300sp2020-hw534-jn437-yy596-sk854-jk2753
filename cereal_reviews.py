@@ -4,6 +4,9 @@ from os import environ
 
 REVIEWS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidapi.com/product/reviews"
 
+product_tcins = []
+inserted_data = {}
+
 
 def get_reviews(tcin):
     query_string = {"tcin": tcin, "limit": "100", "offset": "0"}
@@ -18,9 +21,6 @@ def get_reviews(tcin):
     if tcin not in reviews and tcin not in inserted_data:
         inserted_data[tcin] = response_json
 
-
-product_tcins = ["12935649"]
-inserted_data = {}
 
 with open("reviews.json") as f:
     reviews = json.load(f)
