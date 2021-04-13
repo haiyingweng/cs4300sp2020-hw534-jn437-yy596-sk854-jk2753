@@ -1,3 +1,6 @@
+# !!!! READ THIS ABOUT RUNNING THIS SCRIPT:
+# https://www.notion.so/Using-cereal_reviews-py-script-2aab2104306f467f9520b57e75ffbf69
+
 import json
 import requests
 from os import environ
