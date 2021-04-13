@@ -4,7 +4,8 @@ from os import environ
 
 REVIEWS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidapi.com/product/reviews"
 
-product_tcins = []
+# Example: tcins = {"54446420": "Raisin Bran", "78364946": "Raisin Nut Bran"}
+tcins = {}
 inserted_data = {}
 
 
@@ -25,10 +26,24 @@ def get_reviews(tcin):
 with open("reviews.json") as f:
     reviews = json.load(f)
 
-for tcin in product_tcins:
+with open("tcin_cereal.json") as f:
+    tcin_cereal = json.load(f)
+
+# Remove duplicates from tcin_cereal that we already have reviews for:
+new_dict = {}
+for tcin, cereal in tcins.items():
+    if tcin not in reviews:
+        new_dict[tcin] = cereal
+tcins = new_dict
+
+for tcin in tcins.keys():
     get_reviews(tcin)
 
 reviews.update(inserted_data)
+tcin_cereal.update(tcins)
 
 with open("reviews.json", "w") as f:
     json.dump(reviews, f)
+
+with open("tcin_cereal.json", "w") as f:
+    json.dump(tcin_cereal, f)
