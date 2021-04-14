@@ -9,7 +9,7 @@ padding: 20px 0;
 text-align:center;
 }
 body {
-padding-top: 15%;
+/* padding-top: 15%; */
 padding-bottom: 15px;
 }
 .global-search {
@@ -24,11 +24,7 @@ display:inline-block;
 margin-bottom:0;
 }
 }
-.topcorner{
-position:absolute;
-top:2%;
-right:2%;
-}
+/* .topcorner{position:absolute;top:2%;right:2%;} */
 .btn{
 background-color: #4285F4;
 border: none
