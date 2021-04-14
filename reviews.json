@@ -51010,5 +51010,135 @@
         "SubmissionTime": "2021-02-26T00:54:16.000+00:00"
       }
     ]
+  },
+  "12935301": {
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "Id": "26a5c75c-6f7e-4034-bd8a-8e0396828873",
+        "ProductId": "12935301",
+        "Rating": 5,
+        "RatingRange": 5,
+        "Title": "Corn Chex",
+        "ReviewText": "Very crispy and great taste. Gluten free so they\u2019re safe for me to eat. Makes a great ingredient for my Chex Mix.",
+        "IsRecommended": true,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Quality",
+          "Taste"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "ClientResponses": [],
+        "Photos": [],
+        "AuthorId": "2460245950",
+        "UserNickname": "D",
+        "UserLocation": null,
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "IsSyndicated": false,
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "TotalFeedbackCount": 0,
+        "TotalPositiveFeedbackCount": 0,
+        "TotalNegativeFeedbackCount": 0,
+        "TotalClientResponseCount": 0,
+        "SubmissionTime": "2021-01-29T16:59:50.000+00:00"
+      },
+      {
+        "Id": "a9938055-4a09-4d03-8a66-fcbb5018d963",
+        "ProductId": "12935301",
+        "Rating": 5,
+        "RatingRange": 5,
+        "Title": "So good!",
+        "ReviewText": "I had this with oat milk. I love that it has very to little sugar and you barely taste it. It\u2019s very crunchy. I think that\u2019s why I like it.",
+        "IsRecommended": true,
+        "SecondaryRatingsOrder": [
+          "Quality",
+          "Taste",
+          "Value"
+        ],
+        "SecondaryRatings": {
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [],
+        "ClientResponses": [],
+        "Photos": [
+          {
+            "Sizes": {
+              "normal": {
+                "Id": "normal",
+                "Url": "https://target.scene7.com/is/image/Target/GUEST_53532481-e1fc-43af-b87a-5bfee5040e9b"
+              },
+              "thumbnail": {
+                "Id": "thumbnail",
+                "Url": "https://target.scene7.com/is/image/Target/GUEST_53532481-e1fc-43af-b87a-5bfee5040e9b?wid=100"
+              }
+            }
+          }
+        ],
+        "AuthorId": "651899398",
+        "UserNickname": "Shari123",
+        "UserLocation": null,
+        "Badges": {},
+        "IsSyndicated": false,
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "TotalFeedbackCount": 1,
+        "TotalPositiveFeedbackCount": 1,
+        "TotalNegativeFeedbackCount": 0,
+        "TotalClientResponseCount": 0,
+        "SubmissionTime": "2020-12-13T02:12:03.000+00:00"
+      }
+    ]
   }
 }

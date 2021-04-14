@@ -9,7 +9,7 @@ from time import sleep
 REVIEWS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidapi.com/product/reviews"
 
 # Example: tcins = {"54446420": "Raisin Bran", "78364946": "Raisin Nut Bran"}
-tcins = {}
+tcins = {"12935301": "Corn Chex"}
 inserted_data = {}
 
 
