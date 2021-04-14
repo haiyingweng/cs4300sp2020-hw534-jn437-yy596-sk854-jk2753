@@ -1,46 +1,50 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="/static/bootstrap.min.css">
-        <link rel="stylesheet" href="/static/main.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <div class="topcorner">
-            <p>Project Name:  Cerealizer </p>
-            <p>Student Name:  hw534, jn437, yy596, sk854, jk2753</p>
+<head>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="topcorner">
+        <p>Project Name: Cerealizer </p>
+        <p>Student Name: hw534, jn437, yy596, sk854, jk2753</p>
+    </div>
+    <div id="lefttopcorner">
+        <ul>
+            <li><a href="/random">Random Cereal Generator</a></li>
+            <li><a href="/top">Top 100</a></li>
+            <li><a href="/compare">Compare Cereals</a></li>
+        </ul>
+    </div>
+
+    <div id= searchset>
+    <form class="form-inline global-search">
+        <h1 style="font-size: 55px; font-family:Futura; color: #4285F4">
+            CEREAL
+            <span style="font-size: 33px; color:black"> izer</span>
+        </h1>
+
+        <br><br>
+
+        <div class="form-group">
+            <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
         </div>
-        <div id="lefttopcorner">
-          <ul>
-              <li><a href="RandomCereal.html">Random Cereal Generator</a></li>
-              <li><a href="Top100.html">Top 100</a></li>
-              <li><a href="comparecereals.html">Compare Cereals</a></li>
-          </ul>
-        </div>
-
-
-        <form class="form-inline global-search">
-            <h1 style="font-size: 55px; font-family:Futura; color: #4285F4">
-                CEREALizer
-            </h1>
-
-            <br><br>
-
-            <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
-            </div>
-            <button type="submit" class="btn btn-info"> Go! </button>
-        </form>
-        <form class="form-inline global-search">
+        <button type="submit" class="btn btn-info"> Go! </button>
+    </form>
+    <form class="form-inline global-search">
         {% if data %}
-            <h1>{{output_message}}</h1>
-            {% for d in data %}
-                <br>
-                <p>{{d}}</p>
-            {% endfor %}
+        <h1>{{output_message}}</h1>
+        {% for d in data %}
+        <br>
+        <p>{{d}}</p>
+        {% endfor %}
         {% endif %}
-        </form>
-    </body>
+    </form>
+
+    </div>
+</body>
 
 
 

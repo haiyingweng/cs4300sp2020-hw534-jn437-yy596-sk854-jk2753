@@ -1,9 +1,23 @@
 body {
-  background-color: lightblue;
+  background-color: white;
 }
 
 #lefttopcorner{
-  background-color: gray;
+  background-color: rgb(97, 78, 48);
+  display: inline-block;
+  position: fixed;
+  right: 0%;
+  padding: 0;
+}
+
+#lefttopcorner ul{
+  list-style-type: none;
+  margin: 0;
+}
+
+#lefttopcorner li {
+  display: inline;
+  margin: 0%;
 }
 
 #lefttopcorner a{
@@ -23,4 +37,9 @@ body {
 #lefttopcorner a.active{
   background-color: #4CAF50;
   color: white;
+}
+
+
+#searchset {
+  margin-top: 100px;
 }

@@ -26,6 +26,32 @@ app.register_blueprint(irsystem)
 # Initialize app w/SocketIO
 socketio.init_app(app)
 
+# Home
+@app.route('/')
+def home():
+  return render_template("search.html")
+
+# Random Cereal Generator
+@app.route('/random', methods=['GET'])
+def random_generator():
+  return render_template("RandomCereal.html")
+
+
+# Compare Cereals
+@app.route('/compare', methods=['GET'])
+def compare_generator():
+  return render_template("comparecereals.html")
+
+# Top 100
+@app.route('/top', methods=['GET'])
+def top_generator():
+  return render_template("Top100.html")
+
+# Search Results
+@app.route('/search', methods=['GET'])
+def searchresults_generator():
+  return render_template("SearchResults.html")
+
 # HTTP error handling
 @app.errorhandler(404)
 def not_found(error):
