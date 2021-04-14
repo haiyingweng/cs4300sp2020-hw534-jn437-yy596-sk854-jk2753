@@ -6,6 +6,11 @@ body {
   background-color: gray;
 }
 
+#lefttopcorner ul{
+  list-style-type: none;
+  margin: 0;
+}
+
 #lefttopcorner a{
   float: left;
   color: #f2f2f2;
