@@ -9,11 +9,12 @@ from time import sleep
 REVIEWS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidapi.com/product/reviews"
 
 # Example: tcins = {"54446420": "Raisin Bran", "78364946": "Raisin Nut Bran"}
-tcins = {"12935301": "Corn Chex"}
+tcins = {}
 inserted_data = {}
 
 
 def get_reviews(tcin):
+    print("get reviews for " + tcin)
     query_string = {"tcin": tcin, "limit": "100", "offset": "0"}
     headers = {
         "x-rapidapi-key": environ["RAPIDAPI_KEY"],
