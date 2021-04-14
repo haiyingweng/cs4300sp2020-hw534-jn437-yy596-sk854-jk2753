@@ -4,6 +4,7 @@
 import json
 import requests
 from os import environ
+from time import sleep
 
 REVIEWS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidapi.com/product/reviews"
 
@@ -24,6 +25,7 @@ def get_reviews(tcin):
     response_json = response.json()
     if tcin not in reviews and tcin not in inserted_data:
         inserted_data[tcin] = response_json
+    sleep(1)
 
 
 with open("reviews.json") as f:
