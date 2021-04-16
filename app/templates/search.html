@@ -27,7 +27,7 @@
         </h1> -->
         <div id="mainpagelogo">
             <a href="/">
-                <img src="/static/logo1.png" alt="Logo" width= 532 height= 132>
+                <img class="mlogo" src="/static/logo1.png" alt="Logo" width= 532 height= 132>
             </a>
         </div>
         
@@ -37,9 +37,9 @@
         <div class="form-group">
             <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
         </div>
-        <button type="submit" class="btn btn-info"> Go! </button>
+        <button type="submit" class="btn btn-info"><a href="/search">Go!</a> </button>
     </form>
-    <form class="form-inline global-search">
+    <!-- <form class="form-inline global-search" >
         {% if data %}
         <h1>{{output_message}}</h1>
         {% for d in data %}
@@ -47,7 +47,7 @@
         <p>{{d}}</p>
         {% endfor %}
         {% endif %}
-    </form>
+    </form> -->
 
     </div>
 </body>

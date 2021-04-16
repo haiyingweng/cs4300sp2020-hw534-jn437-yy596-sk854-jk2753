@@ -25,7 +25,15 @@
         </a>
     </div>
 
-    
+    <form class="form-inline global-search" >
+        {% if data %}
+        <h1>{{output_message}}</h1>
+        {% for d in data %}
+        <br>
+        <p>{{d}}</p>
+        {% endfor %}
+        {% endif %}
+    </form>
 
 
 </body>
