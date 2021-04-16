@@ -8,9 +8,10 @@ DETAILS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidap
 tcins = {}
 inserted_data = {}
 
+
 def get_description(tcin):
     print("get description for " + tcin)
-    query_string = {"store_id":"3991","tcin": tcin}
+    query_string = {"store_id": "3991", "tcin": tcin}
     headers = {
         "x-rapidapi-key": environ["RAPIDAPI_KEY"],
         "x-rapidapi-host": environ["RAPIDAPI_HOST"],
@@ -27,9 +28,6 @@ def get_description(tcin):
 with open("descriptions.json") as f:
     descriptions = json.load(f)
 
-with open("tcin_cereal.json") as f:
-    tcin_cereal = json.load(f)
-
 tcins = tcin_cereal.keys()
 
 for tcin in tcins:
@@ -39,6 +37,3 @@ descriptions.update(inserted_data)
 
 with open("descriptions.json", "w") as f:
     json.dump(descriptions, f)
-
-with open("tcin_cereal.json", "w") as f:
-    json.dump(tcin_cereal, f)
