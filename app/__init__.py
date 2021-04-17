@@ -10,7 +10,7 @@ from flask_socketio import SocketIO
 
 # Configure app
 socketio = SocketIO()
-app = Flask(__name__)
+app = Flask(__name__, static_folder = 'static')
 app.config.from_object(os.environ["APP_SETTINGS"])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 

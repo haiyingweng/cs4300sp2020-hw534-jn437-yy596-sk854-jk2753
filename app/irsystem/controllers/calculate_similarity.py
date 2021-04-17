@@ -15,16 +15,16 @@ manufacturers = {
     "N": "Nature's Path",
 }
 
-with open("../../../reviews.json", "r") as f:
+with open("./reviews.json", "r") as f:
     all_reviews = json.load(f)
 
-with open("../../../tcin_cereal.json", "r") as t:
+with open("./tcin_cereal.json", "r") as t:
     tcin_to_cereal = json.load(t)
 
-with open("../../../descriptions.json", "r") as d:
+with open("./descriptions.json", "r") as d:
     cereal_descriptions = json.load(d)
 
-with open("../../../cereal.csv", mode="r") as csv_file:
+with open("./cereal.csv", mode="r") as csv_file:
     csv_reader = csv.DictReader(csv_file)
     cereal_nutritions = {}
     for row in csv_reader:
