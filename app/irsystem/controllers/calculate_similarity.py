@@ -51,7 +51,7 @@ def process_cereal_details():
         info = cereal_nutritions[name]
         cereal_info[tcin]["name"] = name
         cereal_info[tcin]["manufacturer"] = manufacturers[info["mfr"]]
-        cereal_info[tcin]["calories"] = f"{info['calories']}mg"
+        cereal_info[tcin]["calories"] = f"{info['calories']}cal"
         cereal_info[tcin]["protein"] = f"{info['protein']}g"
         cereal_info[tcin]["fat"] = f"{info['fat']}g"
         cereal_info[tcin]["sodium"] = f"{info['sodium']}mg"
