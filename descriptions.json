@@ -1,5 +1,833 @@
 {
-  "12935368": "Kellogg's Frosted Flakes Corn Cereal is the classic breakfast that kids and adults know and love. Made with crunchy corn flakes with a coating of sweet frosting, this frosted cereal is a delicious breakfast food and a tasty and quick snack for kids. Offered in a 24-ounce family size cereal box, this corn cereal conveniently provides about 17 servings, with 140 calories per serving. Kellogg's Frosted Flakes cereal includes wholesome vitamins and minerals, and the frosted goodness of this Kellogg's cereal is great every time.",
-  "12935649": "Magically delicious Lucky Charms cereal features frosted oats and colored marshmallows. Made with 11g of whole grain per Serving; And it's gluten free!",
-  "54446420": "Kellogg's Raisin Bran is a tasty and high fiber cereal you can feel good about. Get a sunny start to your day with a satisfying breakfast of crispy whole wheat bran flakes and plump raisins. This Kellogg's cereal is offered in a 24-ounce Kellogg's family size cereal box and conveniently provides about 11 servings. Made from North American wheat, this breakfast cereal includes 26% of the daily value of fiber per serving, with eight key nutrients. Enjoy the classic, delicious balance of crunchy, wheat bran flakes with delectably raisins."
+  "12935368": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.8",
+        "weight_unit_of_measure": "POUND",
+        "width": "8.0",
+        "depth": "13.0",
+        "height": "3.5",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Frosted Flakes Breakfast Cereal - 24oz - Kellogg's",
+      "tcin": "12935368",
+      "type": "Stand Alone",
+      "dpci": "231-00-0080",
+      "upc": "038000181771",
+      "url": "/p/frosted-flakes-breakfast-cereal-24oz-kellogg-s/-/A-12935368",
+      "description": "Kellogg's Frosted Flakes Corn Cereal is the classic breakfast that kids and adults know and love. Made with crunchy corn flakes with a coating of sweet frosting, this frosted cereal is a delicious breakfast food and a tasty and quick snack for kids. Offered in a 24-ounce family size cereal box, this corn cereal conveniently provides about 17 servings, with 140 calories per serving. Kellogg's Frosted Flakes cereal includes wholesome vitamins and minerals, and the frosted goodness of this Kellogg's cereal is great every time.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Frosted Flakes",
+      "product_brand": {
+        "facet_id": "bv70i",
+        "brand": "Frosted Flakes"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_d12614b0-2dd2-4e98-ab19-5aac382c31eb",
+          "alternate_urls": [
+            "GUEST_bda669d2-fa86-496b-864c-ab2e96751a3e",
+            "GUEST_c3ebc40c-1a12-4378-b0a6-4e1ac4871017",
+            "GUEST_363dc674-be82-4eec-b462-fadbe2862ff3",
+            "GUEST_b6daf590-e426-4d5a-b401-0f34bdbf431d",
+            "GUEST_0fafcc30-58cd-46b1-ac7f-7439253e494d",
+            "GUEST_ca067118-18ab-4a93-a88a-1a30cad3a544",
+            "GUEST_68ce6379-bb11-480f-aa15-5cc7cd4fa351",
+            "GUEST_9ff766cf-de2d-4a45-bf0b-c53af6ce0909"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_ca067118-18ab-4a93-a88a-1a30cad3a544"
+            },
+            {
+              "image_url": "GUEST_bda669d2-fa86-496b-864c-ab2e96751a3e"
+            },
+            {
+              "image_url": "GUEST_d12614b0-2dd2-4e98-ab19-5aac382c31eb"
+            },
+            {
+              "image_url": "GUEST_0fafcc30-58cd-46b1-ac7f-7439253e494d"
+            },
+            {
+              "image_url": "GUEST_c3ebc40c-1a12-4378-b0a6-4e1ac4871017"
+            },
+            {
+              "image_url": "GUEST_9ff766cf-de2d-4a45-bf0b-c53af6ce0909"
+            },
+            {
+              "image_url": "GUEST_68ce6379-bb11-480f-aa15-5cc7cd4fa351"
+            },
+            {
+              "image_url": "GUEST_928a7022-835c-404f-bb73-a0e4cabcef16"
+            },
+            {
+              "image_url": "GUEST_2e2c2504-50c7-4654-8222-5ac43f9fb6f4"
+            }
+          ]
+        }
+      ],
+      "bundle_components": {
+        "related_master_dpci": "231-00-0808",
+        "related_master_tcin": "81579229",
+        "product_relationship_type": "Bundle Component",
+        "product_relationship_type_code": "BNDLCMP"
+      },
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": false,
+      "average_rating": 4.83,
+      "total_reviews": 643,
+      "top_reviews": [
+        {
+          "user_nickname": "saintnicole",
+          "title": "Bought for Food Pantry",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Nice, Fast delivery! Thank you!"
+        },
+        {
+          "user_nickname": "Anonymous",
+          "title": "They\u2019re Grreat!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Frosted Flakes are a staple in our house. Light, crispy delicious flakes with just enough sweet goodness to satisfy."
+        },
+        {
+          "user_nickname": "MNLuckyCats307",
+          "title": "Tastes great.",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Tastes great even when milk soggy. Not too sweet, just right amount of sweetness. The corn flakes hold up well in milk. Best eaten with very cold milk."
+        }
+      ],
+      "total_review_count": 573,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.5,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.64,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 70,
+      "rating_distribution": [
+        {
+          "Count": 10,
+          "RatingValue": 1
+        },
+        {
+          "Count": 1,
+          "RatingValue": 2
+        },
+        {
+          "Count": 11,
+          "RatingValue": 3
+        },
+        {
+          "Count": 46,
+          "RatingValue": 4
+        },
+        {
+          "Count": 575,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Soy",
+        "<B>May Contain:</B> Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 24  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 24-ounce box of Kellogg's Frosted Flakes Corn Cereal",
+          "Crunchy corn flake cereal coated with a sweet, original frosting",
+          "Breakfast cereal made with vitamins and minerals",
+          "A perfect option for kids and adults looking for classic breakfast cereals",
+          "24-ounce Kellogg's family size cereal box provides enough for everyone"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "12935368",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "12935649": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "19.3",
+        "weight_unit_of_measure": "POUND",
+        "width": "9.4",
+        "depth": "2.5",
+        "height": "12.55",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Lucky Charms Breakfast Cereal - 19.3oz - General Mills",
+      "tcin": "12935649",
+      "type": "Stand Alone",
+      "dpci": "231-00-0571",
+      "upc": "016000126831",
+      "url": "/p/lucky-charms-breakfast-cereal-19-3oz-general-mills/-/A-12935649",
+      "description": " All you need to start your day off right is a little bit of magic, and lucky for you, Lucky Charms marshmallows are pretty magical! Hearts, stars, and horseshoes, clovers and blue moons, unicorns, rainbows, and tasty red balloons all make Lucky Charms magically delicious! If you ever wished you could enjoy magically delicious marshmallow charms with fruity goodness, this is your lucky day!  Magically delicious Lucky Charms cereal features frosted oats and colored marshmallows. Made with 11g of whole grain per Serving; And it's gluten free!<br />",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Lucky Charms",
+      "product_brand": {
+        "facet_id": "56eql",
+        "brand": "Lucky Charms"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_3ac994b7-4579-47e9-a58b-d8f1f5c4998f",
+          "alternate_urls": [
+            "GUEST_8c852780-a9af-46f2-ae2e-8545cc255628",
+            "GUEST_f410c74f-a283-40d3-864a-b85abf1d69a4",
+            "GUEST_f6778004-33c8-4afe-b0db-4f26e1e5a439"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_f6778004-33c8-4afe-b0db-4f26e1e5a439"
+            },
+            {
+              "image_url": "GUEST_3ac994b7-4579-47e9-a58b-d8f1f5c4998f"
+            },
+            {
+              "image_url": "GUEST_8c852780-a9af-46f2-ae2e-8545cc255628"
+            },
+            {
+              "image_url": "GUEST_f410c74f-a283-40d3-864a-b85abf1d69a4"
+            }
+          ]
+        }
+      ],
+      "bundle_components": {
+        "related_master_dpci": "231-00-0804",
+        "related_master_tcin": "81576641",
+        "product_relationship_type": "Bundle Component",
+        "product_relationship_type_code": "BNDLCMP"
+      },
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": false,
+      "average_rating": 4.72,
+      "total_reviews": 93,
+      "top_reviews": [
+        {
+          "user_nickname": "Alicia",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Great taste and value"
+        },
+        {
+          "user_nickname": "Michelle",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Gluten free and always yummy!"
+        },
+        {
+          "user_nickname": "Shredofthedead",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "These are the best marshmallows around. I like that they're are a little crunchy. Yum. I throw the cereal part away."
+        }
+      ],
+      "total_review_count": 26,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.76,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.79,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.71,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 67,
+      "rating_distribution": [
+        {
+          "Count": 0,
+          "RatingValue": 1
+        },
+        {
+          "Count": 4,
+          "RatingValue": 2
+        },
+        {
+          "Count": 3,
+          "RatingValue": 3
+        },
+        {
+          "Count": 8,
+          "RatingValue": 4
+        },
+        {
+          "Count": 78,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+        "<B>May Contain:</B> Wheat",
+        "<B>Dietary Needs:</B> Gluten Free",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 19.3 Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "CEREAL: Lucky Charms Cereal is a delicious marshmallow breakfast cereal for the entire family to enjoy",
+          "ON-THE-GO SNACK: Fun shapes kids and adults will love, now with magical unicorn marshmallows!",
+          "GLUTEN FREE: Gluten free kids breakfast cereal.",
+          "WHOLE GRAIN: 11g of whole grain per serving for a well rounded breakfast or snack.",
+          "BOX CONTAINS: 1 box, 19.3 oz"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        },
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "825392",
+          "value_name": "Gluten Free",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_25c25b609d1c43b7",
+          "wellness_description": "A product that has an unqualified independent third-party certification, or carries an on-pack statement relating to the finished product being gluten-free."
+        }
+      ],
+      "price": {
+        "tcin": "12935649",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "54446420": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "26.571",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.563",
+        "depth": "2.297",
+        "height": "12.608",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "prepaid_segment": {
+        "minimum_purchase_amount": 0,
+        "maximum_purchase_amount": 0
+      },
+      "title": "Raisin Bran Breakfast Cereal - 24oz - Kellogg's",
+      "tcin": "54446420",
+      "type": "Stand Alone",
+      "dpci": "231-00-0331",
+      "upc": "038000199899",
+      "url": "/p/raisin-bran-breakfast-cereal-24oz-kellogg-s/-/A-54446420",
+      "description": "Kellogg's Raisin Bran is a tasty and high fiber cereal you can feel good about. Get a sunny start to your day with a satisfying breakfast of crispy whole wheat bran flakes and plump raisins. This Kellogg's cereal is offered in a 24-ounce Kellogg's family size cereal box and conveniently provides about 11 servings. Made from North American wheat, this breakfast cereal includes 26% of the daily value of fiber per serving, with eight key nutrients. Enjoy the classic, delicious balance of crunchy, wheat bran flakes with delectably raisins.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Kellogg's Raisin Bran",
+      "product_brand": {
+        "facet_id": "q1sp6",
+        "brand": "Kellogg's Raisin Bran"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_3b01548e-1e35-4be7-a5fa-3592688ac708",
+          "alternate_urls": [
+            "GUEST_f60f8284-9d47-413d-a65a-54f427c88c28",
+            "GUEST_c8ef258a-3039-4753-a14e-8799539f350a",
+            "GUEST_a71e8396-06c1-452b-83d0-0b6b8cd32523",
+            "GUEST_9af523ff-c523-4df0-9935-9b5c5e11bd6f",
+            "GUEST_694073af-2818-4395-9226-08092c4ef3a8",
+            "GUEST_d28b0c59-cd2f-4a16-a3e6-5194bab0aa98",
+            "GUEST_bd01162a-a306-444b-8cf1-75769949df8e",
+            "GUEST_d109801c-7834-4121-bc0b-2ba44a11f614"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_a71e8396-06c1-452b-83d0-0b6b8cd32523"
+            },
+            {
+              "image_url": "GUEST_f60f8284-9d47-413d-a65a-54f427c88c28"
+            },
+            {
+              "image_url": "GUEST_3b01548e-1e35-4be7-a5fa-3592688ac708"
+            },
+            {
+              "image_url": "GUEST_bd01162a-a306-444b-8cf1-75769949df8e"
+            },
+            {
+              "image_url": "GUEST_c1d42cff-bc5b-4275-be15-5edb51cdc5f7"
+            },
+            {
+              "image_url": "GUEST_9af523ff-c523-4df0-9935-9b5c5e11bd6f"
+            },
+            {
+              "image_url": "GUEST_d109801c-7834-4121-bc0b-2ba44a11f614"
+            },
+            {
+              "image_url": "GUEST_694073af-2818-4395-9226-08092c4ef3a8"
+            },
+            {
+              "image_url": "GUEST_d28b0c59-cd2f-4a16-a3e6-5194bab0aa98"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.79,
+      "total_reviews": 527,
+      "top_reviews": [
+        {
+          "user_nickname": "Anonymous",
+          "title": "Love this Cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "My Mom and I both love this Raisin Bran Cereal. We have been enjoying it for more than 4 years now. It's our only cereal we buy now."
+        },
+        {
+          "user_nickname": "Anonymous",
+          "title": "Lots of raisins",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Makes a great snack without milk or with cold milk"
+        },
+        {
+          "user_nickname": "Anonymous",
+          "title": "Tasty and healthy",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I have been enjoying Raisin Bran for many years. Sometimes I have it for breakfast and somtimesci just have it for a snack."
+        }
+      ],
+      "total_review_count": 479,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Value",
+        "Taste"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.75,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.75,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.75,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 48,
+      "rating_distribution": [
+        {
+          "Count": 13,
+          "RatingValue": 1
+        },
+        {
+          "Count": 1,
+          "RatingValue": 2
+        },
+        {
+          "Count": 8,
+          "RatingValue": 3
+        },
+        {
+          "Count": 39,
+          "RatingValue": 4
+        },
+        {
+          "Count": 466,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 24  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 24-ounce family size box of Kellogg's Raisin Bran Cereal",
+          "Start your day with crispy whole wheat bran flakes balanced with plump raisins",
+          "Family size Raisin Bran cereal has flakes with eight key nutrients from real fruit and grains",
+          "Raisin cereal that is a great choice for those looking for high fiber breakfast cereal",
+          "Fiber helps support digestive health, an important part of overall wellness"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        }
+      ],
+      "price": {
+        "tcin": "54446420",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "78364946": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "20.8",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.7",
+        "depth": "2.1",
+        "height": "11.85",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Raisin Nut Bran Breakfast Cereal 20.8oz - General Mills",
+      "tcin": "78364946",
+      "type": "Stand Alone",
+      "dpci": "231-00-0784",
+      "upc": "016000157811",
+      "url": "/p/raisin-nut-bran-breakfast-cereal-20-8oz-general-mills/-/A-78364946",
+      "description": "With 38g of whole grain per serving (at least 48g recommended daily) and an excellent source of your daily value of fiber, Fiber One Raisin Nut Bran cereal is the tasty way to fiber. Made with no added sugar and delicious lightly sweetened flakes makes this the perfect way to start off your day!",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Raisin Nut Bran",
+      "product_brand": {
+        "facet_id": "54xid",
+        "brand": "Raisin Nut Bran"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_75c36340-5c47-4fa2-a4b5-3e374e2be41c",
+          "alternate_urls": [
+            "GUEST_4b717633-6a88-447f-b903-081ac20310a0",
+            "GUEST_73de11e3-31c4-47b3-a476-126a2d4e9cf6"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_75c36340-5c47-4fa2-a4b5-3e374e2be41c"
+            },
+            {
+              "image_url": "GUEST_73de11e3-31c4-47b3-a476-126a2d4e9cf6"
+            },
+            {
+              "image_url": "GUEST_4b717633-6a88-447f-b903-081ac20310a0"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.81,
+      "total_reviews": 31,
+      "top_reviews": [
+        {
+          "user_nickname": "JudyNana",
+          "title": "Husband's favorite cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "My husband loves this cold cereal. He had been eating it for years and Target has the best price for it locally."
+        },
+        {
+          "user_nickname": "Shauna",
+          "title": "Nuts for Raisin Nut Bran!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "We love this cereal. It feels like a fancy raisin bran. The raisins are coated, the flakes are crisp, and the slivers of almonds give an additional texture that is welcome. This is also a nice snack at bedtime."
+        }
+      ],
+      "total_review_count": 5,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 5,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 26,
+      "rating_distribution": [
+        {
+          "Count": 1,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 0,
+          "RatingValue": 3
+        },
+        {
+          "Count": 2,
+          "RatingValue": 4
+        },
+        {
+          "Count": 28,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Soy, Wheat, Almonds",
+        "<B>May Contain:</B> Milk",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 20.8  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "1 box, 20.8 oz",
+          "Made with 38g of whole grain per serving",
+          "Helps keep you full (3.5 grams of total fat serving)",
+          "First ingredient is whole grain"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        }
+      ],
+      "price": {
+        "tcin": "78364946",
+        "formatted_current_price": "$3.99",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.99
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  }
 }

@@ -28,9 +28,7 @@ def get_description(tcin):
 with open("descriptions.json") as f:
     descriptions = json.load(f)
 
-tcins = tcin_cereal.keys()
-
-for tcin in tcins:
+for tcin in tcins.keys():
     get_description(tcin)
 
 descriptions.update(inserted_data)
