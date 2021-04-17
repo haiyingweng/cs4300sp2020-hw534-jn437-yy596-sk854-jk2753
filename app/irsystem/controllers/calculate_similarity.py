@@ -21,6 +21,9 @@ with open("../../../reviews.json", "r") as f:
 with open("../../../tcin_cereal.json", "r") as t:
     tcin_to_cereal = json.load(t)
 
+with open("../../../descriptions.json", "r") as d:
+    cereal_descriptions = json.load(d)
+
 with open("../../../cereal.csv", mode="r") as csv_file:
     csv_reader = csv.DictReader(csv_file)
     cereal_nutritions = {}
@@ -119,20 +122,19 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms):
     for tcin in cereal_scores.keys():
         cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
     score_lst = [
-        (tcin_to_cereal[tcin], score)
+        (tcin_to_cereal[tcin], tcin, score)
         for tcin, score in cereal_scores.items()
         if score > 0
     ]
-    score_lst.sort(key=lambda tup: (-tup[1], tup[0]))
+    score_lst.sort(key=lambda tup: (-tup[2], tup[0]))
     return score_lst
 
 
 def get_cereal_details(ranked):
     dets = []
-    for name, score in ranked:
+    for name, tcin, score in ranked:
         info = cereal_nutritions[name]
-        info["score"] = score
-        info["mfr"] = manufactors[info["mfr"]]
+        info["mfr"] = manufacturers[info["mfr"]]
         info["protein"] = f"{info['protein']}g"
         info["fat"] = f"{info['fat']}g"
         info["sodium"] = f"{info['sodium']}mg"
@@ -141,6 +143,13 @@ def get_cereal_details(ranked):
         info["fiber"] = f"{info['fiber']}g"
         info["potass"] = f"{info['potass']}mg"
         info["cups"] = f"{info['cups']} cup{'s' if float(info['cups'])>1 else ''}"
+        info["score"] = score
+        image = info["img_url"] = cereal_descriptions[tcin]["product"]["images"][0]
+        info["img_url"] = image["base_url"] + image["primary"]
+        info["description"] = cereal_descriptions[tcin]["product"]["description"]
+        info["bullets"] = cereal_descriptions[tcin]["product"]["soft_bullets"][
+            "bullets"
+        ]
         dets.append(info)
     return dets
 
