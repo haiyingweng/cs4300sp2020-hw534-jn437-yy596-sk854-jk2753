@@ -5,10 +5,7 @@ from time import sleep
 
 DETAILS_URL = "https://target-com-store-product-reviews-locations-data.p.rapidapi.com/product/details"
 
-tcins = {
-  "14767085": "Wheat Chex",
-  "54446122": "Frosted Mini Wheats Chocolate",
-  "13187426": "Great Grains Cranberry Almond Crunch"}
+tcins = {}
 inserted_data = {}
 
 

@@ -10874,5 +10874,4257 @@
                 "is_retail_ticketed": false
             }
         }
+    },
+    "14767085": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "1.03",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "6.38",
+                "depth": "9.78",
+                "height": "2.32",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Chex Wheat Breakfast Cereal - 14oz - General Mills",
+            "tcin": "14767085",
+            "type": "Stand Alone",
+            "dpci": "231-00-0339",
+            "upc": "016000275492",
+            "url": "/p/chex-wheat-breakfast-cereal-14oz-general-mills/-/A-14767085",
+            "description": "Whether it's breakfast time, snack time or party time, Wheat Chex Cereal delivers simple goodness in every bite. This whole grain cereal contains no high fructose corn syrup, artificial colors, artificial flavors or preservatives. Wheat Chex Cereal is a key ingredient in your favorite snack foods \u2014 from salty snack mix to sweet and delicious Muddy Buddies \u2014 but you can also enjoy it with milk and sliced fruit as a breakfast cereal, or use it to top your hummus and veggies. So get to munching, mixing and making, because each of these crunchy squares holds a world of possibilities.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Chex",
+            "product_brand": {
+                "facet_id": "56fc0",
+                "brand": "Chex"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_c9a1a6bf-54ea-48f0-9a85-a8f521d214e8",
+                "alternate_urls": [
+                    "GUEST_d19accd5-3b27-499e-83bb-c6a17fbbd395",
+                    "GUEST_5df3dd98-2959-4a4f-a8e6-f65f5b14a8c5",
+                    "GUEST_91ee3c81-8561-49a8-92ef-909159e1316a"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_91ee3c81-8561-49a8-92ef-909159e1316a"
+                    },
+                    {
+                        "image_url": "GUEST_c9a1a6bf-54ea-48f0-9a85-a8f521d214e8"
+                    },
+                    {
+                        "image_url": "GUEST_d19accd5-3b27-499e-83bb-c6a17fbbd395"
+                    },
+                    {
+                        "image_url": "GUEST_5df3dd98-2959-4a4f-a8e6-f65f5b14a8c5"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.67,
+            "total_reviews": 24,
+            "top_reviews": [{
+                    "user_nickname": "Barb",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My husband eats this almost everyday."
+                },
+                {
+                    "user_nickname": "TygerLily",
+                    "title": "Awesome in chex mix",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "We eat a LOT of chex mix and to make it healthier, I make it almost 50% wheat chex. Rice chex has a mild flavor, corn chex is nice sweet corn flavor, and the wheat chex gives a deeper more savory flavor. I make BBQ chex mix and the wheat goes very well with smoked paprika."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This is my favorite cereal. Target has the best price. I buy 2 a month."
+                }
+            ],
+            "total_review_count": 3,
+            "secondary_ratings_averages_order": [
+                "Taste",
+                "Value",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 21,
+            "rating_distribution": [{
+                    "Count": 2,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 22,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>Features:</B> No Artificial Flavors, No Artificial Colors, No Artificial Sweeteners",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 14  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "CEREAL: Wholesome breakfast that's a good source of calcium. Whole grain is the first ingredient.",
+                    "EASY RECIPES: A go-to ingredient, Wheat Chex Cereal shines in Original Chex Party Mix and many other quick snack recipes.",
+                    "SIMPLY MADE: with no artificial colors, flavors or high fructose corn syrup.",
+                    "WHOLE GRAIN: Made with 52 grams of whole grain wheat per serving (At least 48 grams recommended daily).",
+                    "BOX CONTAINS: 1 box, 14 oz"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "810863",
+                "value_name": "Nutritious",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_d2ae230190464fd0",
+                "wellness_description": "A product that meets Target's definition of \"Nutritious\" in the Food \"wellness standard\"."
+            }],
+            "price": {
+                "tcin": "14767085",
+                "formatted_current_price": "$2.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 2.99
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54446122": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "26.097",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "2.297",
+                "height": "12.608",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Frosted Mini Wheats Chocolate Breakfast Cereal - 23oz - Kellogg's",
+            "tcin": "54446122",
+            "type": "Stand Alone",
+            "dpci": "231-00-0763",
+            "upc": "038000202094",
+            "url": "/p/frosted-mini-wheats-chocolate-breakfast-cereal-23oz-kellogg-s/-/A-54446122",
+            "description": "Greet the day with Kellogg's Chocolate Frosted Mini-Wheats Little Bites - a wholesome, low fat breakfast cereal, with pieces that are half the size of the original with all of the flavor you love. These bite-size biscuits pack a hearty crunch with crispy layers of wheat made from 100% whole grain that are frosted with irresistible sweetness in every bite. With real chocolate and 40 grams of whole grain per serving, these tasty squares are not only delicious but are also an excellent source of fiber. Each satisfying serving contains a feel-good mix of 7 essential vitamins and minerals to help fuel you for what's ahead. Kellogg's Chocolate Frosted Mini-Wheats Little Bites make a nutritious, anytime meal or snack. Enjoy wheat bites throughout the day - as a well-deserved snack at the office, an afternoon pick-me-up, a post-workout treat, or a late-night bowlful of sweet, crunchy cereal. Chocolate Frosted Mini-Wheats Little Bites also make a scrumptious addition to homemade trail mix. A travel-ready food, this cereal is perfect to pack for lunchboxes, after-school snacks, sporting events, and busy, on-the-go moments. Kellogg's Chocolate Frosted Mini-Wheats Little Bites are a great start to your morning breakfast routine and for the adventures that follow.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Frosted Mini-Wheats",
+            "product_brand": {
+                "facet_id": "7v4jj",
+                "brand": "Frosted Mini-Wheats"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_c7485c4a-bc08-4f84-b0af-cd38b4618b41",
+                "alternate_urls": [
+                    "GUEST_86e58994-fb46-4e1f-a2a8-b818fa39b653",
+                    "GUEST_39325c04-96c2-4224-b16d-8196e74ed68f",
+                    "GUEST_d708c57d-5307-443b-9f7b-34e4751a02a7",
+                    "GUEST_bfe67391-078b-40d5-ad7a-ed060bc9b60f",
+                    "GUEST_55d00eba-0a0b-42cd-a554-a22bfd3e5267",
+                    "GUEST_10a2c133-7c5c-4dd0-8214-09e4d5b7d372",
+                    "GUEST_be2286e8-4660-4f52-92ea-2050b221a46f"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_86e58994-fb46-4e1f-a2a8-b818fa39b653"
+                    },
+                    {
+                        "image_url": "GUEST_55d00eba-0a0b-42cd-a554-a22bfd3e5267"
+                    },
+                    {
+                        "image_url": "GUEST_be2286e8-4660-4f52-92ea-2050b221a46f"
+                    },
+                    {
+                        "image_url": "GUEST_bfe67391-078b-40d5-ad7a-ed060bc9b60f"
+                    },
+                    {
+                        "image_url": "GUEST_10a2c133-7c5c-4dd0-8214-09e4d5b7d372"
+                    },
+                    {
+                        "image_url": "GUEST_39325c04-96c2-4224-b16d-8196e74ed68f"
+                    },
+                    {
+                        "image_url": "GUEST_d708c57d-5307-443b-9f7b-34e4751a02a7"
+                    },
+                    {
+                        "image_url": "GUEST_c7485c4a-bc08-4f84-b0af-cd38b4618b41"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.8,
+            "total_reviews": 92,
+            "top_reviews": [{
+                    "user_nickname": "Ad0562",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My Kids love this cereal without milk as a snack."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This is the only cereal my extremely picky eater would eat."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "Love chocolate",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I buy them a lot because I really love chocolate & mini-wheats"
+                }
+            ],
+            "total_review_count": 71,
+            "secondary_ratings_averages_order": [
+                "Taste",
+                "Value",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.6,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.4,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.6,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 21,
+            "rating_distribution": [{
+                    "Count": 2,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 3,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 84,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Wheat",
+                "<B>May Contain:</B> Milk",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 23  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Crunchy, bite-sized wheat biscuits with the irresistible taste of sweet frosting and real chocolate in every satisfying spoonful; Little Bites are half the size with all the flavor you love",
+                    "Start your day off right with the goodness of wheat biscuits made with real chocolate, 100% whole grain, and delicious frosting",
+                    "With 40 grams of whole grain, an excellent source of fiber, and a good source of 7 essential vitamins and minerals per serving; Contains wheat and soy ingredients",
+                    "A low fat, healthy cereal that's sure to please both kids and adults; Enjoy with or without your favorite milk; Makes a tasty snack at work, school, or as a late-night treat",
+                    "Includes 1, family-sized 23-ounce box of delicious Chocolate Frosted Mini-Wheats Little Bites cereal; Convenient, ready-to-eat cereal packaged for freshness and great taste"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "54446122",
+                "formatted_current_price": "$3.79",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.79
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "13187426": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "1.03",
+                "weight_unit_of_measure": "POUND",
+                "width": "6.5",
+                "depth": "11.09",
+                "height": "2.12",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Great Grains Cranberry Almond Crunch Breakfast Cereal - 14oz - Post",
+            "tcin": "13187426",
+            "type": "Stand Alone",
+            "dpci": "231-00-0389",
+            "upc": "884912002372",
+            "url": "/p/great-grains-cranberry-almond-crunch-breakfast-cereal-14oz-post/-/A-13187426",
+            "description": "Put some great in your good morning with Great Grains Cranberry Almond Crunch breakfast cereal. With hints of cranberry and toasted almond goodness, Great Grains Cranberry Almond Crunch cereal puts a delicious spin on breakfast. Plus, Great Grains Cranberry Almond Crunch cereal is a low fat, saturated fat free, and cholesterol free food. A smart choice for a great day.\n\nGreat Grains Cranberry Almond Crunch is low fat and heart healthy. This breakfast cereal has 38g of whole grain per serving and is free of artificial flavors and synthetic colors. \n\nGreat Grains Cranberry Almond Crunch breakfast cereal provides 12 essential vitamins and minerals. Enjoy a bowl full of cranberry almond goodness, and make your day an adventure. Try our other Great Grains breakfast cereals too!",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Great Grains",
+            "product_brand": {
+                "facet_id": "55caa",
+                "brand": "Great Grains"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_5d4ed884-9e74-45d7-bf10-feae0afc36c1",
+                "alternate_urls": [
+                    "GUEST_44570060-3066-4eab-9106-20933fbaafcb",
+                    "GUEST_eff9d176-30ea-4019-9b2f-7c33ce4f64cb",
+                    "GUEST_537b25d7-39ee-422e-9dee-93fc31c4d2c9",
+                    "GUEST_aca8cb6d-387e-4d28-81ac-7e42d9a83a7d",
+                    "GUEST_cc448f7b-8ab0-4c18-b24a-d941070f18a3",
+                    "GUEST_cb469feb-615d-4c6c-abb5-ebb223e1c37d",
+                    "GUEST_4a5b438a-8296-411c-9032-74e9e5b87e00",
+                    "GUEST_707f0f20-16dc-478b-bd69-41122fb2e9b8",
+                    "GUEST_118a18f6-3579-497e-be11-2f34f4555158"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_cc448f7b-8ab0-4c18-b24a-d941070f18a3"
+                    },
+                    {
+                        "image_url": "GUEST_44570060-3066-4eab-9106-20933fbaafcb"
+                    },
+                    {
+                        "image_url": "GUEST_118a18f6-3579-497e-be11-2f34f4555158"
+                    },
+                    {
+                        "image_url": "GUEST_aca8cb6d-387e-4d28-81ac-7e42d9a83a7d"
+                    },
+                    {
+                        "image_url": "GUEST_707f0f20-16dc-478b-bd69-41122fb2e9b8"
+                    },
+                    {
+                        "image_url": "GUEST_537b25d7-39ee-422e-9dee-93fc31c4d2c9"
+                    },
+                    {
+                        "image_url": "GUEST_eff9d176-30ea-4019-9b2f-7c33ce4f64cb"
+                    },
+                    {
+                        "image_url": "GUEST_cb469feb-615d-4c6c-abb5-ebb223e1c37d"
+                    },
+                    {
+                        "image_url": "GUEST_4a5b438a-8296-411c-9032-74e9e5b87e00"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.68,
+            "total_reviews": 59,
+            "top_reviews": [{
+                "user_nickname": "Pearl",
+                "title": "Great Grains Cranberry Almond Crunch",
+                "rating": 5,
+                "rating_range": 5,
+                "review_text": "This is once cereal that both myself and my grandson enjoyed together...my grandsons enjoyed them sho much they all their mom to purchase sondr mercy finder she went to the grocers.I told her this was a sample from Buzz Agent easy to go"
+            }],
+            "total_review_count": 44,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 15,
+            "rating_distribution": [{
+                    "Count": 1,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 9,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 47,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Almonds, Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 14 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Good source of dietary fiber, Vitamin D, Iron, Phosphorus, and ZincA wholesome cereal made with no high fructose corn syrup, artificial flavors or colorsGreat Grains cereal has 38 grams of whole grains per servingNon-GMO Project Verified sealA low fat, saturated fat free and cholesterol free breakfast cereal"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "835620",
+                    "value_name": "Whole Grain",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                    "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "825393",
+                    "value_name": "Non-GMO",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_3fce9b8de04a4a35",
+                    "wellness_description": "A product that has an independent third-party certification, or carries an unqualified on-pack statement relating to the final product being made without genetically engineered ingredients."
+                }
+            ],
+            "price": {
+                "tcin": "13187426",
+                "formatted_current_price": "$3.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.99
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "13230735": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "0.82",
+                "weight_unit_of_measure": "POUND",
+                "width": "6.38",
+                "depth": "8.05",
+                "height": "2.27",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Nature's Path Flax Plus Organic Pumpkin Flax Granola Breakfast Cereal - 11.5oz",
+            "tcin": "13230735",
+            "type": "Stand Alone",
+            "dpci": "231-13-0335",
+            "upc": "058449890072",
+            "url": "/p/nature-s-path-flax-plus-organic-pumpkin-flax-granola-breakfast-cereal-11-5oz/-/A-13230735",
+            "description": "Nature's Path Pumpkin Seed + Flax Granola is our most popular organic granola for a reason - small clusters of crispy granola are full of whole grain oats, pumpkin seeds, flax, plus a hint of cinnamon adds warmth and a dash of salt enhances all the flavors.  This granola is crafted with real ingredients to keep you full and fueled on busy days. We\u2019ve added nutrient-dense flax seeds, which are rich in heart-healthy ALA omega-3 fatty acid and pumpkin seeds for plant based protein, so you can have a healthy breakfast or snack you feel good about.   A single serving comes with 5 grams of fiber and 6 grams of plant based protein!  We believe it\u2019s important to start the day right, and that\u2019s why we created this deliciously tasty granola, filled with simple, whole food, organic and non-GMO ingredients.",
+            "merch_sub_class": "13",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Nature's Path",
+            "product_brand": {
+                "facet_id": "55eld",
+                "brand": "Nature's Path"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_4a9e1017-d74e-45fc-bd82-5bf3a8337dbb",
+                "alternate_urls": [
+                    "GUEST_78c59ee7-5e13-49a0-824a-5e31bf0c1c3e",
+                    "GUEST_03843a11-4408-4d7d-9e91-4cafdde18a19",
+                    "GUEST_7fa9c47a-ffdf-427e-a507-6107748aaef4",
+                    "GUEST_7b5d3ffa-c08d-43d5-8a2a-812679c9c67e",
+                    "GUEST_7a257347-3018-412d-8818-21fd238299df"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_78c59ee7-5e13-49a0-824a-5e31bf0c1c3e"
+                    },
+                    {
+                        "image_url": "GUEST_660804b8-787d-4980-868e-d533f4fe35f4"
+                    },
+                    {
+                        "image_url": "GUEST_7fa9c47a-ffdf-427e-a507-6107748aaef4"
+                    },
+                    {
+                        "image_url": "GUEST_4a9e1017-d74e-45fc-bd82-5bf3a8337dbb"
+                    },
+                    {
+                        "image_url": "GUEST_7b5d3ffa-c08d-43d5-8a2a-812679c9c67e"
+                    },
+                    {
+                        "image_url": "GUEST_03843a11-4408-4d7d-9e91-4cafdde18a19"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.6,
+            "total_reviews": 455,
+            "top_reviews": [{
+                    "user_nickname": "Dale",
+                    "title": "My old favorite!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My continued purchases of Pumpkin Flax Granola speaks for itself. I happily consume it at breakfast everyday. I also use the granola to sprinkle on salads. There is one characteristic that I think would make sense for the product; a lower sugar content option for those that are concerned about sugar intake. I am not diabetic so that is not an issue for me but a lowered caloric version of the cereal would be welcome. After all, there are 10g of sugar per serving (3/4 of a cup renders 260 calories). Couldn't the sugar be cut back to reduce the caloric intake? Yes, there are calories attributable to the fat in the granola but I do not know how many calories come form added sugar versus the calories that come form the fat content of the granola. So, how about a \" Pumpkin Seed-Flax Granola \"Lite\" to offer an even healthier product?"
+                },
+                {
+                    "user_nickname": "Too poor to eat the healthy stuff",
+                    "title": "Size matters",
+                    "rating": 4,
+                    "rating_range": 5,
+                    "review_text": "I can only eat about a half a dozen items due to allergies. These have been on my menu for about 3 yrs now and I've really enjoyed them. Now they are about one third the size! Packaging and is the same but sadly your company is now cheating us out of the size."
+                },
+                {
+                    "user_nickname": "Living healthier",
+                    "title": "Too sugary",
+                    "rating": 4,
+                    "rating_range": 5,
+                    "review_text": "Trying this granola for the first time and love it. However...could you cut the added sugar? It really is too sweet and would be great with half the added sugar. I also agree with another review that the cereal does not contain many clusters. I'd say only 10% clusters if that."
+                }
+            ],
+            "total_review_count": 428,
+            "secondary_ratings_averages_order": [
+                "Taste",
+                "Value",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.67,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.56,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 27,
+            "rating_distribution": [{
+                    "Count": 14,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 11,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 26,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 42,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 362,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy",
+                "<B>May Contain:</B> Tree Nuts, Peanuts, Wheat",
+                "<B>Features:</B> Does Not Contain Fish, Sulfite Free, Vegan, Does Not Contain Shellfish",
+                "<B>Dietary Needs:</B> Cholesterol Free, Low Sodium, Halal, Organic Certified, Vegan, Non-GMO Project Verified",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 11.5 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Carefully crafted with only certified USDA organic ingredients, so mindful eaters can enjoy, with no artificial colors, flavors and preservatives.",
+                    "Small clusters of crunchy granola are dotted with pumpkin and flax seeds, with a hint of cinnamon and sea salt.",
+                    "Full of omega-3 heart-healthy flax seeds and protein packed pumpkin seeds, this crunchy organic granola is a deliciously healthy breakfast.",
+                    "A single serving comes with 5g of fiber and 6g of plant based protein!",
+                    "Being mindful about your food and choosing organic means you\u2019re making the best choice for your health, and our planet."
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "810861",
+                    "value_name": "Organic",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_7a6aea369eac49e0",
+                    "wellness_description": "A product that carries the USDA Organic Certification on-pack, thereby meeting the National Organic Program's definition of \"Certified Organic\" or \"100% Certified Organic\"."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "835620",
+                    "value_name": "Whole Grain",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                    "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "825393",
+                    "value_name": "Non-GMO",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_3fce9b8de04a4a35",
+                    "wellness_description": "A product that has an independent third-party certification, or carries an unqualified on-pack statement relating to the final product being made without genetically engineered ingredients."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "826251",
+                    "value_name": "Vegan",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_5c3eaa6146a14008",
+                    "wellness_description": "A product that carries an unqualified independent, third-party certification, or carries on-pack statement relating to the product being 100% vegan."
+                }
+            ],
+            "price": {
+                "tcin": "13230735",
+                "formatted_current_price": "$3.29",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.29
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "16681622": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "0.81",
+                "weight_unit_of_measure": "POUND",
+                "width": "6.32",
+                "depth": "10.57",
+                "height": "2.76",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Nature's Path Gluten Free Crunchy Vanilla Breakfast Cereal - 10.6oz",
+            "tcin": "16681622",
+            "type": "Stand Alone",
+            "dpci": "231-13-0285",
+            "upc": "058449771555",
+            "url": "/p/nature-s-path-gluten-free-crunchy-vanilla-breakfast-cereal-10-6oz/-/A-16681622",
+            "description": "Nature\u2019s Path Sunrise Crunchy Vanilla cereal is a deliciously crunchy combination of gluten free cereal flakes, organic corn puffs and rice crispies, all coated with organic molasses and natural vanilla flavor.  For too long, gluten free cereals just weren\u2019t that good, and we wanted to create a cereal that was delicious and nutritious, yet suitable for celiacs or anyone on a gluten free diet. This nutrient-rich cereal was carefully crafted with organic corn, omega-3 rich flax seeds, and ancient grains like buckwheat, quinoa and amaranth. These ancient grains are naturally rich in fiber, protein and other important micronutrients. Our original Mesa Sunrise flakes proved super popular, owing to its reputation as being the best gluten free cereal renowned for its great taste, so that\u2019s why we created our \u201cCrunchy Sunrise\u201d range \u2013 the gluten free Mesa Sunrise flake everyone loves, carefully blended with puffs and rice crispies and coated with organic molasses and natural vanilla flavor to add some variety to your morning routine.   With 15g whole grains, and 4g of fiber, this certified gluten free cereal is also suitable for vegan diets. We believe it\u2019s important to start the day right, and that\u2019s why we created this deliciously tasty cereal, filled with simple, whole food, organic and non-GMO ingredients.",
+            "merch_sub_class": "13",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Nature's Path",
+            "product_brand": {
+                "facet_id": "55eld",
+                "brand": "Nature's Path"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_6d47d143-7b42-45a9-b036-d539a93ac4ab",
+                "alternate_urls": [
+                    "GUEST_38b36c8c-0248-40ad-a574-75eca3750626",
+                    "GUEST_c5e3e456-4581-4341-984b-1799e29bdbb5",
+                    "GUEST_310c0027-5fb6-4388-b77a-bbc26ad1e1df",
+                    "GUEST_a546e55e-94e6-41b4-9836-01a42d2e02ab",
+                    "GUEST_22e8573b-22ed-4905-8fa8-209df66926c2",
+                    "GUEST_4dc67744-87da-4041-bbe9-1ee6c4113995",
+                    "GUEST_0e6c15f2-f9cf-45e5-88df-faad5e14e84f",
+                    "GUEST_4b228dde-4faa-4f0e-b472-6355b619d53b"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_4b228dde-4faa-4f0e-b472-6355b619d53b"
+                    },
+                    {
+                        "image_url": "GUEST_4dc67744-87da-4041-bbe9-1ee6c4113995"
+                    },
+                    {
+                        "image_url": "GUEST_22e8573b-22ed-4905-8fa8-209df66926c2"
+                    },
+                    {
+                        "image_url": "GUEST_6d47d143-7b42-45a9-b036-d539a93ac4ab"
+                    },
+                    {
+                        "image_url": "GUEST_0e6c15f2-f9cf-45e5-88df-faad5e14e84f"
+                    },
+                    {
+                        "image_url": "GUEST_c5e3e456-4581-4341-984b-1799e29bdbb5"
+                    },
+                    {
+                        "image_url": "GUEST_38b36c8c-0248-40ad-a574-75eca3750626"
+                    },
+                    {
+                        "image_url": "GUEST_310c0027-5fb6-4388-b77a-bbc26ad1e1df"
+                    },
+                    {
+                        "image_url": "GUEST_a546e55e-94e6-41b4-9836-01a42d2e02ab"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.6,
+            "total_reviews": 167,
+            "top_reviews": [{
+                    "user_nickname": "marie195",
+                    "title": "HOLY YUM\ud83d\ude0d",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Tried this cereal for the first time this morning, and it's FOR SURE my new obsession! Love how crunchy it is, and the vanilla flavor is on point. The ingredients are all super healthy (yay for organic and non-GMO!) It's sweet, but not high in sugar... (SCORE!) definitely satisfies my sweet tooth. This is now a staple for my breakfast, it's so delicious!!! So happy with my purchase\ud83e\udd29"
+                },
+                {
+                    "user_nickname": "RA Glutard",
+                    "title": "This cereal made me a believer!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I really wasn't one for cold cereals for breakfast--mostly because I hadn't found a gluten free one with any flavor--but once I tasted this one, I couldn't believe it! Now it's on my breakfast table every morning. The crunch, the flavor. I really love it. And since it's the holidays, I decided I would order a bunch since I go through about a box a week. That way I wouldn't have to go into Target during their really busy time, just to get cereal. This has worked out well for me, and I highly recommend both getting it shipped to your door, and the great price available at Target."
+                },
+                {
+                    "user_nickname": "Jules",
+                    "title": "Best cereal ever",
+                    "rating": 4,
+                    "rating_range": 5,
+                    "review_text": "I don't think I've ever been addicted to cereals until I tried these... Simply delicious I even eat them for dinner."
+                }
+            ],
+            "total_review_count": 149,
+            "secondary_ratings_averages_order": [
+                "Value",
+                "Taste",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.36,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.42,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.29,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 18,
+            "rating_distribution": [{
+                    "Count": 3,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 7,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 5,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 24,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 128,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>May Contain:</B> Soy, Tree Nuts, Peanuts",
+                "<B>Features:</B> Does Not Contain Fish, Sulfite Free, Vegan, Does Not Contain Shellfish",
+                "<B>Dietary Needs:</B> 0 Grams Saturated Fat, Gluten Free, Cholesterol Free, Low Sodium, 0 Grams Trans Fat, Halal, Organic Certified, Vegan, Non-GMO Project Verified, Certified Gluten Free",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 10.6 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Carefully crafted with only certified USDA organic ingredients, so mindful eaters can enjoy, with no artificial colors, flavors and preservatives.",
+                    "Crunchy combination of gluten free cereal, corn puffs, rice crispies, and organic vanilla. 15g whole grains, 4g fiber, vegan.",
+                    "Only whole food, simple, and naturally gluten free ingredients, covered in organic molasses and vanilla, so enjoy your morning ritual.",
+                    "The best organic cereal - Our unique and unmatched manufacturing technique, means our cereal stay crunchy, even in milk!",
+                    "Being mindful about your food and choosing organic means you\u2019re making the best choice for your health, and our planet."
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "810861",
+                    "value_name": "Organic",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_7a6aea369eac49e0",
+                    "wellness_description": "A product that carries the USDA Organic Certification on-pack, thereby meeting the National Organic Program's definition of \"Certified Organic\" or \"100% Certified Organic\"."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "810863",
+                    "value_name": "Nutritious",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_d2ae230190464fd0",
+                    "wellness_description": "A product that meets Target's definition of \"Nutritious\" in the Food \"wellness standard\"."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "835620",
+                    "value_name": "Whole Grain",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                    "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "825392",
+                    "value_name": "Gluten Free",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_25c25b609d1c43b7",
+                    "wellness_description": "A product that has an unqualified independent third-party certification, or carries an on-pack statement relating to the finished product being gluten-free."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "825393",
+                    "value_name": "Non-GMO",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_3fce9b8de04a4a35",
+                    "wellness_description": "A product that has an independent third-party certification, or carries an unqualified on-pack statement relating to the final product being made without genetically engineered ingredients."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "826251",
+                    "value_name": "Vegan",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_5c3eaa6146a14008",
+                    "wellness_description": "A product that carries an unqualified independent, third-party certification, or carries on-pack statement relating to the product being 100% vegan."
+                }
+            ],
+            "price": {
+                "tcin": "16681622",
+                "formatted_current_price": "$3.39",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.39
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "17088703": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "20.7",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "9.4",
+                "depth": "2.5",
+                "height": "12.55",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Reese's Puffs Breakfast Cereal - 20.7oz - General Mills",
+            "tcin": "17088703",
+            "type": "Stand Alone",
+            "dpci": "231-00-0188",
+            "upc": "016000127258",
+            "url": "/p/reese-s-puffs-breakfast-cereal-20-7oz-general-mills/-/A-17088703",
+            "description": "Enjoy the delicious creamy balance of real Reese's peanut butter and Hershey's cocoa with milk for breakfast or by itself for a school snack. Peanut Butter sweet and crunchy corn puffs made with 15 grams of whole grain per serving (at least 48 grams recommended daily). Cereal kids (or teens) love with no high fructose corn syrup and no colors from artificial sources.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Reese's Puffs",
+            "product_brand": {
+                "facet_id": "6bqwj",
+                "brand": "Reese's Puffs"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_425087f6-6369-4800-9589-eeb6df43dad9",
+                "alternate_urls": [
+                    "GUEST_e8e24853-d2a1-4844-9d15-722151e4f03a",
+                    "GUEST_eacd5bff-9d77-43ca-ad7f-46ed8c9d583f",
+                    "GUEST_bcf5b0d0-6573-46c0-aeab-3f08c2c93e9e"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_bcf5b0d0-6573-46c0-aeab-3f08c2c93e9e"
+                    },
+                    {
+                        "image_url": "GUEST_e8e24853-d2a1-4844-9d15-722151e4f03a"
+                    },
+                    {
+                        "image_url": "GUEST_425087f6-6369-4800-9589-eeb6df43dad9"
+                    },
+                    {
+                        "image_url": "GUEST_eacd5bff-9d77-43ca-ad7f-46ed8c9d583f"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.91,
+            "total_reviews": 22,
+            "top_reviews": [{
+                    "user_nickname": "ella",
+                    "title": "AMAZING",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This cereal is one of the best! I love eating it all day, EVERYDAY. I only eat reeses puffs because the texture is immaculate and i totally recomend this food. ITS DEVINE. love it! its nice and crunchy too. yumm yumm."
+                },
+                {
+                    "user_nickname": "JLu",
+                    "title": "Kids love it",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Family size is best deal"
+                },
+                {
+                    "user_nickname": "Grandma G",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I do most of my shopping on line now. I buy this for my Granddaughter, this is her favorite!"
+                }
+            ],
+            "total_review_count": 5,
+            "secondary_ratings_averages_order": [
+                "Value",
+                "Quality",
+                "Taste"
+            ],
+            "secondary_ratings_averages": {
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 17,
+            "rating_distribution": [{
+                    "Count": 0,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 20,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Peanuts",
+                "<B>May Contain:</B> Wheat",
+                "<B>Features:</B> No Artificial Flavors, No High Fructose Corn Syrup, No Artificial Colors",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 20.7  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "CEREAL: Reese's Peanut Butter Puffs Cereal is a delicious breakfast cereal for the entire family to enjoy.",
+                    "PEANUT BUTTER CHOCOLATE: Enjoy the delicious creamy balance of real Reese's peanut butter and Hershey's cocoa with milk for breakfast or by itself for a school snack.",
+                    "KIDS SNACK: A pantry staple for breakfast that's a sweet, crunchy cereal. Enjoy with milk for breakfast or by itself for a school snack.",
+                    "WHOLE GRAIN: Peanut Butter sweet and crunchy corn puffs made with 11 grams of whole grain per serving (At least 48 grams recommended daily).",
+                    "BOX CONTAINS: 1 bag, 20.7 oz"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "17088703",
+                "formatted_current_price": "$3.79",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.79
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54006834": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "0.97",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.51",
+                "depth": "11.59",
+                "height": "2.44",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Cap'n Crunch Crunch Berries Breakfast Cereal - 13oz",
+            "tcin": "54006834",
+            "type": "Stand Alone",
+            "dpci": "231-00-0483",
+            "upc": "030000065679",
+            "url": "/p/cap-n-crunch-crunch-berries-breakfast-cereal-13oz/-/A-54006834",
+            "description": "Sweet and golden, with a crunch you\u2019ll love, nothing competes with the original Cap\u2019n Crunch. Grab a bowl or cup for an easy snack bursting with the taste of fun that goes great with couch time, anytime.   Snag a box and go to town\u2026your mouth will love you for it.  Get your crunch on today.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Cap'n Crunch",
+            "product_brand": {
+                "facet_id": "56f2l",
+                "brand": "Cap'n Crunch"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_bdfef8b9-7d2c-4aba-8717-d533b5b6d0c4",
+                "alternate_urls": [
+                    "GUEST_4b8dba80-982a-42b9-a857-50604111ac0b",
+                    "GUEST_e2da858b-f1b1-4a2a-9cbd-b9f0a6aa8799"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_bdfef8b9-7d2c-4aba-8717-d533b5b6d0c4"
+                    },
+                    {
+                        "image_url": "GUEST_4b8dba80-982a-42b9-a857-50604111ac0b"
+                    },
+                    {
+                        "image_url": "GUEST_e2da858b-f1b1-4a2a-9cbd-b9f0a6aa8799"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.53,
+            "total_reviews": 17,
+            "top_reviews": [{
+                "user_nickname": "Melemel",
+                "title": "Yum!",
+                "rating": 5,
+                "rating_range": 5,
+                "review_text": "This is a kid favorite in our house....a special treat."
+            }],
+            "total_review_count": 3,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 3,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 3.5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 14,
+            "rating_distribution": [{
+                    "Count": 1,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 13,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+                "<B>Dietary Needs:</B> Kosher",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 13  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Sweet and golden, with a crunch you\u2019ll love, nothing competes with the original Cap\u2019n Crunch",
+                    "Grab a bowl or cup for an easy snack that goes great with couch time, anytime",
+                    "Snag a box and go to town\u2026your mouth will love you for it",
+                    "Get your crunch on today"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "54006834",
+                "formatted_current_price": "$2.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 2.99
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "14843569": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "0.81",
+                "weight_unit_of_measure": "POUND",
+                "width": "6.31",
+                "depth": "10.49",
+                "height": "2.7",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Nature's Path Envirokidz Panda Puffs Breakfast Cereal - 10.6oz",
+            "tcin": "14843569",
+            "type": "Stand Alone",
+            "dpci": "231-13-0014",
+            "upc": "058449860044",
+            "url": "/p/nature-s-path-envirokidz-panda-puffs-breakfast-cereal-10-6oz/-/A-14843569",
+            "description": "Nature\u2019s Path Panda Puffs light and airy corn puffs, flavored with organic peanut butter that stay super crunchy even in milk. As part of the Nature\u2019s Path family, we wanted to create something for kids that didn\u2019t compromise nutrition and taste. Containing only non-GMO ingredients, it\u2019s certified organic with no artificial flavors, colors or preservatives.  Packed full of healthy ingredients like peanut butter, whole grains, and certified gluten free, Panda Puffs is also suitable for vegan diets.  Our planet, our food and our bodies are all connected, which is why we say no to the highly toxic chemicals that harm our children, our animals and our planet. It\u2019s also why we give 1% from the sale of every product to help critically endangered animals like the Giant Panda, before they are rendered extinct in our kids\u2019 lifetime.",
+            "merch_sub_class": "13",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "EnviroKidz",
+            "product_brand": {
+                "facet_id": "q643le4ewwd",
+                "brand": "EnviroKidz"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_84a057b5-fd7f-4cf5-990a-b6717a041751",
+                "alternate_urls": [
+                    "GUEST_39936fa4-2db6-4c07-8169-7dffef712fb6",
+                    "GUEST_43f2af15-fd7d-4253-9ff9-9b4d742f0341",
+                    "GUEST_673a1071-7bb9-45ea-b60e-dcce38758e1b",
+                    "GUEST_50f2225d-4e57-44a1-a5d2-3546c88be447"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_39936fa4-2db6-4c07-8169-7dffef712fb6"
+                    },
+                    {
+                        "image_url": "GUEST_673a1071-7bb9-45ea-b60e-dcce38758e1b"
+                    },
+                    {
+                        "image_url": "GUEST_50f2225d-4e57-44a1-a5d2-3546c88be447"
+                    },
+                    {
+                        "image_url": "GUEST_43f2af15-fd7d-4253-9ff9-9b4d742f0341"
+                    },
+                    {
+                        "image_url": "GUEST_84a057b5-fd7f-4cf5-990a-b6717a041751"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.64,
+            "total_reviews": 67,
+            "top_reviews": [{
+                    "user_nickname": "Angela",
+                    "title": "Great tasting!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This has a great, light peanut butter flavor, is a little sweet without being sugary, and stays very crunchy in milk for a long time."
+                },
+                {
+                    "user_nickname": "Cereal Lover",
+                    "title": "Life Changing",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This cereal changed my life. Before I encountered this God's gift to humankind, I was a lost soul, searching for something to give my time on this earth meaning. The Peanut Butter Panda Puffs gave me something to live for, with their subtle and lingering peanut butter taste, and their oh-so-crunchy texture. I recommend this to everyone and anyone. Plus they are gluten free. Rock on!"
+                },
+                {
+                    "user_nickname": "ANH821",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This is one of the best peanut butter cereals I've tried to date. It has a perfectly light peanut butter taste. Definitely recommend!"
+                }
+            ],
+            "total_review_count": 48,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Value",
+                "Taste"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.73,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.23,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.71,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 19,
+            "rating_distribution": [{
+                    "Count": 3,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 57,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Peanuts",
+                "<B>May Contain:</B> Tree Nuts",
+                "<B>Features:</B> Does Not Contain Fish, Sulfite Free, Vegan, Does Not Contain Shellfish",
+                "<B>Dietary Needs:</B> Gluten Free, Cholesterol Free, Halal, Organic Certified, Vegan, Non-GMO Project Verified, Certified Gluten Free",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 10.6 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Light and airy corn puffs, flavored with organic peanut butter that stay super crunchy even in milk.",
+                    "The best kids cereal because it has only gluten free, organic, non-GMO ingredients, and no artificial flavors, colors or preservatives.",
+                    "We\u2019re educating kids about endangered animals and habitat conservation, providing them with tools to make a difference in their backyard.",
+                    "1% from this purchase goes to save the iconic Giant Panda, at risk due to habitat destruction.",
+                    "Our planet, food, and bodies are connected, so we say no to chemicals that harm our children, animals and planet."
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "810861",
+                    "value_name": "Organic",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_7a6aea369eac49e0",
+                    "wellness_description": "A product that carries the USDA Organic Certification on-pack, thereby meeting the National Organic Program's definition of \"Certified Organic\" or \"100% Certified Organic\"."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "810863",
+                    "value_name": "Nutritious",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_d2ae230190464fd0",
+                    "wellness_description": "A product that meets Target's definition of \"Nutritious\" in the Food \"wellness standard\"."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "835620",
+                    "value_name": "Whole Grain",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                    "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "825392",
+                    "value_name": "Gluten Free",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_25c25b609d1c43b7",
+                    "wellness_description": "A product that has an unqualified independent third-party certification, or carries an on-pack statement relating to the finished product being gluten-free."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "825393",
+                    "value_name": "Non-GMO",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_3fce9b8de04a4a35",
+                    "wellness_description": "A product that has an independent third-party certification, or carries an unqualified on-pack statement relating to the final product being made without genetically engineered ingredients."
+                },
+                {
+                    "parent_id": "304049",
+                    "parent_name": "wellness standard",
+                    "value_id": "826251",
+                    "value_name": "Vegan",
+                    "badge_url": "https://target.scene7.com/is/image/Target/wellness_5c3eaa6146a14008",
+                    "wellness_description": "A product that carries an unqualified independent, third-party certification, or carries on-pack statement relating to the product being 100% vegan."
+                }
+            ],
+            "price": {
+                "tcin": "14843569",
+                "formatted_current_price": "$3.49",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.49
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54453146": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "0.85",
+                "weight_unit_of_measure": "POUND",
+                "width": "7.71",
+                "depth": "11.52",
+                "height": "2.18",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Cookie Crisp Breakfast Cereal - 10.6oz",
+            "tcin": "54453146",
+            "type": "Stand Alone",
+            "dpci": "231-00-0908",
+            "upc": "016000151635",
+            "url": "/p/cookie-crisp-breakfast-cereal-10-6oz/-/A-54453146",
+            "description": "Cookie Crisp Chocolate Chip Cookie Flavored Cereal is packed with nutrients and contains complete grains, which can help fuel your morning. That's why whole grain is the first ingredient in all Big G cereals and why Cookie Crisp has no high fructose corn syrup. Goodness first. This cereal contains 10g whole grain per serving; at least 48 grams recommended daily. A whole grain food is made by using all three parts of the grain. All General Mills Big G cereals contain more whole grain than any other single ingredient.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Cookie Crisp",
+            "product_brand": {
+                "facet_id": "56eqj",
+                "brand": "Cookie Crisp"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_fd41c545-266a-42f5-80e9-d08ce707e61e",
+                "alternate_urls": [
+                    "GUEST_2b49f87f-f669-4052-a750-d046304ba8b3",
+                    "GUEST_db35f8bd-ae36-42bc-badc-d7c21aaa92ce"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_fd41c545-266a-42f5-80e9-d08ce707e61e"
+                    },
+                    {
+                        "image_url": "GUEST_2b49f87f-f669-4052-a750-d046304ba8b3"
+                    },
+                    {
+                        "image_url": "GUEST_db35f8bd-ae36-42bc-badc-d7c21aaa92ce"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.64,
+            "total_reviews": 11,
+            "top_reviews": [{
+                    "user_nickname": "Sweetsid",
+                    "title": "Add delish to your morning cereal!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "We luv it!!! It\u2019s like adding crunches of cookies while combining it with other cereals!!!! Delish!!!!"
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Perfect size for a snack. Also it's perfect with yogurt."
+                }
+            ],
+            "total_review_count": 2,
+            "secondary_ratings_averages_order": [
+                "Value",
+                "Taste",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 9,
+            "rating_distribution": [{
+                    "Count": 1,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 10,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 10.6  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "COOKIE CEREAL: Cookie Crisp Chocolate Chip Cookie Flavored Cereal is a delicious breakfast cereal for the entire family to enjoy",
+                    "WHOLE GRAIN: At least 10 grams of whole grain per serving (At least 48 grams recommended daily)",
+                    "CHOCOLATE CHIP TASTE: Enjoy the flavors with milk or by itself for a school snack",
+                    "KIDS SNACK: Cereal kids love with no high fructose corn syrup or colors from artificial sources",
+                    "QUICK BREAKFAST: A pantry staple for breakfast - a sweet, crunchy, delicious cereal"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "54453146",
+                "formatted_current_price": "$3.29",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.29
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54201700": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "20.548",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "2.297",
+                "height": "13.299",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Krave Breakfast Cereal - 17.3oz - Kellogg's",
+            "tcin": "54201700",
+            "type": "Stand Alone",
+            "dpci": "231-00-0606",
+            "upc": "038000199264",
+            "url": "/p/krave-breakfast-cereal-17-3oz-kellogg-s/-/A-54201700",
+            "description": "Kellogg's Krave Chocolate Flavored Cereal is a distinctly delicious and indulgent combo of crunchy multigrain cereal shells and a filling made with real chocolate.  Krave chocolate flavored breakfast cereals satisfy your sweet tooth and offer a delightful in-bowl experience. Every serving of this Kellogg's cereal is a good source of seven vitamins and minerals. Release your inner chocovore with Kellogg's Krave cereal.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Krave",
+            "product_brand": {
+                "facet_id": "54u1b",
+                "brand": "Krave"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_7a1b25ec-27c7-4267-913e-3c0f90600baa",
+                "alternate_urls": [
+                    "GUEST_ceea5e4f-82b6-40a1-bede-35fcaad8fa8c",
+                    "GUEST_9ef3268f-3f54-436d-9361-d912de5b8605",
+                    "GUEST_e01a41f8-8685-4d43-a5dc-4fe911eae52d",
+                    "GUEST_844e3b77-4a46-4119-987f-a67ad3babacb",
+                    "GUEST_5536e4fa-6986-422b-81cf-8369e39e5280",
+                    "GUEST_9a92416d-0962-436a-a255-552f122b0971",
+                    "GUEST_fb588cd8-13a9-4841-aaf2-d7b69f87aa66",
+                    "GUEST_29d1bf0b-21c3-4d5a-bec1-7eb6f5d888c7"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_29d1bf0b-21c3-4d5a-bec1-7eb6f5d888c7"
+                    },
+                    {
+                        "image_url": "GUEST_5536e4fa-6986-422b-81cf-8369e39e5280"
+                    },
+                    {
+                        "image_url": "GUEST_fb588cd8-13a9-4841-aaf2-d7b69f87aa66"
+                    },
+                    {
+                        "image_url": "GUEST_7a1b25ec-27c7-4267-913e-3c0f90600baa"
+                    },
+                    {
+                        "image_url": "GUEST_e01a41f8-8685-4d43-a5dc-4fe911eae52d"
+                    },
+                    {
+                        "image_url": "GUEST_9ef3268f-3f54-436d-9361-d912de5b8605"
+                    },
+                    {
+                        "image_url": "GUEST_ceea5e4f-82b6-40a1-bede-35fcaad8fa8c"
+                    },
+                    {
+                        "image_url": "GUEST_844e3b77-4a46-4119-987f-a67ad3babacb"
+                    },
+                    {
+                        "image_url": "GUEST_9a92416d-0962-436a-a255-552f122b0971"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.45,
+            "total_reviews": 53,
+            "top_reviews": [{
+                    "user_nickname": "Anonymous",
+                    "title": "Amazing to die for cereal",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I bought this cereal a month ago and I haven't stopped eating it since.. why cant I stop? someone help me please this cereal is consuming me."
+                },
+                {
+                    "user_nickname": "Amy",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Delicious cereal! Highly recommended"
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "great taste",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My teens favorite cereal!! I buy the family siz package & it is usually gone within 24 hours! what does that tell you ! Lol!!"
+                }
+            ],
+            "total_review_count": 32,
+            "secondary_ratings_averages_order": [
+                "Value",
+                "Taste",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.29,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.43,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.71,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 21,
+            "rating_distribution": [{
+                    "Count": 3,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 5,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 40,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Milk, Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 17.3  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "One 17.3-ounce family size box of Kellogg's Krave Chocolate Flavored Cereal",
+                    "Multigrain cereal with a crispy shell outside and smooth, filling made with real chocolate",
+                    "Breakfast cereal with a good source of seven wholesome vitamins and minerals",
+                    "A chocolate lover's delight enjoyed either in-bowl with milk or on-the-go as a snack.",
+                    "Kellogg's family size cereal box conveniently holds about 12 servings"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "54201700",
+                "formatted_current_price": "$3.79",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.79
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "52964112": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "0.69",
+                "weight_unit_of_measure": "POUND",
+                "width": "7.53",
+                "depth": "2.69",
+                "height": "11.13",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Oreo O's Breakfast Cereal - 11oz - Post",
+            "tcin": "52964112",
+            "type": "Stand Alone",
+            "dpci": "231-00-0391",
+            "upc": "884912273116",
+            "url": "/p/oreo-o-s-breakfast-cereal-11oz-post/-/A-52964112",
+            "description": "With Post Oreo O\u2019s cereal you can enjoy the chocolatey flavor of Oreos in a breakfast cereal. Our Post dream cereals bring your favorite flavors to your breakfast table. Chocolatey, crunchy O\u2019s with the Oreo cookie taste you love and a delicious creme coating combine to give you an irresistible bowlful of cookie flavored milk. \n\nPost Oreo O\u2019s cereal is made with wholesome corn and oat flour and packs a crunch into every spoonful. Enjoy this cereal as part of a fun, chocolatey breakfast, or as a snack when your cookie cravings hit. Don't forget to try our other dream cereal flavors! It\u2019s the stuff breakfast dreams are made of!",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Oreo",
+            "product_brand": {
+                "facet_id": "56eqd",
+                "brand": "Oreo"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_9d4540a9-038f-4b31-8fc5-c43f16fdd8a1",
+                "alternate_urls": [
+                    "GUEST_6a2c032b-a9f7-4d87-a8c9-a110e6bc810e",
+                    "GUEST_747608a3-e108-4434-857d-81a2a0ceeca3",
+                    "GUEST_d27f8101-ff03-4320-bf36-dfe54a01d1de",
+                    "GUEST_75141a03-73e2-4808-bfad-2bcf9f40e54a",
+                    "GUEST_6b2a47d8-2561-4daf-a126-848015a4eebd",
+                    "GUEST_0830a091-40a0-4d28-8653-9732f7e2edc1",
+                    "GUEST_44fe29bb-7b62-489f-a2c1-88efaab56605",
+                    "GUEST_fbdae1a1-9c36-465e-8b27-af87ab98bec1",
+                    "GUEST_5c1965f4-6c88-4eb1-81be-287d5b3df1b4",
+                    "GUEST_569cfcc4-343e-40be-a1c8-e788df2bd5b9",
+                    "GUEST_c51fb97f-797d-4aa5-aeab-7f6b47e9b5cb"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_6a2c032b-a9f7-4d87-a8c9-a110e6bc810e"
+                    },
+                    {
+                        "image_url": "GUEST_75141a03-73e2-4808-bfad-2bcf9f40e54a"
+                    },
+                    {
+                        "image_url": "GUEST_44fe29bb-7b62-489f-a2c1-88efaab56605"
+                    },
+                    {
+                        "image_url": "GUEST_5c1965f4-6c88-4eb1-81be-287d5b3df1b4"
+                    },
+                    {
+                        "image_url": "GUEST_6b2a47d8-2561-4daf-a126-848015a4eebd"
+                    },
+                    {
+                        "image_url": "GUEST_747608a3-e108-4434-857d-81a2a0ceeca3"
+                    },
+                    {
+                        "image_url": "GUEST_fbdae1a1-9c36-465e-8b27-af87ab98bec1"
+                    },
+                    {
+                        "image_url": "GUEST_569cfcc4-343e-40be-a1c8-e788df2bd5b9"
+                    },
+                    {
+                        "image_url": "GUEST_d27f8101-ff03-4320-bf36-dfe54a01d1de"
+                    },
+                    {
+                        "image_url": "GUEST_c51fb97f-797d-4aa5-aeab-7f6b47e9b5cb"
+                    },
+                    {
+                        "image_url": "GUEST_0830a091-40a0-4d28-8653-9732f7e2edc1"
+                    },
+                    {
+                        "image_url": "GUEST_9d4540a9-038f-4b31-8fc5-c43f16fdd8a1"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.8,
+            "total_reviews": 91,
+            "top_reviews": [{
+                    "user_nickname": "Danielles Opinion",
+                    "title": "Yummy Yummy",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Just as I remember them as a kid. So tasty. Makes for a great dessert option."
+                },
+                {
+                    "user_nickname": "Sugarplum",
+                    "title": "I don't like cereal but this is amazing!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "By far my favorite cereal. Always making me go for a second bowl haha."
+                },
+                {
+                    "user_nickname": "Bethany",
+                    "title": "So good",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "These are delightful, these are great for snacking and with milk. My daughter loves these. And so do I!"
+                }
+            ],
+            "total_review_count": 56,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Value",
+                "Taste"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.45,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.64,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.45,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 35,
+            "rating_distribution": [{
+                    "Count": 1,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 9,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 79,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Wheat",
+                "<B>May Contain:</B> Milk",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 11 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Sweetened corn and  oat breakfast cerealClassic flavor that both kids and adults loveGreat for snackingThe taste of Oreos in a breakfast cereal"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "52964112",
+                "formatted_current_price": "$2.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 2.99
+            },
+            "promotions": [{
+                "promotion_id": "687515247",
+                "applied_location_id": 3991,
+                "start_date": "2021-04-11T07:00:00Z",
+                "end_date": "2021-04-18T06:59:59Z",
+                "visibility": 810,
+                "time_based": false,
+                "channel": "online_and_store",
+                "plp_message": "Save $5, when you spend $15 on NABISCO cookie",
+                "pdp_message": "Save $5, when you spend $15 on NABISCO cookie",
+                "ship_method": [
+                    "SCHEDULED_DELIVERY_PPO",
+                    "BuyInStore",
+                    "SCHEDULED_DELIVERY",
+                    "PickupInStore"
+                ],
+                "subscription_type": "ALL",
+                "legal_disclaimer_text": "Category Coupon. Valid one-time use in store or online. Limit one coupon/offer per guest. No other same department/category coupon will apply. Void if copied, scanned, altered, transferred, purchased, sold or prohibited by law. Quantities limited; no rain checks. Item(s) may not be available at all stores. Gift cards and tax will not be included in determining purchase total. Coupon cannot be applied to previous purchases. No cash value. Excludes items sold & shipped by Target Plus\u2122 Partners. ",
+                "site_wide": false,
+                "coupon_type": "mass_coupon",
+                "fixed_coupon_code": "98560121003304127158711071",
+                "global_subscription_flag": false,
+                "threshold_type": "minAmount",
+                "threshold_value": 15,
+                "promotion_class": "Hurdle",
+                "promotion_url": "http://www.target.com/pl/687515247"
+            }],
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54446932": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "14.329",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "1.813",
+                "height": "11.25",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Special K Red Berries Breakfast Cereal - 11.7oz - Kellogg's",
+            "tcin": "54446932",
+            "type": "Stand Alone",
+            "dpci": "231-00-0757",
+            "upc": "038000200748",
+            "url": "/p/special-k-red-berries-breakfast-cereal-11-7oz-kellogg-s/-/A-54446932",
+            "description": "Do what's delicious with Special K Red Berries, a wholesome breakfast cereal made from tasty ingredients. Crisp, toasted wheat and rice flakes paired with real, sliced strawberries help you stay on track for the day ahead. Nutritious and delicious, every bowl provides a good source of 11 vitamins and minerals. Made with fiber, B vitamins, and iron, plus Vitamins A, C, and E as antioxidants women need (beta-carotene (source of vitamin A)) and no artificial colors or flavors; make it an irresistible, low-fat part of your lunch, dinner or late-night snack. Try it as a convenient work day or between-meal treat. Enjoy Special K with dairy or nut-milk. Add it to your favorite yogurt, smoothie, or trail mix recipe. Morning time or any time, Kellogg's Special K Red Berries cereal is a flavorful choice the whole family can feel good about.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Special K",
+            "product_brand": {
+                "facet_id": "56gqf",
+                "brand": "Special K"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_47bee90e-a5f9-413a-b886-dbea44df18a2",
+                "alternate_urls": [
+                    "GUEST_e7881ab0-7a72-4e82-9730-9047bdc44763",
+                    "GUEST_a86ef5c4-9030-4d4e-aea3-0a7c87d63b6d",
+                    "GUEST_b988a3e3-587e-4a76-bb44-4d519d704552",
+                    "GUEST_2f45b626-e7a4-4f91-9525-fe477c435638",
+                    "GUEST_9614555e-5cee-4752-87a2-d2afd6f0090c",
+                    "GUEST_b41ce0c1-47bb-4918-9c5e-83b0efde694e",
+                    "GUEST_bb05e53d-20cd-4975-b381-86c5e7b37351",
+                    "GUEST_73dff076-ba13-41ab-b340-b0298006a376"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_a86ef5c4-9030-4d4e-aea3-0a7c87d63b6d"
+                    },
+                    {
+                        "image_url": "GUEST_9614555e-5cee-4752-87a2-d2afd6f0090c"
+                    },
+                    {
+                        "image_url": "GUEST_b988a3e3-587e-4a76-bb44-4d519d704552"
+                    },
+                    {
+                        "image_url": "GUEST_47bee90e-a5f9-413a-b886-dbea44df18a2"
+                    },
+                    {
+                        "image_url": "GUEST_73dff076-ba13-41ab-b340-b0298006a376"
+                    },
+                    {
+                        "image_url": "GUEST_bb05e53d-20cd-4975-b381-86c5e7b37351"
+                    },
+                    {
+                        "image_url": "GUEST_e7881ab0-7a72-4e82-9730-9047bdc44763"
+                    },
+                    {
+                        "image_url": "GUEST_2f45b626-e7a4-4f91-9525-fe477c435638"
+                    },
+                    {
+                        "image_url": "GUEST_b41ce0c1-47bb-4918-9c5e-83b0efde694e"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.71,
+            "total_reviews": 755,
+            "top_reviews": [{
+                "user_nickname": "Anonymous",
+                "title": "Great",
+                "rating": 5,
+                "rating_range": 5,
+                "review_text": "I love this cereal All the special k cereals are delicious"
+            }],
+            "total_review_count": 746,
+            "secondary_ratings_averages_order": [
+                "Taste",
+                "Quality",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.75,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 9,
+            "rating_distribution": [{
+                    "Count": 9,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 9,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 32,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 90,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 615,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 11.7  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Delicious and healthy breakfast cereal with feel-good ingredients to help keep you going",
+                    "Crunchy wheat and rice flakes made with real strawberries in every serving",
+                    "Good source of 11 vitamins and minerals; Good source of fiber; No artificial colors or flavors; Kosher Pareve",
+                    "Enjoy in the morning with or without milk; Add to yogurt or smoothies; Perfect work snack or late-night treat",
+                    "Includes 1, 11.7-ounce box of ready-to-eat Kellogg's Special K Red Berries cereal; Packaged for freshness"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "54446932",
+                "formatted_current_price": "$2.89",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 2.89
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54201607": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "21.597",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "2.297",
+                "height": "12.608",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Special K Chocolately Delight Breakfast Cereal, Family Size - 18.5oz  - Kellogg&#39;s",
+            "tcin": "54201607",
+            "type": "Stand Alone",
+            "dpci": "231-00-0621",
+            "upc": "038000143632",
+            "url": "/p/special-k-chocolately-delight-breakfast-cereal-family-size-18-5oz-kellogg-39-s/-/A-54201607",
+            "description": "Kellogg's Special K Chocolatey Delight Chocolate Flavored Cereal helps you start your day with a deliciously crafted option that offers indulgence in every spoonful. This Kellogg's Special K cereal is a tasty mix of crunchy rice and wheat flakes combined with chocolatey pieces. Offered in an 18.5-ounce Kellogg's family size cereal box, this wheat cereal is ready to enjoy with or without milk as a sweet breakfast, on-the-go snack or yogurt topping. This breakfast food contains fiber and essential vitamins and minerals.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Special K",
+            "product_brand": {
+                "facet_id": "56gqf",
+                "brand": "Special K"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_007e7ce0-15b9-4a26-bc3c-527836680ff1",
+                "alternate_urls": [
+                    "GUEST_789a0baa-1c90-462f-b67c-2d2e212df2ae",
+                    "GUEST_3497b8ed-6a6a-4db9-8a08-73a8687afadb",
+                    "GUEST_ad30f52b-63d7-4ed8-9b6c-f2a37ce65e46",
+                    "GUEST_cc863faa-7cee-47ad-9e57-11a6e8edb6b3",
+                    "GUEST_65fd8d1a-9a10-42a0-8468-ca49f01509a4",
+                    "GUEST_b0a84917-90ad-4f8c-bded-1b7ce0d8d722",
+                    "GUEST_2e693cfb-4381-4fc3-8765-f770fc281829",
+                    "GUEST_2c3ca592-c151-440e-acc5-b58e331c724b"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_2e693cfb-4381-4fc3-8765-f770fc281829"
+                    },
+                    {
+                        "image_url": "GUEST_65fd8d1a-9a10-42a0-8468-ca49f01509a4"
+                    },
+                    {
+                        "image_url": "GUEST_b0a84917-90ad-4f8c-bded-1b7ce0d8d722"
+                    },
+                    {
+                        "image_url": "GUEST_2c3ca592-c151-440e-acc5-b58e331c724b"
+                    },
+                    {
+                        "image_url": "GUEST_789a0baa-1c90-462f-b67c-2d2e212df2ae"
+                    },
+                    {
+                        "image_url": "GUEST_cc863faa-7cee-47ad-9e57-11a6e8edb6b3"
+                    },
+                    {
+                        "image_url": "GUEST_ad30f52b-63d7-4ed8-9b6c-f2a37ce65e46"
+                    },
+                    {
+                        "image_url": "GUEST_3497b8ed-6a6a-4db9-8a08-73a8687afadb"
+                    },
+                    {
+                        "image_url": "GUEST_007e7ce0-15b9-4a26-bc3c-527836680ff1"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.71,
+            "total_reviews": 182,
+            "top_reviews": [{
+                    "user_nickname": "Anonymous",
+                    "title": "Amazing flavor!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My kids love the taste of Kellogg's Special K Chocolately Delight!"
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "Good if I was 80",
+                    "rating": 3,
+                    "rating_range": 5,
+                    "review_text": "I tried this at a friends house , it is good it u like not to sweet or something very plain , the chocolate isn\u2019t very chocolatey"
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "Chocolate Special K",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I usually stick to Special K protein, but the chocolate delight special k is a good changeup for me. I really enjoy this when I need a little bit of chocolate"
+                }
+            ],
+            "total_review_count": 158,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Value",
+                "Taste"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.63,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.63,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 24,
+            "rating_distribution": [{
+                    "Count": 2,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 8,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 22,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 148,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Wheat",
+                "<B>May Contain:</B> Milk",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 18.5  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "One 18.5-ounce family size box of Kellogg's Special K Chocolatey Delight Chocolate Flavored Cereal",
+                    "Wheat and rice flakes featuring chocolatey pieces for indulgence",
+                    "Chocolate flavored breakfast cereal contains fiber and essential vitamins and minerals",
+                    "Ideal for anyone looking to add a delicious and nutritious start to their day",
+                    "Kellogg's family size chocolate flavored cereal box keeps this rice cereal fresh"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "54201607",
+                "formatted_current_price": "$3.89",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.89
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "16753396": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "22.154",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "2.297",
+                "height": "12.608",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Special K Fruit and Yogurt Breakfast Cereal - 19.1oz - Kellogg's",
+            "tcin": "16753396",
+            "type": "Stand Alone",
+            "dpci": "231-00-0100",
+            "upc": "038000143656",
+            "url": "/p/special-k-fruit-and-yogurt-breakfast-cereal-19-1oz-kellogg-s/-/A-16753396",
+            "description": "Kellogg's Special K Fruit & Yogurt Cereal greets your day with a deliciously crafted fruit flavored cereal that delights your taste buds. This Special K Fruit & Yogurt Cereal is a tasty mix of crunchy rice and wheat flakes combined with oat and fruity clusters and yogurt coated clusters. Offered in a 19.1-ounce Kellogg\u2019s family size cereal box, these cereal flakes are great as a breakfast, snack or yogurt topping. This low fat rice, wheat and oat cereal contains fiber, B vitamins, iron and vitamins A, C and E. Kellogg's Special K rice and wheat cereal helps power your strength.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Special K",
+            "product_brand": {
+                "facet_id": "56gqf",
+                "brand": "Special K"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_21c8b1d8-e9af-47b0-a86f-b061cb3fa967",
+                "alternate_urls": [
+                    "GUEST_985f2537-d926-47df-bcb0-fa324a357c21",
+                    "GUEST_4eb6c2fc-8e64-474f-bc8f-e8601fb3e67e",
+                    "GUEST_d9a804e3-1f7b-408f-9bef-8be967598483",
+                    "GUEST_f52c446e-e99c-4b64-bdca-9190bd84cd54",
+                    "GUEST_1aeffab2-1c7b-411e-ace7-8b4f73abb7da",
+                    "GUEST_0ac3c410-d711-4e9d-8941-135d5af1b848",
+                    "GUEST_8af20c64-2790-4a97-853c-80707c8bd275",
+                    "GUEST_32319f46-ba5d-40cb-ab49-b3dac747eff8"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_4eb6c2fc-8e64-474f-bc8f-e8601fb3e67e"
+                    },
+                    {
+                        "image_url": "GUEST_1aeffab2-1c7b-411e-ace7-8b4f73abb7da"
+                    },
+                    {
+                        "image_url": "GUEST_0ac3c410-d711-4e9d-8941-135d5af1b848"
+                    },
+                    {
+                        "image_url": "GUEST_8af20c64-2790-4a97-853c-80707c8bd275"
+                    },
+                    {
+                        "image_url": "GUEST_985f2537-d926-47df-bcb0-fa324a357c21"
+                    },
+                    {
+                        "image_url": "GUEST_32319f46-ba5d-40cb-ab49-b3dac747eff8"
+                    },
+                    {
+                        "image_url": "GUEST_21c8b1d8-e9af-47b0-a86f-b061cb3fa967"
+                    },
+                    {
+                        "image_url": "GUEST_f52c446e-e99c-4b64-bdca-9190bd84cd54"
+                    },
+                    {
+                        "image_url": "GUEST_d9a804e3-1f7b-408f-9bef-8be967598483"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.84,
+            "total_reviews": 285,
+            "top_reviews": [{
+                    "user_nickname": "Dawn Renee",
+                    "title": "Great Tasting!!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I love the Fruit and Yogurt! I eat it twice a day. Once in the morning and then in the evening. I just have one good meal for lunch! Because I'm still a little full."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "My favorite!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This is my favorite cereal. Wonderful flavor. If you haven't tried it yet you are missing something great."
+                }
+            ],
+            "total_review_count": 257,
+            "secondary_ratings_averages_order": [
+                "Value",
+                "Quality",
+                "Taste"
+            ],
+            "secondary_ratings_averages": {
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.8,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 28,
+            "rating_distribution": [{
+                    "Count": 0,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 9,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 25,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 250,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Milk, Wheat",
+                "<B>May Contain:</B> Fish",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 19.1  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "One 19.1-ounce family size box of Kellogg's Special K Fruit & Yogurt Cereal",
+                    "Wheat and rice cereal flakes featuring oat clusters",
+                    "Low-fat fruit and yogurt cereal contains fiber, B vitamins, iron, and vitamins",
+                    "Ideal for adults looking for a nutritious and delicious breakfast cereal",
+                    "Kellogg's Special K cereal is a wholesome, delicious rice cereal and snack"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "16753396",
+                "formatted_current_price": "$3.89",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.89
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "13373752": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "21.854",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "2.297",
+                "height": "12.608",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Special K Vanilla Almond Breakfast Cereal - 18.8oz - Kellogg's",
+            "tcin": "13373752",
+            "type": "Stand Alone",
+            "dpci": "231-00-0211",
+            "upc": "038000143694",
+            "url": "/p/special-k-vanilla-almond-breakfast-cereal-18-8oz-kellogg-s/-/A-13373752",
+            "description": "Kellogg's Special K Vanilla & Almond Cereal greets your day with a deliciously crafted vanilla flavored and nut cereal. This Special K vanilla almond cereal is a tasty mix of crunchy rice and wheat flakes combined with real almonds and sweet, smooth vanilla flavor. Offered in an 18.8-ounce Kellogg's family size box, this Kellogg's Special K cereal is great with or without milk as a snack, yogurt topping or breakfast food. This breakfast cereal is a low fat rice and wheat cereal with fiber, B vitamins, iron and vitamins A, C and E.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Special K",
+            "product_brand": {
+                "facet_id": "56gqf",
+                "brand": "Special K"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_b7a82ad1-2f80-4204-bdf3-7d6b0e539721",
+                "alternate_urls": [
+                    "GUEST_d35212f8-a139-4893-a2cc-c532ee8377f4",
+                    "GUEST_90e197dd-e2f0-4d20-852e-b45efe24744e",
+                    "GUEST_b30e8ac0-b5c0-4a66-8331-879bd595a6cf",
+                    "GUEST_231d60dd-4f21-4270-bb5b-3d9e052895ce",
+                    "GUEST_899ce2c9-7f8b-4fa0-94c0-937a0eed1708",
+                    "GUEST_45adc931-434f-4f83-aa55-9ac872212ffd",
+                    "GUEST_eb66f66e-571c-4233-9030-7155125f3672",
+                    "GUEST_a7ad8a93-16a4-438d-a167-fd602427eb16"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_899ce2c9-7f8b-4fa0-94c0-937a0eed1708"
+                    },
+                    {
+                        "image_url": "GUEST_45adc931-434f-4f83-aa55-9ac872212ffd"
+                    },
+                    {
+                        "image_url": "GUEST_eb66f66e-571c-4233-9030-7155125f3672"
+                    },
+                    {
+                        "image_url": "GUEST_a7ad8a93-16a4-438d-a167-fd602427eb16"
+                    },
+                    {
+                        "image_url": "GUEST_d35212f8-a139-4893-a2cc-c532ee8377f4"
+                    },
+                    {
+                        "image_url": "GUEST_90e197dd-e2f0-4d20-852e-b45efe24744e"
+                    },
+                    {
+                        "image_url": "GUEST_231d60dd-4f21-4270-bb5b-3d9e052895ce"
+                    },
+                    {
+                        "image_url": "GUEST_b7a82ad1-2f80-4204-bdf3-7d6b0e539721"
+                    },
+                    {
+                        "image_url": "GUEST_b30e8ac0-b5c0-4a66-8331-879bd595a6cf"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.75,
+            "total_reviews": 238,
+            "top_reviews": [{
+                "user_nickname": "rubyred in Gilroy",
+                "title": "love this cereal`",
+                "rating": 5,
+                "rating_range": 5,
+                "review_text": "I have been ordering Kellogg Vanilla Almond a few times from Target. I love having it shipped directly to me with free shipping, etc."
+            }],
+            "total_review_count": 214,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.8,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 24,
+            "rating_distribution": [{
+                    "Count": 4,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 3,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 7,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 20,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 204,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Almonds, Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 18.8  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "One 18.8-ounce box of Kellogg's Special K Vanilla & Almond Cereal",
+                    "Wheat and rice flakes featuring real almonds and vanilla flavor",
+                    "Low-fat crunchy cereal contains no artificial flavors or colors",
+                    "Ideal for adults or anyone looking to add a delicious vanilla flavored and nut cereal to their day",
+                    "Convenient family size cereal box keeps this wheat and rice cereal fresh"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "13373752",
+                "formatted_current_price": "$3.89",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.89
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "54445171": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "21.854",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.563",
+                "depth": "2.297",
+                "height": "12.608",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Special K Blueberry Lemon Clusters Family Size Breakfast Cereal - 18.8oz - Kellogg's",
+            "tcin": "54445171",
+            "type": "Stand Alone",
+            "dpci": "231-00-0370",
+            "upc": "038000200328",
+            "url": "/p/special-k-blueberry-lemon-clusters-family-size-breakfast-cereal-18-8oz-kellogg-s/-/A-54445171",
+            "description": "Do what's delicious with Special K Blueberry with Lemon Clusters, a whole grain breakfast cereal made from tasty ingredients. Crisp, multi-grain flakes with blueberry oat and lemon flavored clusters help you stay on track for the day ahead. Every nutritious, delicious bowl provides a good source of 11 vitamins and minerals. Made with fiber (contains 1g total fat per serving), B Vitamins, and Iron, plus Vitamins A, C, and E as antioxidants women need (beta-carotene (source of vitamin A)); no artificial flavors, and colors from natural sources. Make it an irresistible, low-fat part of your lunch, dinner or late-night snack. Try it as a convenient work day or between-meal treat. Enjoy Special K with dairy or nut-milk. Add it to your favorite yogurt, smoothie, or trail mix recipe. Morning time or any time, Kellogg's Special K Blueberry with Lemon Clusters cereal is a flavorful choice the whole family can feel good about.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Special K",
+            "product_brand": {
+                "facet_id": "56gqf",
+                "brand": "Special K"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_6c855eed-b498-42bf-89ad-81d66b5d8ed1",
+                "alternate_urls": [
+                    "GUEST_b0734f72-a38f-4d2e-8470-466c3d2a3270",
+                    "GUEST_719e76bd-2481-499a-9378-08f0f0a48807",
+                    "GUEST_7e1dc62b-0bcd-4289-bcba-51c6c95d82b4",
+                    "GUEST_1dacaf69-26eb-45af-87f4-6fb676f7c4a5",
+                    "GUEST_4cfb45dd-d413-4ab6-ab0f-0475184c4822",
+                    "GUEST_c0c2830a-5e01-4b47-8de7-1be409d077cf",
+                    "GUEST_dfa564c7-91e2-4095-a291-3497f3d3ffb3"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_b0734f72-a38f-4d2e-8470-466c3d2a3270"
+                    },
+                    {
+                        "image_url": "GUEST_dfa564c7-91e2-4095-a291-3497f3d3ffb3"
+                    },
+                    {
+                        "image_url": "GUEST_c0c2830a-5e01-4b47-8de7-1be409d077cf"
+                    },
+                    {
+                        "image_url": "GUEST_1dacaf69-26eb-45af-87f4-6fb676f7c4a5"
+                    },
+                    {
+                        "image_url": "GUEST_4cfb45dd-d413-4ab6-ab0f-0475184c4822"
+                    },
+                    {
+                        "image_url": "GUEST_6c855eed-b498-42bf-89ad-81d66b5d8ed1"
+                    },
+                    {
+                        "image_url": "GUEST_719e76bd-2481-499a-9378-08f0f0a48807"
+                    },
+                    {
+                        "image_url": "GUEST_7e1dc62b-0bcd-4289-bcba-51c6c95d82b4"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.53,
+            "total_reviews": 156,
+            "top_reviews": [{
+                    "user_nickname": "rr2",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "This is the favorite cereal for my daughter and I.  It is crunchy and flavorful, and the lemon clusters are the best."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "Great taste combination. A bit sweet.",
+                    "rating": 4,
+                    "rating_range": 5,
+                    "review_text": "Special-K with fresh blueberries has always been a favorite combination for me. The lemon zest adds a bit of zing. A bit sweeter than I would have made it. But overall it's a great taste combination."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "astranomical",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "i don\u2019t leave reviews but im eating this stuff at 3:16 am and it\u2019s astronomical"
+                }
+            ],
+            "total_review_count": 134,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.73,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.45,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.6,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 22,
+            "rating_distribution": [{
+                    "Count": 10,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 14,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 124,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Soy, Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 18.8  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Delicious and healthy breakfast cereal with feel-good ingredients to help keep you going",
+                    "Made with real oat clusters; Crunchy multi-grain flakes with blueberry and lemon flavor",
+                    "Good source of 11 vitamins and minerals; Good source of fiber (contains 1g total fat per serving); No artificial flavors; Kosher Dairy",
+                    "Enjoy in the morning with or without milk; Add to yogurt or smoothies; Perfect work snack or late-night treat",
+                    "Includes 1, 18.8-ounce box of ready-to-eat Kellogg's Special K Blueberry with Lemon Clusters cereal; Packaged for freshness"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "54445171",
+                "formatted_current_price": "$3.89",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.89
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "13192711": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "1.31",
+                "weight_unit_of_measure": "POUND",
+                "width": "7.85",
+                "depth": "12.36",
+                "height": "2.58",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Honey Bunches of Oats Honey Roasted Oat Breakfast Cereal - 18oz - Post",
+            "tcin": "13192711",
+            "type": "Stand Alone",
+            "dpci": "231-00-0186",
+            "upc": "884912014269",
+            "url": "/p/honey-bunches-of-oats-honey-roasted-oat-breakfast-cereal-18oz-post/-/A-13192711",
+            "description": "Honey Bunches of Oats Honey Roasted is the original classic. For decades, Honey Bunches of Oats Honey Roasted has delivered flavorful and satisfying bowls of crispy flakes, crunchy oat clusters and a touch of honey.\n\nWe've paired our beloved crunchy granola bunches with crunchy oat clusters. The result is a taste both kids and adults love. Plus, Honey Bunches of Oats Honey Roasted is packed with 14 grams of whole grains, is a good source of 10 essential vitamins and minerals. \n\nWith so much nutrition packed into every bowl, your breakfast will be a wholesome start to every day.  Pour yourself a bowl of Honey Bunches of Oats for breakfast. Don't forget to try all our breakfast cereal flavors!",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Honey Bunches of Oats",
+            "product_brand": {
+                "facet_id": "yhs46",
+                "brand": "Honey Bunches of Oats"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_b18bb47c-0019-4ae8-a669-883962417eb9",
+                "alternate_urls": [
+                    "GUEST_7b946872-d9c3-454a-8bbc-91917670910a",
+                    "GUEST_5156dbde-01f6-4e2f-811c-cef1bde8b906",
+                    "GUEST_eb2d0695-a477-428c-8d6d-b61f62945142",
+                    "GUEST_18181bee-466f-4591-b384-d7af433979a0",
+                    "GUEST_6f2c1889-b5e6-413f-9507-49019eae2204",
+                    "GUEST_800a4b13-d566-408b-b564-5d69d12b30f1",
+                    "GUEST_7077c577-d925-4799-a2ad-b71c4207e3b0",
+                    "GUEST_c0f157a1-5e13-4be5-b662-3e6c82200ffd",
+                    "GUEST_1de0aaed-86d0-4d98-be7f-ba6d14113599",
+                    "GUEST_cdc93a8f-f75e-47f7-b419-e9018568a09e"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_7b946872-d9c3-454a-8bbc-91917670910a"
+                    },
+                    {
+                        "image_url": "GUEST_18181bee-466f-4591-b384-d7af433979a0"
+                    },
+                    {
+                        "image_url": "GUEST_6f2c1889-b5e6-413f-9507-49019eae2204"
+                    },
+                    {
+                        "image_url": "GUEST_1de0aaed-86d0-4d98-be7f-ba6d14113599"
+                    },
+                    {
+                        "image_url": "GUEST_5156dbde-01f6-4e2f-811c-cef1bde8b906"
+                    },
+                    {
+                        "image_url": "GUEST_cdc93a8f-f75e-47f7-b419-e9018568a09e"
+                    },
+                    {
+                        "image_url": "GUEST_800a4b13-d566-408b-b564-5d69d12b30f1"
+                    },
+                    {
+                        "image_url": "GUEST_b18bb47c-0019-4ae8-a669-883962417eb9"
+                    },
+                    {
+                        "image_url": "GUEST_7077c577-d925-4799-a2ad-b71c4207e3b0"
+                    },
+                    {
+                        "image_url": "GUEST_c0f157a1-5e13-4be5-b662-3e6c82200ffd"
+                    },
+                    {
+                        "image_url": "GUEST_eb2d0695-a477-428c-8d6d-b61f62945142"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.81,
+            "total_reviews": 78,
+            "top_reviews": [{
+                    "user_nickname": "888RL",
+                    "title": "Honey Oats",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "It taste very delicious. Never go wrong with honey oats!!"
+                },
+                {
+                    "user_nickname": "Momof12monthold",
+                    "title": "Yummy",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My favorite cereal :) and it's cheaper at target than most places!"
+                },
+                {
+                    "user_nickname": "Hugh Janis",
+                    "title": "Amazing!!!",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "great cereal. Would recommend! Skeptical at first but really a great buy for only $2.99. WHAT A STEAL!!!!!"
+                }
+            ],
+            "total_review_count": 64,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.8,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 14,
+            "rating_distribution": [{
+                    "Count": 0,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 3,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 9,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 66,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 18 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "Excellent source of Iron, Vitamin A, Thiamin, Riboflavin, Niacin, Vitamin B6, Folate (DFE), Vitamin B12Low in fat and a cholesterol free breakfast cereal14 grams of whole grains per servingContains Vitamin D and ZincHas 10 essential vitamins and mineralsA delicious cereal for breakfast, snack time, or anytime!"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "13192711",
+                "formatted_current_price": "$3.49",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.49
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "78370743": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "1.25",
+                "weight_unit_of_measure": "POUND",
+                "width": "9.69",
+                "depth": "2.41",
+                "height": "13.31",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Honey Bunches of Oats Frosted Breakfast Cereal 20oz - Post",
+            "tcin": "78370743",
+            "type": "Stand Alone",
+            "dpci": "231-00-0310",
+            "upc": "884912338990",
+            "url": "/p/honey-bunches-of-oats-frosted-breakfast-cereal-20oz-post/-/A-78370743",
+            "description": "Honey Bunches of Oats Frosted breakfast cereal is our newest flavor adding even more deliciousness to the Honey Bunches of Oats lineup. We've paired our beloved crunchy granola bunches with sweet frosted flakes. The result is a taste both kids and adults can agree on. Plus, Honey Bunches of Oats Frosted is a good source of Vitamin D, and is high in vitamins B6 and B12. \n\nWith so much nutrition packed into each spoonful, it's hard to believe Honey Bunches of Oats Frosted breakfast cereal tastes absolutely irresistible. Pour yourself a bowl of Honey Bunches of Oats for breakfast. Your day will say thank you!",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Honey Bunches of Oats",
+            "product_brand": {
+                "facet_id": "yhs46",
+                "brand": "Honey Bunches of Oats"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_b21967dc-3689-45da-86db-a17ee0d8b0db",
+                "alternate_urls": [
+                    "GUEST_64a6f4e0-c23d-417e-aaec-2214e6cb1a29",
+                    "GUEST_24b927f2-0fc9-46f3-801c-2c56ba112587",
+                    "GUEST_239d1cdd-ee9c-43e3-8adc-6463d5968709",
+                    "GUEST_e905fe5c-0cc3-42cd-848b-a204d1526707",
+                    "GUEST_7fda9dc3-9e6f-4816-92f7-d5820424b846",
+                    "GUEST_99f90461-643a-4d59-ae54-a4d638e19630",
+                    "GUEST_034029d3-75a4-42e0-9a06-1cebe495d5c6",
+                    "GUEST_8e74fd52-0b6e-4ba3-8a67-cef73d123110",
+                    "GUEST_22c7f695-5603-4098-a4c5-e42f7a34cd00",
+                    "GUEST_4ebceca8-d23f-4e24-a6ad-ed7605462505"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_e905fe5c-0cc3-42cd-848b-a204d1526707"
+                    },
+                    {
+                        "image_url": "GUEST_239d1cdd-ee9c-43e3-8adc-6463d5968709"
+                    },
+                    {
+                        "image_url": "GUEST_64a6f4e0-c23d-417e-aaec-2214e6cb1a29"
+                    },
+                    {
+                        "image_url": "GUEST_034029d3-75a4-42e0-9a06-1cebe495d5c6"
+                    },
+                    {
+                        "image_url": "GUEST_b21967dc-3689-45da-86db-a17ee0d8b0db"
+                    },
+                    {
+                        "image_url": "GUEST_22c7f695-5603-4098-a4c5-e42f7a34cd00"
+                    },
+                    {
+                        "image_url": "GUEST_8e74fd52-0b6e-4ba3-8a67-cef73d123110"
+                    },
+                    {
+                        "image_url": "GUEST_4ebceca8-d23f-4e24-a6ad-ed7605462505"
+                    },
+                    {
+                        "image_url": "GUEST_24b927f2-0fc9-46f3-801c-2c56ba112587"
+                    },
+                    {
+                        "image_url": "GUEST_99f90461-643a-4d59-ae54-a4d638e19630"
+                    },
+                    {
+                        "image_url": "GUEST_7fda9dc3-9e6f-4816-92f7-d5820424b846"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.79,
+            "total_reviews": 24,
+            "top_reviews": [{
+                    "user_nickname": "Bonnie",
+                    "title": "Delicious",
+                    "rating": 4,
+                    "rating_range": 5,
+                    "review_text": "Great taste.love the frosted flakes"
+                },
+                {
+                    "user_nickname": "GP",
+                    "title": "AND THEY'RE FROSTED?",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Our dreams have come true... now there is 0 % chance any single bite will be anything less than sweet. The frosting is a perfect complement to the sweet oat bunches, and still, Post managed to keep the sugar content down. Well done."
+                }
+            ],
+            "total_review_count": 19,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 5,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 3.5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 5,
+            "rating_distribution": [{
+                    "Count": 0,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 1,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 2,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 21,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 20 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "A low fat and saturated fat free breakfast cerealHigh in Iron, Vitamin A, Thiamin, Vitamin B6, Folate (DFE), Vitamin B12A delicious cereal for breakfast, snack time, or anytime!"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "78370743",
+                "formatted_current_price": "$4.29",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 4.29
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "78364794": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "19.6",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.7",
+                "depth": "2.1",
+                "height": "11.85",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Fiber One Original Bran Breakfast Cereal 19.6oz - General Mills",
+            "tcin": "78364794",
+            "type": "Stand Alone",
+            "dpci": "231-00-0783",
+            "upc": "016000157620",
+            "url": "/p/fiber-one-original-bran-breakfast-cereal-19-6oz-general-mills/-/A-78364794",
+            "description": "With 18g of whole grain per serving (at least 48g recommended daily) and 65% of your daily value of fiber, Fiber One Original Bran cereal is the tasty way to fiber. Made with delicious oats and real raisins, this is the perfect cereal for anyone looking to get their fiber in with a great start to the day!",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Fiber One",
+            "product_brand": {
+                "facet_id": "czjy1",
+                "brand": "Fiber One"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_5f238167-c4a7-4c14-960d-e021953d3894",
+                "alternate_urls": [
+                    "GUEST_3c75f285-b79b-4714-bce3-ad16b981346d",
+                    "GUEST_6f767437-4f9d-4708-a7dc-f71092e0e9e0"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_5f238167-c4a7-4c14-960d-e021953d3894"
+                    },
+                    {
+                        "image_url": "GUEST_3c75f285-b79b-4714-bce3-ad16b981346d"
+                    },
+                    {
+                        "image_url": "GUEST_6f767437-4f9d-4708-a7dc-f71092e0e9e0"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.7,
+            "total_reviews": 40,
+            "top_reviews": [{
+                    "user_nickname": "Luvapug",
+                    "title": "Best Bigh Fiber Morning Breakfast",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "My doctor recommended Fiber One cereal to me as the #1 breakfast to keep me regular. Or, was he right! And btw, the taste is terrific. Buy it today and hope you enjoy."
+                },
+                {
+                    "user_nickname": "Anonymous",
+                    "title": "Tastes amazing",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "I thought it would be horrible and it smells like chicken food but omg it tastes so so good"
+                },
+                {
+                    "user_nickname": "S",
+                    "title": "When the GOING gets GOOD!",
+                    "rating": 4,
+                    "rating_range": 5,
+                    "review_text": "I only gave it 4 Stars because it\u2019s bland lol But 5 for everything else! It literally is the best for back ups and going regularly! I have only had one bowl and let me tell yu, it has already worked wonders in my life!!"
+                }
+            ],
+            "total_review_count": 19,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Value",
+                "Taste"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.94,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.69,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.47,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 21,
+            "rating_distribution": [{
+                    "Count": 2,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 34,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 19.6  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "MADE WITH WHOLE GRAIN BRAN: 18g",
+                    "MORE IN EACH BOX: Now contains 20% more cereal than the previous 16.2 oz box",
+                    "65% DAILY VALUE OF FIBER: and 0g added sugar (not a low calorie food. See nutrition information for calorie content)",
+                    "THE TASTY WAY TO FIBER: Deliciously crunchy steel-cut oat flakes",
+                    "BOX CONTAINS: 19.6 oz"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "78364794",
+                "formatted_current_price": "$3.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.99
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "78364714": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "17.5",
+                "weight_unit_of_measure": "OUNCE",
+                "width": "7.7",
+                "depth": "2.1",
+                "height": "11.85",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Fiber One Honey Clusters Breakfast Cereal 17.5oz - General Mills",
+            "tcin": "78364714",
+            "type": "Stand Alone",
+            "dpci": "231-00-0782",
+            "upc": "016000157651",
+            "url": "/p/fiber-one-honey-clusters-breakfast-cereal-17-5oz-general-mills/-/A-78364714",
+            "description": "With 33g of whole grain per serving (at least 48g recommended daily) and 36% of your daily value of fiber, Fiber One Honey Clusters cereal is the tasty way to fiber. Made with no added sugar and delicious lightly sweetened flakes makes this the perfect way to start off your day!",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Fiber One",
+            "product_brand": {
+                "facet_id": "czjy1",
+                "brand": "Fiber One"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_e199e30b-6bc8-4a4b-968b-967da0bbef42",
+                "alternate_urls": [
+                    "GUEST_58786a4e-30b5-49e0-9cdb-ca226cffe5bb",
+                    "GUEST_0b946d68-f452-4858-8fe2-9ca78e6fa578"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_0b946d68-f452-4858-8fe2-9ca78e6fa578"
+                    },
+                    {
+                        "image_url": "GUEST_e199e30b-6bc8-4a4b-968b-967da0bbef42"
+                    },
+                    {
+                        "image_url": "GUEST_58786a4e-30b5-49e0-9cdb-ca226cffe5bb"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 5,
+            "total_reviews": 24,
+            "top_reviews": [{
+                    "user_nickname": "AM",
+                    "title": "Great taste",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "You would never think fiber one would have such great tasting cereal! I am in love!"
+                },
+                {
+                    "user_nickname": "DB",
+                    "title": "Good healthy cereal",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Good cereal. Not too sweet. Easy to add fresh berries to"
+                }
+            ],
+            "total_review_count": 8,
+            "secondary_ratings_averages_order": [
+                "Quality",
+                "Taste",
+                "Value"
+            ],
+            "secondary_ratings_averages": {
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.8,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 5,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.8,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 16,
+            "rating_distribution": [{
+                    "Count": 0,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 0,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 24,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Wheat",
+                "<B>May Contain:</B> Tree Nuts",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 17.5  Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "1 box, 17.5 oz",
+                    "Made with 33g of whole grains per serving",
+                    "Wholesome breakfast that's a good source of calcium",
+                    "36% of your daily value of fiber per serving"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "price": {
+                "tcin": "78364714",
+                "formatted_current_price": "$3.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 3.99
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
+    },
+    "53580199": {
+        "product": {
+            "subscribable": false,
+            "package_dimensions": {
+                "weight": "1.75",
+                "weight_unit_of_measure": "POUND",
+                "width": "9.0",
+                "depth": "2.5",
+                "height": "13.25",
+                "dimension_unit_of_measure": "INCH"
+            },
+            "title": "Honey Bunches of Oats with Almonds Breakfast Cereal - 28oz - Post",
+            "tcin": "53580199",
+            "type": "Stand Alone",
+            "dpci": "231-00-0826",
+            "upc": "884912249265",
+            "url": "/p/honey-bunches-of-oats-with-almonds-breakfast-cereal-28oz-post/-/A-53580199",
+            "description": "Win your morning with a bowl of Honey Bunches of Oats with Almonds cereal. \n\nHoney Bunches of Oats with Almonds is packed with 14 grams of whole grains per serving, is a good source of Vitamin D, and Zinc, and is high in vitamins B6 and folate. This heart healthy cereal is the right choice for every pantry.  \n\nNo need to compromise on flavor or nutrition when you have a perfect trio of crispy flakes, crunchy oat bunches, and sliced almonds. Start your day off right with Honey Bunches of Oats with Almonds cereal.",
+            "merch_sub_class": "0",
+            "merch_class": "BREAKFAST/WARM BEVERAGES",
+            "merch_class_id": "231",
+            "brand": "Honey Bunches of Oats",
+            "product_brand": {
+                "facet_id": "yhs46",
+                "brand": "Honey Bunches of Oats"
+            },
+            "is_cart_add_on": true,
+            "images": [{
+                "base_url": "https://target.scene7.com/is/image/Target/",
+                "primary": "GUEST_05032387-06c2-41e9-86f7-ccfa4b87ff3f",
+                "alternate_urls": [
+                    "GUEST_8412f9fe-1bac-4046-a262-e4e8bc5b8df6",
+                    "GUEST_3b16ded5-eb35-4862-b610-106324f8a5f7",
+                    "GUEST_f77ef94a-646e-4713-984c-d6ea30d93ca4",
+                    "GUEST_977c6708-30a5-4420-8356-6b9f6dd76a73",
+                    "GUEST_d88f053a-36c2-4ed6-962e-c0820d31c0f4",
+                    "GUEST_af820c5a-0d22-4793-96f3-d8bda0eba212",
+                    "GUEST_bd01e503-43fa-4c3f-99dc-11dafee2230b",
+                    "GUEST_cd235e9b-6a4b-4deb-836c-d272defdb228",
+                    "GUEST_34756530-bbd2-48b3-bbf4-8bcfd901ca35",
+                    "GUEST_3835aa83-9e6a-4871-b659-ed9af064a7d8"
+                ],
+                "content_labels": [{
+                        "image_url": "GUEST_8412f9fe-1bac-4046-a262-e4e8bc5b8df6"
+                    },
+                    {
+                        "image_url": "GUEST_cd235e9b-6a4b-4deb-836c-d272defdb228"
+                    },
+                    {
+                        "image_url": "GUEST_af820c5a-0d22-4793-96f3-d8bda0eba212"
+                    },
+                    {
+                        "image_url": "GUEST_f77ef94a-646e-4713-984c-d6ea30d93ca4"
+                    },
+                    {
+                        "image_url": "GUEST_05032387-06c2-41e9-86f7-ccfa4b87ff3f"
+                    },
+                    {
+                        "image_url": "GUEST_34756530-bbd2-48b3-bbf4-8bcfd901ca35"
+                    },
+                    {
+                        "image_url": "GUEST_bd01e503-43fa-4c3f-99dc-11dafee2230b"
+                    },
+                    {
+                        "image_url": "GUEST_3835aa83-9e6a-4871-b659-ed9af064a7d8"
+                    },
+                    {
+                        "image_url": "GUEST_3b16ded5-eb35-4862-b610-106324f8a5f7"
+                    },
+                    {
+                        "image_url": "GUEST_d88f053a-36c2-4ed6-962e-c0820d31c0f4"
+                    },
+                    {
+                        "image_url": "GUEST_977c6708-30a5-4420-8356-6b9f6dd76a73"
+                    }
+                ]
+            }],
+            "street_date": "1970-01-01T00:00:00.000Z",
+            "release_date": "1970-01-01T00:00:00.000Z",
+            "availability_status": "IN_STOCK",
+            "pick_up_in_store": false,
+            "ship_to_store": false,
+            "ship_from_store": true,
+            "rush_delivery": false,
+            "is_out_of_stock_in_all_store_locations": false,
+            "is_out_of_stock_in_all_online_locations": true,
+            "average_rating": 4.54,
+            "total_reviews": 112,
+            "top_reviews": [{
+                    "user_nickname": "charliemcmuffin",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Great taste, and great value for the bigger bag. I get sick of cereals easily but not this one. Such a classic."
+                },
+                {
+                    "user_nickname": "Michael",
+                    "title": "Very good mmmmmmm",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Use with spoon eat with milk so yummy mmmmmmmm"
+                },
+                {
+                    "user_nickname": "snackinglife",
+                    "title": "Yummy",
+                    "rating": 5,
+                    "rating_range": 5,
+                    "review_text": "Delicious cereal. It\u2019s great on its own as well as in milk."
+                }
+            ],
+            "total_review_count": 90,
+            "secondary_ratings_averages_order": [
+                "Taste",
+                "Value",
+                "Quality"
+            ],
+            "secondary_ratings_averages": {
+                "Taste": {
+                    "Id": "Taste",
+                    "AverageRating": 4.67,
+                    "Label": "taste",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Value": {
+                    "Id": "Value",
+                    "AverageRating": 4.5,
+                    "Label": "value",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                },
+                "Quality": {
+                    "Id": "Quality",
+                    "AverageRating": 4.33,
+                    "Label": "quality",
+                    "ValueRange": 5,
+                    "DisplayType": "NORMAL"
+                }
+            },
+            "ratings_only_review_count": 22,
+            "rating_distribution": [{
+                    "Count": 5,
+                    "RatingValue": 1
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 2
+                },
+                {
+                    "Count": 4,
+                    "RatingValue": 3
+                },
+                {
+                    "Count": 12,
+                    "RatingValue": 4
+                },
+                {
+                    "Count": 87,
+                    "RatingValue": 5
+                }
+            ],
+            "overall_rating_range": 5,
+            "bullet_description": [
+                "<B>Contains:</B> Almonds, Wheat",
+                "<B>State of Readiness:</B> Ready to Eat",
+                "<B>Package Quantity:</B> 1",
+                "<B>Package type:</B> Individual Item Multi-Serving",
+                "<B>Net weight:</B> 28 Ounces"
+            ],
+            "soft_bullets": {
+                "title": "highlights",
+                "bullets": [
+                    "This breakfast cereal is a good source of Vitamin D and ZincA low fat and cholesterol free breakfast cereal14 grams of grainsRich in Iron, Vitamin A, Vitamin B6, Folate (DFE), and Vitamin B12A delicious cereal for breakfast, snack time, or anytime!"
+                ]
+            },
+            "eligibility_rules": {
+                "add_on": {
+                    "is_active": true
+                },
+                "inventory_notification_to_guest_excluded": {
+                    "is_active": true
+                },
+                "hold": {
+                    "is_active": true
+                },
+                "ship_to_guest": {
+                    "is_active": true
+                },
+                "scheduled_delivery": {
+                    "is_active": true
+                }
+            },
+            "loyalty_availability_status": "IN_STOCK",
+            "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+            "wellness_merchandise_attributes": [{
+                "parent_id": "304049",
+                "parent_name": "wellness standard",
+                "value_id": "835620",
+                "value_name": "Whole Grain",
+                "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+                "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+            }],
+            "price": {
+                "tcin": "53580199",
+                "formatted_current_price": "$4.99",
+                "formatted_current_price_type": "reg",
+                "is_current_price_range": false,
+                "current_retail": 4.99
+            },
+            "packaging": {
+                "is_retail_ticketed": false
+            }
+        }
     }
 }
