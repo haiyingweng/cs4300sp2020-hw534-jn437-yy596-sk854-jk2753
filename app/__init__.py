@@ -4,7 +4,7 @@ monkey.patch_all()
 
 # Imports
 import os
-from flask import Flask, render_template, reqeust
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_socketio import SocketIO
 
