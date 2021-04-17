@@ -45,6 +45,31 @@ def getstems(input):
     return [stemmer.stem(w.lower()) for word in input]
 
 
+def process_cereal_details():
+    cereal_info = collections.defaultdict(dict)
+    for tcin, name in tcin_to_cereal.items():
+        info = cereal_nutritions[name]
+        cereal_info[tcin]["name"] = name
+        cereal_info[tcin]["manufacturer"] = manufacturers[info["mfr"]]
+        cereal_info[tcin]["protein"] = f"{info['protein']}g"
+        cereal_info[tcin]["fat"] = f"{info['fat']}g"
+        cereal_info[tcin]["sodium"] = f"{info['sodium']}mg"
+        cereal_info[tcin]["sugars"] = f"{info['sugars']}g"
+        cereal_info[tcin]["carbo"] = f"{info['carbo']}g"
+        cereal_info[tcin]["fiber"] = f"{info['fiber']}g"
+        cereal_info[tcin]["potass"] = f"{info['potass']}mg"
+        cereal_info[tcin][
+            "cups"
+        ] = f"{info['cups']} cup{'s' if float(info['cups'])>1 else ''}"
+        image = info["img_url"] = cereal_descriptions[tcin]["product"]["images"][0]
+        cereal_info["img_url"] = image["base_url"] + image["primary"]
+        cereal_info["description"] = cereal_descriptions[tcin]["product"]["description"]
+        cereal_info["bullets"] = cereal_descriptions[tcin]["product"]["soft_bullets"][
+            "bullets"
+        ]
+    return cereal_info
+
+
 def tokenize_reviews(tokenizer, cereal_reviews):
     # Returns dictionary {tcin1: [token1, token2], tcin2: [token1, token3]}
     res = collections.defaultdict(list)
@@ -65,6 +90,8 @@ def get_reviews_vocab(tokenized_reviews):
         vocab |= set(toks)
     return vocab
 
+
+cereal_details = process_cereal_details()
 
 tokenizer = TreebankWordTokenizer()
 tokenized_reviews = tokenize_reviews(tokenizer, all_reviews)
@@ -137,24 +164,9 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms):
 def get_cereal_details(ranked):
     dets = []
     for name, tcin, score in ranked:
-        info = cereal_nutritions[name]
-        info["mfr"] = manufacturers[info["mfr"]]
-        info["protein"] = f"{info['protein']}g"
-        info["fat"] = f"{info['fat']}g"
-        info["sodium"] = f"{info['sodium']}mg"
-        info["sugars"] = f"{info['sugars']}g"
-        info["carbo"] = f"{info['carbo']}g"
-        info["fiber"] = f"{info['fiber']}g"
-        info["potass"] = f"{info['potass']}mg"
-        info["cups"] = f"{info['cups']} cup{'s' if float(info['cups'])>1 else ''}"
-        info["score"] = score
-        image = info["img_url"] = cereal_descriptions[tcin]["product"]["images"][0]
-        info["img_url"] = image["base_url"] + image["primary"]
-        info["description"] = cereal_descriptions[tcin]["product"]["description"]
-        info["bullets"] = cereal_descriptions[tcin]["product"]["soft_bullets"][
-            "bullets"
-        ]
-        dets.append(info)
+        detail = cereal_details[tcin]
+        detail["score"] = score
+        dets.append(detail)
     return dets
 
 
