@@ -4,7 +4,7 @@ monkey.patch_all()
 
 # Imports
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, reqeust
 from flask_sqlalchemy import SQLAlchemy
 from flask_socketio import SocketIO
 
@@ -48,9 +48,12 @@ def top_generator():
   return render_template("Top100.html")
 
 # Search Results
-@app.route('/search', methods=['GET'])
-def searchresults_generator():
-  return render_template("SearchResults.html")
+# @app.route('/search', methods=['GET', 'POST'])
+# def searchresults_generator():
+#   if method == 'POST':
+#     query = request.form['input']
+
+#   return render_template("SearchResults.html")
 
 # HTTP error handling
 @app.errorhandler(404)
