@@ -20,9 +20,19 @@ width:500px;
 }
 .topcorner{position:absolute ; bottom:2%;left:2%;}
 .btn{
-background-color: #4285F4;
-border: none
+background-color: #060802;
+border: none;
+color:whitesmoke;
 }
+
+.btn a{
+    color:whitesmoke;
+}
+
+.btn:hover{
+    background-color: coral;
+}
+
 .step-links a{
-color: #4285F4;
+color: whitesmoke;
 }
