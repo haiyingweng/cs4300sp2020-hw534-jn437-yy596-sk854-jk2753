@@ -51,6 +51,7 @@ def process_cereal_details():
         info = cereal_nutritions[name]
         cereal_info[tcin]["name"] = name
         cereal_info[tcin]["manufacturer"] = manufacturers[info["mfr"]]
+        cereal_info[tcin]["calories"] = f"{info['calories']}mg"
         cereal_info[tcin]["protein"] = f"{info['protein']}g"
         cereal_info[tcin]["fat"] = f"{info['fat']}g"
         cereal_info[tcin]["sodium"] = f"{info['sodium']}mg"
@@ -61,12 +62,15 @@ def process_cereal_details():
         cereal_info[tcin][
             "cups"
         ] = f"{info['cups']} cup{'s' if float(info['cups'])>1 else ''}"
+        cereal_info[tcin]["rating"] = info["rating"]
         image = info["img_url"] = cereal_descriptions[tcin]["product"]["images"][0]
-        cereal_info["img_url"] = image["base_url"] + image["primary"]
-        cereal_info["description"] = cereal_descriptions[tcin]["product"]["description"]
-        cereal_info["bullets"] = cereal_descriptions[tcin]["product"]["soft_bullets"][
-            "bullets"
+        cereal_info[tcin]["img_url"] = image["base_url"] + image["primary"]
+        cereal_info[tcin]["description"] = cereal_descriptions[tcin]["product"][
+            "description"
         ]
+        cereal_info[tcin]["bullets"] = cereal_descriptions[tcin]["product"][
+            "soft_bullets"
+        ]["bullets"]
     return cereal_info
 
 
