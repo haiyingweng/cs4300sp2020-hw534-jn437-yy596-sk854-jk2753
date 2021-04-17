@@ -16,7 +16,8 @@ def search():
 		output_message = "Your search: " + query
 		ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
 		data = get_cereal_details(ranked_cereals)
-		print(data)
+		if not data:
+			data = [{name:"None found"}]
 	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 
 
