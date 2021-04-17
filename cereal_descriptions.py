@@ -22,7 +22,7 @@ def get_description(tcin):
     response_json = response.json()
     if tcin not in descriptions and tcin not in inserted_data:
         inserted_data[tcin] = response_json
-    sleep(1)
+    sleep(3)
 
 
 with open("descriptions.json") as f:
