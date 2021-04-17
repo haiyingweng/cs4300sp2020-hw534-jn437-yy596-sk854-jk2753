@@ -1,79 +1,79 @@
-name,mfr,type,calories,protein,fat,sodium,fiber,carbo,sugars,potass,vitamins,cups,rating
-All-Bran,K,C,70,4,1,260,9,7,5,320,25,0.33,4.8
-Apple Cinnamon Cheerios,G,C,110,2,2,180,1.5,10.5,10,70,25,0.75,4.7
-Apple Jacks,K,C,110,2,0,125,1,11,14,30,25,1,4.5
-Basic 4,G,C,130,3,2,210,2,18,8,100,25,0.75,4.5
-Cap'n Crunch,Q,C,120,1,2,220,0,12,12,35,25,0.75,4.9
-Cheerios,G,C,110,6,2,290,2,17,1,105,25,1.25,4.7
-Cinnamon Toast Crunch,G,C,120,1,3,210,0,13,9,45,25,0.75,4.8
-Cocoa Puffs,G,C,110,1,1,180,0,12,13,55,25,1,4.8
-Corn Flakes,K,C,100,2,0,290,1,21,2,35,25,1,4.9
-Corn Pops,K,C,110,1,0,90,1,13,12,20,25,1,4.6
-Cracklin' Oat Bran,K,C,110,3,3,140,4,10,7,160,25,0.5,4.7
-Crispix,K,C,110,2,0,220,1,21,3,30,25,1,4.7
-Froot Loops,K,C,110,2,1,125,1,11,13,30,25,1,4.8
-Frosted Flakes,K,C,110,1,0,200,1,14,11,25,25,0.75,4.8
-Frosted Mini Wheats,K,C,100,3,0,0,3,14,7,100,25,0.8,4.8
-Fruity Pebbles,P,C,110,1,1,135,0,13,12,25,25,0.75,4
-Golden Grahams,G,C,110,1,1,280,0,15,9,45,25,0.75,4.5
-Grape Nuts Flakes,P,C,100,3,1,140,3,15,5,85,25,0.88,4.9
-Great Grains Pecan,P,C,120,3,3,75,3,13,4,100,25,0.33,4.7
-Honey Graham Ohs,Q,C,120,1,2,220,1,12,11,45,25,1,4.7
-Honey Nut Cheerios,G,C,110,3,1,250,1.5,11.5,10,90,25,0.75,4.9
-Honey-comb,P,C,110,1,0,180,0,14,11,35,25,1.33,4.6
-Kix,G,C,110,2,1,260,0,21,3,40,25,1.5,4.8
-Life,Q,C,100,4,2,150,2,12,6,95,25,0.67,4.5
-Lucky Charms,G,C,110,2,1,180,0,12,12,55,25,1,4.7
-Multi-Grain Cheerios,G,C,100,2,1,220,2,15,6,90,25,1,4.7
-Raisin Bran,K,C,120,3,1,210,5,14,12,240,25,0.75,4.8
-Raisin Nut Bran,G,C,100,3,2,140,2.5,10.5,8,140,25,0.5,4.8
-Rice Chex,G,C,110,1,0,240,0,23,2,30,25,1.13,4.9
-Rice Krispies,K,C,110,2,0,290,0,22,3,35,25,1,4.7
-Special K,K,C,110,6,0,230,1,16,3,55,25,1,4.5
-Total Whole Grain,G,C,100,3,1,200,3,16,3,110,100,1,4.7
-Trix,G,C,110,1,1,140,0,13,12,25,25,1,4.9
-Wheat Chex,G,C,100,3,1,230,3,17,3,115,25,0.67,4.7
-Wheaties,G,C,100,3,1,200,3,17,3,110,25,1,5
-Corn Chex,R,C,110,2,0,280,0,22,3,25,25,1,4.7
-Frosted Cheerios,G,C,140,3,1.5,200,3,29,12,0,0,1,4.8
-Honey Nut Cheerios Medley Crunch,G,C,120,4,1.5,120,4,25,9,110,0,0.75,4.9
-Multi Grain Cheerios with Strawberries,G,C,140,3,1.5,110,4,32,8,190,0,1.3,4.5
-Chocolate Cheerios,G,C,140,3,2,210,3,28,11,170,0,1,4.7
-Cinnamon Cheerios,G,C,140,3,3,150,3,29,12,0,0,1,4.9
-Blueberry Cheerios,G,C,140,3,2,170,3,29,10,0,0,1,4.3
-Chocolate Strawberry Cheerios,G,C,140,3,2,180,3,29,11,130,0,1,4.3
-Peanut Butter Chocolate Cheerios,G,C,150,4,4.5,230,3,25,9,160,0,1,4.6
-Very Berry Cheerios,G,C,140,3,2,170,3,29,11,140,0,1,4.8
-Cheerios Oat Crunch Cinnamon,G,C,230,4,5,230,4,42,15,160,0,1,4.8
-Apple Jacks Caramel,K,C,150,2,0.5,200,2,34,15,50,0,1.3,4.4
-Cap'n Crunch Peanut Butter Crunch,Q,C,170,3,3.5,300,1,32,13,70,0,1,4.5
-Cap'n Crunch Oops All Berries,Q,C,150,2,1.5,200,0,33,17,0,0,1.25,4.4
-Frosted Mini Wheats Chocolate,K,C,200,5,2,220,6,45,12,280,0,1,4.8
-Frosted Mini Wheats Strawberry,K,C,190,5,1,0,6,47,12,190,0,0.75,4.2
-"Great Grains Selects Cereal Raisins, Dates and Pecans",P,C,200,4,4,140,5,40,13,210,0,0.75,4.6
-Great Grains Cranberry Almond Crunch,P,C,210,5,3,200,5,44,12,180,0,1,4.7
-Great Grains Banana Nut Crunch,P,C,230,6,4.5,220,7,45,10,220,0,1,4.7
-Honey Maid S'more's,P,C,160,1,3.5,270,1,33,17,70,0,1,4.9
-Raisin Bran Crunch,K,C,190,4,1,200,4,45,19,0,0,1,4.8
-Cinnamon Chex,G,C,170,2,4,250,2,33,8,0,0,1,4.9
-Peanut Butter Chex,G,C,170,3,4.5,270,2,31,9,100,0,1,4.9
-Chocolate Chex,G,C,180,2,3.5,270,2,36,11,100,0,1,4.7
-Cap'n Crunch Crunch Berries,Q,C,100,1,1.5,190,1,9,11,50,25,0.75,4.5
-Reese's Puffs,G,C,120,2,3,160,1,12,9,70,25,0.75,4.9
-Nature's Path Gluten Free Crunchy Vanilla,N,C,150,2,0,190,4,34,9,85,25,0.75,4.6
-Nature's Path Flax Plus Organic Pumpkin Flax Granola,N,C,260,6,10,45,5,37,10,184,8,0.25,4.6
-Nature's Path Envirokidz Panda Puffs,N,C,130,2,3.5,125,2,23,7,0,4,0.75,4.6
-Cookie Crisp,G,C,140,2,1.5,150,2,31,12,0,70,1,4.6
-Krave,K,C,170,3,4.5,140,2,32,15,110,10,1,4.4
-Oreo O's,P,C,160,1,1.5,150,3,25,13,45,29,1,4.8
-Special K Red Berries,K,C,140,3,0.5,250,3,43,21,360,75,1.25,4.7
-Special K Chocolately Delight,K,C,170,3,3,250,3,34,13,120,10,1,4.7
-Special K Fruit and Yogurt,K,C,160,3,1,190,3,36,13,90,40,1,4.8
-Special K Vanilla Almond,K,C,150,3,1.5,220,3,33,11,100,60,1,4.8
-Special K Original,K,C,150,7,0.5,270,1,29,5,10,80,1.25,4.5
-Special K Blueberry Lemon Clusters,K,C,150,3,1,260,3,35,12,100,80,1,4.5
-Honey Bunches of Oats Honey Roasted Oat,P,C,120,2,1.5,135,2,25,6,55,0,0.75,4.8
-Honey Bunches of Oats with Almonds,P,C,170,3,3,180,34,2,9,80,190,1,4.5
-Honey Bunches of Oats Frosted,P,C,160,2,2,180,2,34,11,30,170,1,4.8
-Fiber One Original Bran,G,C,90,3,1,140,18,34,0,0,50,0.66,4.7
-Fiber One Honey Clusters,G,C,170,4,1.5,200,10,45,10,0,50,1,5
+name,mfr,calories,protein,fat,sodium,fiber,carbo,sugars,potass,cups,rating
+All-Bran,K,70,4,1,260,9,7,5,320,0.33,4.8
+Apple Cinnamon Cheerios,G,110,2,2,180,1.5,10.5,10,70,0.75,4.7
+Apple Jacks,K,110,2,0,125,1,11,14,30,1,4.5
+Basic 4,G,130,3,2,210,2,18,8,100,0.75,4.5
+Cap'n Crunch,Q,120,1,2,220,0,12,12,35,0.75,4.9
+Cheerios,G,110,6,2,290,2,17,1,105,1.25,4.7
+Cinnamon Toast Crunch,G,120,1,3,210,0,13,9,45,0.75,4.8
+Cocoa Puffs,G,110,1,1,180,0,12,13,55,1,4.8
+Corn Flakes,K,100,2,0,290,1,21,2,35,1,4.9
+Corn Pops,K,110,1,0,90,1,13,12,20,1,4.6
+Cracklin' Oat Bran,K,110,3,3,140,4,10,7,160,0.5,4.7
+Crispix,K,110,2,0,220,1,21,3,30,1,4.7
+Froot Loops,K,110,2,1,125,1,11,13,30,1,4.8
+Frosted Flakes,K,110,1,0,200,1,14,11,25,0.75,4.8
+Frosted Mini Wheats,K,100,3,0,0,3,14,7,100,0.8,4.8
+Fruity Pebbles,P,110,1,1,135,0,13,12,25,0.75,4
+Golden Grahams,G,110,1,1,280,0,15,9,45,0.75,4.5
+Grape Nuts Flakes,P,100,3,1,140,3,15,5,85,0.88,4.9
+Great Grains Pecan,P,120,3,3,75,3,13,4,100,0.33,4.7
+Honey Graham Ohs,Q,120,1,2,220,1,12,11,45,1,4.7
+Honey Nut Cheerios,G,110,3,1,250,1.5,11.5,10,90,0.75,4.9
+Honey-comb,P,110,1,0,180,0,14,11,35,1.33,4.6
+Kix,G,110,2,1,260,0,21,3,40,1.5,4.8
+Life,Q,100,4,2,150,2,12,6,95,0.67,4.5
+Lucky Charms,G,110,2,1,180,0,12,12,55,1,4.7
+Multi-Grain Cheerios,G,100,2,1,220,2,15,6,90,1,4.7
+Raisin Bran,K,120,3,1,210,5,14,12,240,0.75,4.8
+Raisin Nut Bran,G,100,3,2,140,2.5,10.5,8,140,0.5,4.8
+Rice Chex,G,110,1,0,240,0,23,2,30,1.13,4.9
+Rice Krispies,K,110,2,0,290,0,22,3,35,1,4.7
+Special K,K,110,6,0,230,1,16,3,55,1,4.5
+Total Whole Grain,G,100,3,1,200,3,16,3,110,1,4.7
+Trix,G,110,1,1,140,0,13,12,25,1,4.9
+Wheat Chex,G,100,3,1,230,3,17,3,115,0.67,4.7
+Wheaties,G,100,3,1,200,3,17,3,110,1,5
+Corn Chex,G,110,2,0,280,0,22,3,25,1,4.7
+Frosted Cheerios,G,140,3,1.5,200,3,29,12,0,1,4.8
+Honey Nut Cheerios Medley Crunch,G,120,4,1.5,120,4,25,9,110,0.75,4.9
+Multi Grain Cheerios with Strawberries,G,140,3,1.5,110,4,32,8,190,1.3,4.5
+Chocolate Cheerios,G,140,3,2,210,3,28,11,170,1,4.7
+Cinnamon Cheerios,G,140,3,3,150,3,29,12,0,1,4.9
+Blueberry Cheerios,G,140,3,2,170,3,29,10,0,1,4.3
+Chocolate Strawberry Cheerios,G,140,3,2,180,3,29,11,130,1,4.3
+Peanut Butter Chocolate Cheerios,G,150,4,4.5,230,3,25,9,160,1,4.6
+Very Berry Cheerios,G,140,3,2,170,3,29,11,140,1,4.8
+Cheerios Oat Crunch Cinnamon,G,230,4,5,230,4,42,15,160,1,4.8
+Apple Jacks Caramel,K,150,2,0.5,200,2,34,15,50,1.3,4.4
+Cap'n Crunch Peanut Butter Crunch,Q,170,3,3.5,300,1,32,13,70,1,4.5
+Cap'n Crunch Oops All Berries,Q,150,2,1.5,200,0,33,17,0,1.25,4.4
+Frosted Mini Wheats Chocolate,K,200,5,2,220,6,45,12,280,1,4.8
+Frosted Mini Wheats Strawberry,K,190,5,1,0,6,47,12,190,0.75,4.2
+"Great Grains Selects Cereal Raisins, Dates and Pecans",P,200,4,4,140,5,40,13,210,0.75,4.6
+Great Grains Cranberry Almond Crunch,P,210,5,3,200,5,44,12,180,1,4.7
+Great Grains Banana Nut Crunch,P,230,6,4.5,220,7,45,10,220,1,4.7
+Honey Maid S'more's,P,160,1,3.5,270,1,33,17,70,1,4.9
+Raisin Bran Crunch,K,190,4,1,200,4,45,19,0,1,4.8
+Cinnamon Chex,G,170,2,4,250,2,33,8,0,1,4.9
+Peanut Butter Chex,G,170,3,4.5,270,2,31,9,100,1,4.9
+Chocolate Chex,G,180,2,3.5,270,2,36,11,100,1,4.7
+Cap'n Crunch Crunch Berries,Q,100,1,1.5,190,1,9,11,50,0.75,4.5
+Reese's Puffs,G,120,2,3,160,1,12,9,70,0.75,4.9
+Nature's Path Gluten Free Crunchy Vanilla,N,150,2,0,190,4,34,9,85,0.75,4.6
+Nature's Path Flax Plus Organic Pumpkin Flax Granola,N,260,6,10,45,5,37,10,184,0.25,4.6
+Nature's Path Envirokidz Panda Puffs,N,130,2,3.5,125,2,23,7,0,0.75,4.6
+Cookie Crisp,G,140,2,1.5,150,2,31,12,0,1,4.6
+Krave,K,170,3,4.5,140,2,32,15,110,1,4.4
+Oreo O's,P,160,1,1.5,150,3,25,13,45,1,4.8
+Special K Red Berries,K,140,3,0.5,250,3,43,21,360,1.25,4.7
+Special K Chocolately Delight,K,170,3,3,250,3,34,13,120,1,4.7
+Special K Fruit and Yogurt,K,160,3,1,190,3,36,13,90,1,4.8
+Special K Vanilla Almond,K,150,3,1.5,220,3,33,11,100,1,4.8
+Special K Original,K,150,7,0.5,270,1,29,5,10,1.25,4.5
+Special K Blueberry Lemon Clusters,K,150,3,1,260,3,35,12,100,1,4.5
+Honey Bunches of Oats Honey Roasted Oat,P,120,2,1.5,135,2,25,6,55,0.75,4.8
+Honey Bunches of Oats with Almonds,P,170,3,3,180,34,2,9,80,1,4.5
+Honey Bunches of Oats Frosted,P,160,2,2,180,2,34,11,30,1,4.8
+Fiber One Original Bran,G,90,3,1,140,18,34,0,0,0.66,4.7
+Fiber One Honey Clusters,G,170,4,1.5,200,10,45,10,0,1,5

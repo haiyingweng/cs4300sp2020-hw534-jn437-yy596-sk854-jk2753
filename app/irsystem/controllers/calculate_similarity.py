@@ -1,4 +1,5 @@
 import collections
+import csv
 import json
 import math
 import numpy as np
@@ -6,14 +7,35 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import TreebankWordTokenizer
 import re
 
+manufactors = {
+    "G": "General Mills",
+    "K": "Kellogg's",
+    "P": "Post",
+    "Q": "Quaker",
+    "N": "Nature's Path",
+}
+
 with open("../../../reviews.json", "r") as f:
     all_reviews = json.load(f)
 
 with open("../../../tcin_cereal.json", "r") as t:
     tcin_to_cereal = json.load(t)
 
+with open("../../../cereal.csv", mode="r") as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    cereal_nutritions = {}
+    for row in csv_reader:
+        cereal_nutritions[row["name"]] = row
+
 tcins = all_reviews.keys()
 num_cereals = len(tcins)
+
+stemmer = PorterStemmer()
+
+
+def getstems(input):
+    # Returns list of stems, [input] is of type list
+    return [stemmer.stem(w.lower()) for word in input]
 
 
 def tokenize_reviews(tokenizer, cereal_reviews):
@@ -102,16 +124,28 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms):
         if score > 0
     ]
     score_lst.sort(key=lambda tup: (-tup[1], tup[0]))
-    print(score_lst)
     return score_lst
 
 
-stemmer = PorterStemmer()
+def get_cereal_details(ranked):
+    dets = []
+    for name, score in ranked:
+        info = cereal_nutritions[name]
+        info["score"] = score
+        info["mfr"] = manufactors[info["mfr"]]
+        info["protein"] = f"{info['protein']}g"
+        info["fat"] = f"{info['fat']}g"
+        info["sodium"] = f"{info['sodium']}mg"
+        info["sugars"] = f"{info['sugars']}g"
+        info["carbo"] = f"{info['carbo']}g"
+        info["fiber"] = f"{info['fiber']}g"
+        info["potass"] = f"{info['potass']}mg"
+        info["cups"] = f"{info['cups']} cup{'s' if float(info['cups'])>1 else ''}"
+        dets.append(info)
+    return dets
 
 
-def getstems(input):
-    # Returns list of stems, [input] is of type list
-    return [stemmer.stem(w.lower()) for word in input]
-
-
-rank_by_similarity("fun", inverted_index, idf, norms)
+query = "marshmallows"
+ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
+ranked_cereal_details = get_cereal_details(ranked_cereals)
+print(ranked_cereal_details)
