@@ -829,5 +829,3034 @@
         "is_retail_ticketed": false
       }
     }
+  },
+  "54445255": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "21.171",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.563",
+        "depth": "1.813",
+        "height": "11.25",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "prepaid_segment": {
+        "minimum_purchase_amount": 0,
+        "maximum_purchase_amount": 0
+      },
+      "title": "All-Bran Breakfast Cereal - 18.6oz - Kellogg&#39;s",
+      "tcin": "54445255",
+      "type": "Stand Alone",
+      "dpci": "231-00-0741",
+      "upc": "038000198410",
+      "url": "/p/all-bran-breakfast-cereal-18-6oz-kellogg-39-s/-/A-54445255",
+      "description": "Kellogg's All Bran is made with wheat bran, this healthy cereal is crunchy and sweet, with 120 calories per serving. Introduce any of the All Bran Cereals into your breakfast lineup alongside options like a glass of milk and fresh fruit. However, Kellogg's All Bran Cereal isn't limited to breakfast and can be a great base in your next dessert. This 18.6-ounce box makes sure there's plenty to go around with about 13 servings of this high fiber cereal.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "All-Bran",
+      "product_brand": {
+        "facet_id": "x2bfc",
+        "brand": "All-Bran"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_4f97cd98-86ca-45ac-ad5d-2791575e5b94",
+          "alternate_urls": [
+            "GUEST_e1a91c07-98e9-473c-bb16-668412914c4b",
+            "GUEST_2b8d7254-980b-437d-94d1-802b43781795",
+            "GUEST_da700316-69a1-4ef3-a371-85d2428fd162",
+            "GUEST_90efbda6-445b-434f-b82f-14707d56128b",
+            "GUEST_509c8a71-efcf-4ef3-9be6-e589cb406a40",
+            "GUEST_589c5676-1117-4aff-bb21-6cf6dcecd620",
+            "GUEST_74334f29-56c7-488f-9f09-0c7eecdc83af"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_509c8a71-efcf-4ef3-9be6-e589cb406a40"
+            },
+            {
+              "image_url": "GUEST_90efbda6-445b-434f-b82f-14707d56128b"
+            },
+            {
+              "image_url": "GUEST_e1a91c07-98e9-473c-bb16-668412914c4b"
+            },
+            {
+              "image_url": "GUEST_74334f29-56c7-488f-9f09-0c7eecdc83af"
+            },
+            {
+              "image_url": "GUEST_589c5676-1117-4aff-bb21-6cf6dcecd620"
+            },
+            {
+              "image_url": "GUEST_2b8d7254-980b-437d-94d1-802b43781795"
+            },
+            {
+              "image_url": "GUEST_da700316-69a1-4ef3-a371-85d2428fd162"
+            },
+            {
+              "image_url": "GUEST_4f97cd98-86ca-45ac-ad5d-2791575e5b94"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.81,
+      "total_reviews": 59,
+      "top_reviews": [
+        {
+          "user_nickname": "Anonymous",
+          "title": "Convenient Fiber!",
+          "rating": 4,
+          "rating_range": 5,
+          "review_text": "Very quick and easy way to get a significant source of fiber! From my experience, don\u2019t eat a whole serving at once the first time, or your intestines might let you know about it! Slowly incorporate it into your current cereal or add small amounts to yogurt or as an oatmeal topping. Then work your way up to a full serving! It would be great with some dried cranberries or golden raisins mixed in! One not-so-great aspect is that it quickly soaks up all of your milk, so wait until the very last minute to add your milk before digging in!"
+        },
+        {
+          "user_nickname": "Derrick",
+          "title": "Great Source of Fiber",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I have incorporated this cereal in my diet and I was absolutely astounded by the results. It takes about two days after consuming several bowls to have consistent bowel movements. For a cereal without sugar coated raisins I find the taste pleasant. Better alternative than taking laxatives and is certainly more healthy. My GI doctor would be proud of me"
+        },
+        {
+          "user_nickname": "Lorsie",
+          "title": "Really great stuff.",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I bought it the first time to make bran muffins I had some left over so I decided to try it for breakfast. I loved it and It is filling, I didnt get that hungry feeling after my usual cereal!!"
+        }
+      ],
+      "total_review_count": 41,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.67,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 3.67,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 18,
+      "rating_distribution": [
+        {
+          "Count": 0,
+          "RatingValue": 1
+        },
+        {
+          "Count": 1,
+          "RatingValue": 2
+        },
+        {
+          "Count": 2,
+          "RatingValue": 3
+        },
+        {
+          "Count": 4,
+          "RatingValue": 4
+        },
+        {
+          "Count": 52,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 18.6  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 18.6-ounce box of Kellogg's All Bran Original Wheat Bran Cereal",
+          "Delicious breakfast cereal made with wholesome wheat for a satisfying crunch",
+          "Made with vitamins and minerals, this breakfast cereal is also an excellent source of fiber",
+          "Healthy cereal that offers a wholesome and delicious choice",
+          "18.6-ounce box ensures there's always plenty to go around with about 13 servings"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "54445255",
+        "formatted_current_price": "$3.89",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.89
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "53035738": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.49",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "9.38",
+        "depth": "12.61",
+        "height": "2.82",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Apple Cinnamon Cheerios Breakfast Cereal - 20.1oz - General Mills",
+      "tcin": "53035738",
+      "type": "Stand Alone",
+      "dpci": "231-00-0534",
+      "upc": "016000126824",
+      "url": "/p/apple-cinnamon-cheerios-breakfast-cereal-20-1oz-general-mills/-/A-53035738",
+      "description": "Apple Cinnamon Cheerios breakfast cereal flavors the whole grain goodness of Cheerios with apple puree and a daring amount of cinnamon for a special way to start your family's day. Made with 100% whole grain oats and 12 essential vitamins and minerals, enjoy every bite of this wholesome gluten-free cereal. Each serving of these little O's contains 1 gram of soluble fiber, which may reduce the risk of heart disease when paired with a diet low in saturated fat and cholesterol. Pour yourself a bowl of this apple cinnamon cereal, or take it to-go for a fun kids' snack. Either way, it's hard to beat the amazing combination of apple and cinnamon.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Cheerios",
+      "product_brand": {
+        "facet_id": "56fcm",
+        "brand": "Cheerios"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_fd514de8-74e2-43be-93d9-2ee9a565189f",
+          "alternate_urls": [
+            "GUEST_2d92c86d-196b-40d5-b3ac-c3f339efb9bd",
+            "GUEST_0c88bd9b-00c0-41dd-9c84-52dd0f6c288f"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_2d92c86d-196b-40d5-b3ac-c3f339efb9bd"
+            },
+            {
+              "image_url": "GUEST_fd514de8-74e2-43be-93d9-2ee9a565189f"
+            },
+            {
+              "image_url": "GUEST_0c88bd9b-00c0-41dd-9c84-52dd0f6c288f"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.74,
+      "total_reviews": 35,
+      "top_reviews": [
+        {
+          "user_nickname": "jse",
+          "title": "Cheerios not just for breakfast!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Best Cheerio flavor ever!!! Love these...and they are GREAT on vanilla ice cream. Really try it!!!"
+        },
+        {
+          "user_nickname": "Marissa M",
+          "title": "Family Favorite",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Family favorite for sure! Great taste. Easy breakfast, snack whatever!"
+        },
+        {
+          "user_nickname": "Natural Hair Customer",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Great product with great taste. A staple in my home"
+        }
+      ],
+      "total_review_count": 5,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.2,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.6,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.6,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 30,
+      "rating_distribution": [
+        {
+          "Count": 1,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 1,
+          "RatingValue": 3
+        },
+        {
+          "Count": 3,
+          "RatingValue": 4
+        },
+        {
+          "Count": 30,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 20.1  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "BREAKFAST CEREALS: Sweetened Whole Grain cereal is a wholesome breakfast that's a good source of iron and calcium",
+          "WHOLE GRAIN: Made with 100% Whole Grain oats and fortified with 12 essential Vitamins and Minerals",
+          "GLUTEN FREE: Gluten Free and simply made with No High Fructose Corn Syrup, No Artificial Flavors and No Artificial Colors; Kosher Pareve",
+          "HEART HEALTHY: *Three grams of soluble fiber daily from whole grain oat foods, like Apple Cinnamon Cheerios cereal, in a diet low in saturated fat and cholesterol, may reduce the risk of heart disease. Apple Cinnamon Cheerios cereal provides 0.75 grams per serving",
+          "BOX CONTAINS: 20.1 oz cereal box; A pantry staple for breakfast or a wholesome snack"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        },
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "825392",
+          "value_name": "Gluten Free",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_25c25b609d1c43b7",
+          "wellness_description": "A product that has an unqualified independent third-party certification, or carries an on-pack statement relating to the finished product being gluten-free."
+        }
+      ],
+      "price": {
+        "tcin": "53035738",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "53413151": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "23.382",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.77",
+        "depth": "3.104",
+        "height": "13.5",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Apple Jack's Breakfast Cereal - 19.4oz - Kellogg's",
+      "tcin": "53413151",
+      "type": "Stand Alone",
+      "dpci": "231-00-0709",
+      "upc": "038000181696",
+      "url": "/p/apple-jack-s-breakfast-cereal-19-4oz-kellogg-s/-/A-53413151",
+      "description": "Kellogg's Apple Jacks is a classic family favorite, bringing the sweet taste of apple and cinnamon to breakfast tables for over 50 years. Featuring crunchy sweetened O's, this three grain cereal brings the flavor of crisp apples and delicious cinnamon into each and every bite. This breakfast cereal also makes a great afternoon snack or late night treat for all ages. Each 19.4-ounce family size cereal box has about 14 servings, to keep any household satisfied. Apple Jacks include 150 calories per serving for a wholesome choice.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Apple Jacks",
+      "product_brand": {
+        "facet_id": "56gru",
+        "brand": "Apple Jacks"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_2b57ef31-e062-4b1a-9a75-76479a9ba725",
+          "alternate_urls": [
+            "GUEST_851e44ee-ba69-44f4-b05e-a9047a8acd9c",
+            "GUEST_72a49753-8de8-49f3-a95c-e91343df013f",
+            "GUEST_bd6c2eb2-cd89-4db7-9a42-ac7b7feeabb0",
+            "GUEST_b2e1ef48-f6f7-484a-8ed5-5da132077732",
+            "GUEST_aec82db9-cf20-494e-89ff-6521eeb5e5e8",
+            "GUEST_bb5f7090-2504-4b6d-8a48-df63bb962808",
+            "GUEST_de1ccd80-c998-4f11-9ac1-93874e7c8cbd"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_aec82db9-cf20-494e-89ff-6521eeb5e5e8"
+            },
+            {
+              "image_url": "GUEST_bb5f7090-2504-4b6d-8a48-df63bb962808"
+            },
+            {
+              "image_url": "GUEST_de1ccd80-c998-4f11-9ac1-93874e7c8cbd"
+            },
+            {
+              "image_url": "GUEST_851e44ee-ba69-44f4-b05e-a9047a8acd9c"
+            },
+            {
+              "image_url": "GUEST_b2e1ef48-f6f7-484a-8ed5-5da132077732"
+            },
+            {
+              "image_url": "GUEST_72a49753-8de8-49f3-a95c-e91343df013f"
+            },
+            {
+              "image_url": "GUEST_bd6c2eb2-cd89-4db7-9a42-ac7b7feeabb0"
+            },
+            {
+              "image_url": "GUEST_2b57ef31-e062-4b1a-9a75-76479a9ba725"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.52,
+      "total_reviews": 201,
+      "top_reviews": [
+        {
+          "user_nickname": "Anonymous",
+          "title": "Has always been my favorite.",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I\u2019ve always lived the taste of Apple Jacks, it\u2019s been my favorite since I was a child. Keep up the good work ya\u2019ll, stay safe."
+        }
+      ],
+      "total_review_count": 182,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 5,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 19,
+      "rating_distribution": [
+        {
+          "Count": 10,
+          "RatingValue": 1
+        },
+        {
+          "Count": 7,
+          "RatingValue": 2
+        },
+        {
+          "Count": 5,
+          "RatingValue": 3
+        },
+        {
+          "Count": 25,
+          "RatingValue": 4
+        },
+        {
+          "Count": 154,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Wheat",
+        "<B>May Contain:</B> Soy",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 19.4  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 19.4-ounce family size box of Kellogg's Apple Jacks Apple Cinnamon Cereal",
+          "Made with grains as its first ingredient, each bite of Apple Jacks is as crunchy as it is delicious",
+          "Includes vitamins and minerals",
+          "Makes a delicious breakfast cereals option for all members of the family",
+          "19.4 OZ. Kellogg's family size Apple Jacks contains about 14 servings to keep your household stocked"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "53413151",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "78364685": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "19.8",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.7",
+        "depth": "2.1",
+        "height": "11.85",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Basic 4 Breakfast Cereal 19.8oz - General Mills",
+      "tcin": "78364685",
+      "type": "Stand Alone",
+      "dpci": "231-00-0781",
+      "upc": "016000157644",
+      "url": "/p/basic-4-breakfast-cereal-19-8oz-general-mills/-/A-78364685",
+      "description": "Basic 4 multigrain cereal with Fruit and Almonds is the simple and satisfying breakfast cereal to help you start your day strong. Made with  hearty flakes and four components: sweet fruit, coated vanilla clusters, crunchy almonds and crispy rice puffs. It's Basically delicious! And now there's more to love, with 20% more cereal in every box!",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Basic 4",
+      "product_brand": {
+        "facet_id": "56eqp",
+        "brand": "Basic 4"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_b69b3512-a989-4123-9827-c5e95e03ea1d",
+          "alternate_urls": [
+            "GUEST_ea234bc4-9bdd-4dba-b736-08f940af3922",
+            "GUEST_fdb006c2-ca5e-4791-afa9-26c6ca120545"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_b69b3512-a989-4123-9827-c5e95e03ea1d"
+            },
+            {
+              "image_url": "GUEST_fdb006c2-ca5e-4791-afa9-26c6ca120545"
+            },
+            {
+              "image_url": "GUEST_ea234bc4-9bdd-4dba-b736-08f940af3922"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.52,
+      "total_reviews": 21,
+      "top_reviews": [
+        {
+          "user_nickname": "ArtsyTC",
+          "title": "Best Healthy Cereal Out There!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Scrumptious, healthy cereal with a perfect blend of whole grain crunchy flakes, sliced almonds, and fruit. Plus you get a sweet surprise of vanilla clusters every once in awhile. It's packed with 5 grams per cup of dietary fiber, which is difficult to find in cereal! There is no high fructose corn syrup, no cholesterol, and it's low in fat. It's a great source of Calcium, and Vitamin D (which you need here in upstate NY due to the lack of sunshine). I eat it with soymilk and on occasion, I will throw in a dash or two of cinnamon and stir. Delicious! I feel energized after eating it, instead of that sluggish feeling you get when you eat something that's not good for you. I was worried when I couldn't find it in the store for awhile, but I think that's because they changed from a 16oz box to a 19.8. So happy they didn't discontinue it! Thank you, General Mills!"
+        },
+        {
+          "user_nickname": "Paris",
+          "title": "This cereal rules",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "This is the best cereal! Loved it as a kid, stocking up now because why the hell not."
+        },
+        {
+          "user_nickname": "pfsmithfield",
+          "title": "Delicious cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Delicious. Great as a traditional cereal. Also a great topping for yogurt, fruits, ice cream. A nice snack too. It's the one cereal everyone in the house agrees on."
+        }
+      ],
+      "total_review_count": 5,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.8,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.4,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.8,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 16,
+      "rating_distribution": [
+        {
+          "Count": 2,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 0,
+          "RatingValue": 3
+        },
+        {
+          "Count": 2,
+          "RatingValue": 4
+        },
+        {
+          "Count": 17,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Soy, Almonds, Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 19.8  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "IT'S BASICALLY DELICIOUS: crispy multigrain flakes and four components to help you start your day strong: sweet fruit, coated vanilla clusters, crunchy almonds and crispy rice puffs",
+          "MORE IN EACH BOX: Now contains 20% more cereal than the previous 16oz box",
+          "HEART HEALTHY: While many factors affect heart disease, diets low in saturated fat and cholesterol may reduce the risk of this disease. Basic 4 cereal is low in fat, low in saturated fat and naturally cholesterol free",
+          "GOOD SOURCE OF FIBER, calcium and vitamin D",
+          "BOX CONTAINS: 19.8 oz of ready to eat multigrain cereal with fruit and almonds"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        }
+      ],
+      "price": {
+        "tcin": "78364685",
+        "formatted_current_price": "$3.99",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.99
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "53986680": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.79",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "8.21",
+        "depth": "12.96",
+        "height": "3.31",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Cap&#39;n Crunch Original Breakfast Cereal - 22.8oz",
+      "tcin": "53986680",
+      "type": "Stand Alone",
+      "dpci": "231-00-0488",
+      "upc": "030000567647",
+      "url": "/p/cap-39-n-crunch-original-breakfast-cereal-22-8oz/-/A-53986680",
+      "description": "Sweet and golden, with a crunch you\u2019ll love, nothing competes with the original Cap\u2019n Crunch. Grab a bowl or cup for an easy snack bursting with the taste of fun that goes great with couch time, anytime.   Snag a box and go to town\u2026your mouth will love you for it.  Get your crunch on today.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Cap'n Crunch",
+      "product_brand": {
+        "facet_id": "56f2l",
+        "brand": "Cap'n Crunch"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_03df884f-68a8-4996-98e6-78ad6acd34a4",
+          "alternate_urls": [
+            "GUEST_d919617d-cbd0-42d5-9dbd-50b60ae933dc",
+            "GUEST_659bd52b-5b1a-4723-9f5a-ce218f7b0b5b",
+            "GUEST_0e0737bf-176f-4185-a115-ed129c48bf84",
+            "GUEST_9f5956d5-b8c1-4a11-8d8e-ddb990ceb17b"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_0e0737bf-176f-4185-a115-ed129c48bf84"
+            },
+            {
+              "image_url": "GUEST_d919617d-cbd0-42d5-9dbd-50b60ae933dc"
+            },
+            {
+              "image_url": "GUEST_9f5956d5-b8c1-4a11-8d8e-ddb990ceb17b"
+            },
+            {
+              "image_url": "GUEST_659bd52b-5b1a-4723-9f5a-ce218f7b0b5b"
+            },
+            {
+              "image_url": "GUEST_03df884f-68a8-4996-98e6-78ad6acd34a4"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.89,
+      "total_reviews": 18,
+      "top_reviews": [
+        {
+          "user_nickname": "Joe",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "My favorite cereal crunchy and sweet"
+        },
+        {
+          "user_nickname": "Amy",
+          "title": "Great value.",
+          "rating": 4,
+          "rating_range": 5,
+          "review_text": "Target has great value on family size boxes."
+        }
+      ],
+      "total_review_count": 3,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 5,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.67,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 15,
+      "rating_distribution": [
+        {
+          "Count": 0,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 0,
+          "RatingValue": 3
+        },
+        {
+          "Count": 2,
+          "RatingValue": 4
+        },
+        {
+          "Count": 16,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+        "<B>Dietary Needs:</B> Kosher",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 24.6  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "Sweet and golden, with a crunch you\u2019ll love, nothing competes with the original Cap\u2019n Crunch",
+          "Grab a bowl or cup for an easy snack that goes great with couch time, anytime",
+          "Snag a box and go to town\u2026your mouth will love you for it",
+          "Get your crunch on today"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "53986680",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "12935577": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.4",
+        "weight_unit_of_measure": "POUND",
+        "width": "9.46",
+        "depth": "12.7",
+        "height": "3.33",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Cheerios Whole Grain Oat Breakfast Cereal - 18oz - General Mills",
+      "tcin": "12935577",
+      "type": "Stand Alone",
+      "dpci": "231-00-0089",
+      "upc": "016000275287",
+      "url": "/p/cheerios-whole-grain-oat-breakfast-cereal-18oz-general-mills/-/A-12935577",
+      "description": "The family-size box of original Cheerios breakfast cereal has been a family favorite for years. Made with 100% whole grain oats, this gluten-free cereal is full of wholesome goodness for toddlers, adults and everyone in between. Plus, each serving of these tasty little O's contains 1 gram of soluble fiber, which may reduce the risk of heart disease when paired with a diet low in saturated fat and cholesterol. Whether you need a finger food snack for your new eater or a bowl of breakfast cereal for anyone in the family, the one and only Cheerios can provide a delicious start to your day.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Cheerios",
+      "product_brand": {
+        "facet_id": "56fcm",
+        "brand": "Cheerios"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_3ed470ed-e00c-445b-bb90-44844e7d2e4c",
+          "alternate_urls": [
+            "GUEST_9595ff67-5fde-40c0-b72a-18008a21ef8b",
+            "GUEST_00f206b4-0080-456e-a287-d44010dc82b8",
+            "GUEST_18c98904-4182-4b43-90c6-c0039fe73462"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_18c98904-4182-4b43-90c6-c0039fe73462"
+            },
+            {
+              "image_url": "GUEST_9595ff67-5fde-40c0-b72a-18008a21ef8b"
+            },
+            {
+              "image_url": "GUEST_3ed470ed-e00c-445b-bb90-44844e7d2e4c"
+            },
+            {
+              "image_url": "GUEST_00f206b4-0080-456e-a287-d44010dc82b8"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.69,
+      "total_reviews": 108,
+      "top_reviews": [
+        {
+          "user_nickname": "soveryblessed",
+          "title": "A classic I'll never stop loving",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "This has been my lifetime favorite cereal. Ya can't go wrong with Cheerios! Sometimes, I even have it after work as a light supper. Sometimes, all you need is a bowl of Cheerios & you're golden."
+        },
+        {
+          "user_nickname": "raquel_es",
+          "title": "Classic, the best.",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Classic. Best with unsweetened vanilla almond milk in my opinion. :) Am grateful these are gluten free, as well!"
+        },
+        {
+          "user_nickname": "Mom of Two",
+          "title": "Classic taste and a consistent favorite",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Consistent quality in an easy-to-open box. They haven\u2019t messed with their recipe, and the taste is a classic."
+        }
+      ],
+      "total_review_count": 34,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.76,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.68,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.45,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 74,
+      "rating_distribution": [
+        {
+          "Count": 5,
+          "RatingValue": 1
+        },
+        {
+          "Count": 3,
+          "RatingValue": 2
+        },
+        {
+          "Count": 0,
+          "RatingValue": 3
+        },
+        {
+          "Count": 5,
+          "RatingValue": 4
+        },
+        {
+          "Count": 95,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+        "<B>Features:</B> No Artificial Flavors, No High Fructose Corn Syrup, No Artificial Colors",
+        "<B>Dietary Needs:</B> Gluten Free, Certified Gluten Free",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 18  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "BREAKFAST CEREALS: Toasted Whole Grain oat cereal that is a wholesome breakfast",
+          "HEART HEALTHY: *Three grams of soluble fiber daily from whole grain oat foods, like Cheerios cereal, in a diet low in saturated fat and cholesterol, may reduce the risk of heart disease. Cheerios cereal provides 1 gram per serving",
+          "WHOLE GRAIN: Made with 100% Whole Grain oats and contains 12 essential Vitamins and Minerals",
+          "GLUTEN FREE: Gluten Free and simply made with No Artificial Flavors and No Artificial Colors; Gluten Free; Kosher Pareve",
+          "BOX CONTAINS: 18 oz size box; Perfect as first finger food or a gluten free snack"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "810863",
+          "value_name": "Nutritious",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_d2ae230190464fd0",
+          "wellness_description": "A product that meets Target's definition of \"Nutritious\" in the Food \"wellness standard\"."
+        },
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        },
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "825392",
+          "value_name": "Gluten Free",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_25c25b609d1c43b7",
+          "wellness_description": "A product that has an unqualified independent third-party certification, or carries an on-pack statement relating to the finished product being gluten-free."
+        }
+      ],
+      "price": {
+        "tcin": "12935577",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "53500055": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "27.0",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "9.4",
+        "depth": "2.9",
+        "height": "13.55",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Cinnamon Toast Crunch Breakfast Cereal - 27oz - General Mills",
+      "tcin": "53500055",
+      "type": "Stand Alone",
+      "dpci": "231-00-0582",
+      "upc": "016000126855",
+      "url": "/p/cinnamon-toast-crunch-breakfast-cereal-27oz-general-mills/-/A-53500055",
+      "description": "Take breakfast out of this world with a giant-size box of Cinnamon Toast Crunch breakfast cereal! Each bite contains delicious crispy whole wheat squares covered in the perfect combination of real cinnamon and sugar. Enjoy Cinnamon Toast Crunch with milk for a crunchy breakfast with a yummy Cinnamilk finish, or by itself to snack on throughout the day. Made with real cinnamon-sparkly goodness, this cereal is so delicious you'll want to crunch around the clock!",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Cinnamon Toast Crunch",
+      "product_brand": {
+        "facet_id": "lnzmm",
+        "brand": "Cinnamon Toast Crunch"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_f195d3d5-2c58-4d75-a1da-3a40c2fa2290",
+          "alternate_urls": [
+            "GUEST_e48ab5ad-bcec-4cad-89a0-032cccf7afa5",
+            "GUEST_21e38992-1f2e-4871-ad78-ac43ec228784",
+            "GUEST_b1f9f247-5bb8-47b7-b7e7-a2b08f019659",
+            "GUEST_da989f86-d0d2-436d-8b7f-09db5eddf3a7",
+            "GUEST_a632a06f-49e8-40ee-acde-fe4019011393",
+            "GUEST_8fe42f31-2170-44d6-8b1e-740a13ead691",
+            "GUEST_a1ed6e4f-8c0e-4c04-8dbf-5138788f721a",
+            "GUEST_e22441a3-47a0-46a7-8a53-4561d7e47b51"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_8fe42f31-2170-44d6-8b1e-740a13ead691"
+            },
+            {
+              "image_url": "GUEST_da989f86-d0d2-436d-8b7f-09db5eddf3a7"
+            },
+            {
+              "image_url": "GUEST_b1f9f247-5bb8-47b7-b7e7-a2b08f019659"
+            },
+            {
+              "image_url": "GUEST_e22441a3-47a0-46a7-8a53-4561d7e47b51"
+            },
+            {
+              "image_url": "GUEST_a632a06f-49e8-40ee-acde-fe4019011393"
+            },
+            {
+              "image_url": "GUEST_f195d3d5-2c58-4d75-a1da-3a40c2fa2290"
+            },
+            {
+              "image_url": "GUEST_e48ab5ad-bcec-4cad-89a0-032cccf7afa5"
+            },
+            {
+              "image_url": "GUEST_a1ed6e4f-8c0e-4c04-8dbf-5138788f721a"
+            },
+            {
+              "image_url": "GUEST_21e38992-1f2e-4871-ad78-ac43ec228784"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.78,
+      "total_reviews": 60,
+      "top_reviews": [
+        {
+          "user_nickname": "MrKimbo",
+          "title": "The BEST Cereal!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Everyone should buy this cereal! It is fantastic, and we bought several boxes for our family trip to Hawaii! Delicious...and the kids LOVE it!"
+        },
+        {
+          "user_nickname": "Anonymous",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Good Cereal any cereal witn cinnamon I love it"
+        },
+        {
+          "user_nickname": "Spartan",
+          "title": "Perfect size",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "We eat a lot of Cinnamon Toast Crunch in our house, so the giant size works best for us. Good value and lasts a while."
+        }
+      ],
+      "total_review_count": 15,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.83,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.8,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 45,
+      "rating_distribution": [
+        {
+          "Count": 2,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 1,
+          "RatingValue": 3
+        },
+        {
+          "Count": 3,
+          "RatingValue": 4
+        },
+        {
+          "Count": 54,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Soy, Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 27  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "CEREAL: Cinnamon Toast Crunch cereal is a pantry staple for breakfast that's sweet and crunchy, made with real cinnamon.",
+          "SWEET CINNAMON: A perfect combination of sweet cinnamon sugar and crunch taste in every bite with a one of a kind cinnamilk finish.",
+          "EASY SNACK: Enjoy Cinnamon Toast Crunch with milk or by itself at breakfast, as a snack, or whenever.",
+          "WHOLE GRAIN: Contains whole grains for a well rounded meal or snack.",
+          "BOX CONTAINS:  1box, 27 oz"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        }
+      ],
+      "price": {
+        "tcin": "53500055",
+        "formatted_current_price": "$4.99",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 4.99
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "54453065": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "19.3",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "9.4",
+        "depth": "2.5",
+        "height": "12.55",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Cocoa Puffs Breakfast Cereal - 19.3oz",
+      "tcin": "54453065",
+      "type": "Stand Alone",
+      "dpci": "231-00-0903",
+      "upc": "016000151420",
+      "url": "/p/cocoa-puffs-breakfast-cereal-19-3oz/-/A-54453065",
+      "description": "Cocoa Puffs Chocolate Cereal First Ingredient Whole Grain. A whole grain food is made by using all three parts of the grain. All General Mills Big G cereals contain more whole grain than any other single ingredient. 12g whole grain per serving. At least 48 grams recommended daily. No colors from artificial sources and no artificial flavors.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Cocoa Puffs",
+      "product_brand": {
+        "facet_id": "56fcg",
+        "brand": "Cocoa Puffs"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_dd10f9c3-4490-4a06-9874-28ce0fe9871f",
+          "alternate_urls": [
+            "GUEST_283a78ad-9d43-427b-8cb2-e7def2837eee",
+            "GUEST_a53cf83a-0cc9-41c2-af14-1cdd17f61cb3"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_dd10f9c3-4490-4a06-9874-28ce0fe9871f"
+            },
+            {
+              "image_url": "GUEST_283a78ad-9d43-427b-8cb2-e7def2837eee"
+            },
+            {
+              "image_url": "GUEST_a53cf83a-0cc9-41c2-af14-1cdd17f61cb3"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.76,
+      "total_reviews": 25,
+      "top_reviews": [
+        {
+          "user_nickname": "Lucy",
+          "title": "Great tasting cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "My husband bought these for our grandson to try and he loves them. Now each time he comes over to visit this is one of the items he wants for breakfast."
+        },
+        {
+          "user_nickname": "Mila",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "It has a delicious chocolate taste"
+        },
+        {
+          "user_nickname": "Vivi",
+          "title": "best cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Best breakfast cereal my kids love it. We only buy this cereal."
+        }
+      ],
+      "total_review_count": 8,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.86,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 17,
+      "rating_distribution": [
+        {
+          "Count": 1,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 0,
+          "RatingValue": 3
+        },
+        {
+          "Count": 2,
+          "RatingValue": 4
+        },
+        {
+          "Count": 22,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 19.3  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "CEREAL: Cocoa Puffs Chocolate Cereal is a delicious breakfast cereal for the entire family to enjoy",
+          "KIDS CEREAL: Cereal kids love for breakfast or a snack with no high fructose corn syrup or colors from artificial sources",
+          "WHOLE GRAIN: At least 10 grams of whole grain per serving (At least 48 grams recommended daily). A perfect addition to your pantry",
+          "CHOCOLATE CEREAL: Great tasting cereal for the entire family, filled with chocolate that leaves your milk chocolatey and rich",
+          "BOX CONTAINS: 19.3 oz"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "54453065",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "12935960": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "12.917",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.563",
+        "depth": "2.233",
+        "height": "11.25",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Corn Pops Breakfast Cereal - 10oz - Kellogg's",
+      "tcin": "12935960",
+      "type": "Stand Alone",
+      "dpci": "231-00-0436",
+      "upc": "038000198717",
+      "url": "/p/corn-pops-breakfast-cereal-10oz-kellogg-s/-/A-12935960",
+      "description": "A sweet, crispy, crunchy way to start your day, Kellogg\u2019s Corn Pops breakfast cereal makes for a light and delicious cold breakfast any day of the week. Corn Pops is an excellent source of 7 vitamins and minerals and is made with no high fructose corn syrup. Not just for breakfast, Kellogg's Corn Pops is a tasty addition to any meal or snack any time of the day. This cereal has a crisp texture for terrific snacking on straight from the box. Pack some in a plastic bag for the road; this cereal makes a playful addition to your lunch, afternoon pick-me-up, post-workout treat, or indulgent late-night snack. Kellogg's Corn Pops also makes a scrumptious addition to homemade trail mix or as a well-deserved snack at the office - the delicious options are endless. Just add your favorite dairy or nut-milk or enjoy as a crispy treat straight from the box. No matter where it fits in, you'll love the delectable crunch of Kellogg's Corn Pops breakfast cereal.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Corn Pops",
+      "product_brand": {
+        "facet_id": "56gq9",
+        "brand": "Corn Pops"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_1abb6e76-9689-48a2-a4cc-e429561df283",
+          "alternate_urls": [
+            "GUEST_506c2ec9-de43-4fe4-96ff-0ddb010f09d9",
+            "GUEST_0b8cbc4e-03ed-4314-b5ee-2393a87bb454",
+            "GUEST_1f42b70f-9cac-4438-bd28-299a536a1935",
+            "GUEST_f55ac59e-4a72-4530-8275-3a2170af86a4",
+            "GUEST_e75f17f9-efd1-4d2d-bae9-f9e82941fd0d",
+            "GUEST_5cf0434c-3507-4c98-bfed-75f88e347c93",
+            "GUEST_9678d88c-b6b6-409a-952f-e61a939a92c6"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_9678d88c-b6b6-409a-952f-e61a939a92c6"
+            },
+            {
+              "image_url": "GUEST_0b8cbc4e-03ed-4314-b5ee-2393a87bb454"
+            },
+            {
+              "image_url": "GUEST_1abb6e76-9689-48a2-a4cc-e429561df283"
+            },
+            {
+              "image_url": "GUEST_5cf0434c-3507-4c98-bfed-75f88e347c93"
+            },
+            {
+              "image_url": "GUEST_f55ac59e-4a72-4530-8275-3a2170af86a4"
+            },
+            {
+              "image_url": "GUEST_e75f17f9-efd1-4d2d-bae9-f9e82941fd0d"
+            },
+            {
+              "image_url": "GUEST_506c2ec9-de43-4fe4-96ff-0ddb010f09d9"
+            },
+            {
+              "image_url": "GUEST_1f42b70f-9cac-4438-bd28-299a536a1935"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.58,
+      "total_reviews": 253,
+      "top_reviews": [
+        {
+          "user_nickname": "Anonymous",
+          "title": "Perfect crunch",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Pops have always been my favorite cereal, they are crunch any don\u2019t get soggy too quick and aren\u2019t overpoweringly sugary"
+        },
+        {
+          "user_nickname": "Wildflwr5",
+          "title": "Excellent",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Always fresh. Does not get crushed in the mail."
+        },
+        {
+          "user_nickname": "Mama2two",
+          "title": "Must Buy",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "My kids and I love this cereal. We eat this during breakfast and snacks. I like the taste of it and is not too sweet."
+        }
+      ],
+      "total_review_count": 244,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.25,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.38,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 3.86,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 9,
+      "rating_distribution": [
+        {
+          "Count": 8,
+          "RatingValue": 1
+        },
+        {
+          "Count": 11,
+          "RatingValue": 2
+        },
+        {
+          "Count": 4,
+          "RatingValue": 3
+        },
+        {
+          "Count": 33,
+          "RatingValue": 4
+        },
+        {
+          "Count": 197,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Soy, Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 10  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "A sweet, crispy, crunchy way to start your day, Kellogg\u2019s Corn Pops Cereal is a fun part of any balanced breakfast",
+          "A classic, family-favorite cereal that's perfect for both kids and adults; Makes a delicious cold breakfast at home or school, midday bite at work, and after-dinner treat",
+          "Excellent source of 7 vitamins and minerals; Good source of 8 Vitamins and minerals; No high fructose corn syrup; Colors and flavors from natural sources;\u00a0Contains wheat ingredients; Kosher Pareve",
+          "Pack some in a plastic bag for backpacks and lunchboxes; Stow some in your tote bag, car, and desk for anytime snacking",
+          "Includes 1, 10-ounce box of ready-to-eat Corn Pops Cereal; Packaged for freshness and great taste"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "12935960",
+        "formatted_current_price": "$2.99",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 2.99
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "54201938": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.36",
+        "weight_unit_of_measure": "POUND",
+        "width": "7.85",
+        "depth": "13.63",
+        "height": "3.48",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Crispix Breakfast Cereal - 18oz - Kellogg's",
+      "tcin": "54201938",
+      "type": "Stand Alone",
+      "dpci": "231-00-0607",
+      "upc": "038000924224",
+      "url": "/p/crispix-breakfast-cereal-18oz-kellogg-s/-/A-54201938",
+      "description": "Kellogg's Crispix Corn and Rice Cereal gives you a delicious combination, with crispy rice on one side and crunchy corn on the other. Made with North American grains, this breakfast cereal makes a great morning meal and a tasty quick snack for kids straight out of the box. Every serving of this corn cereal supplies eight vitamins and minerals and contains only colors and flavors from natural sources, helping bring nutrition to your morning. Bring a classic family favorite to your breakfast food options with Kellogg's family size Crispix cereal.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Crispix",
+      "product_brand": {
+        "facet_id": "jcfn4",
+        "brand": "Crispix"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_1ca6d911-d876-4f2e-a8c2-0c0a60206b90",
+          "alternate_urls": [
+            "GUEST_16ff0990-7946-416a-9151-47c7368ad7e1",
+            "GUEST_b35de269-fb0c-47b2-9149-c21409057a2b",
+            "GUEST_fe85b37f-94f9-4341-83fb-76abd0092205",
+            "GUEST_d648cb58-a875-4c5a-8067-7b9e82269b97",
+            "GUEST_be10df66-a31c-4b42-b78f-3c4031a83dc5",
+            "GUEST_3127f602-ed2a-4885-9946-8b3ea7a3d4c7",
+            "GUEST_03a4e507-3f94-4069-9bef-f08d4b2f54ce",
+            "GUEST_6c934b57-b77a-4da5-805d-b7539e7c7a6e"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_be10df66-a31c-4b42-b78f-3c4031a83dc5"
+            },
+            {
+              "image_url": "GUEST_3127f602-ed2a-4885-9946-8b3ea7a3d4c7"
+            },
+            {
+              "image_url": "GUEST_03a4e507-3f94-4069-9bef-f08d4b2f54ce"
+            },
+            {
+              "image_url": "GUEST_6c934b57-b77a-4da5-805d-b7539e7c7a6e"
+            },
+            {
+              "image_url": "GUEST_16ff0990-7946-416a-9151-47c7368ad7e1"
+            },
+            {
+              "image_url": "GUEST_1ca6d911-d876-4f2e-a8c2-0c0a60206b90"
+            },
+            {
+              "image_url": "GUEST_d648cb58-a875-4c5a-8067-7b9e82269b97"
+            },
+            {
+              "image_url": "GUEST_fe85b37f-94f9-4341-83fb-76abd0092205"
+            },
+            {
+              "image_url": "GUEST_b35de269-fb0c-47b2-9149-c21409057a2b"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.71,
+      "total_reviews": 56,
+      "top_reviews": [
+        {
+          "user_nickname": "Kmom236",
+          "title": "Great taste and it's gluten free!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Great cereal! Always been a favorite of mine with the corn and rice sides and it is now my go to because I needed to go gluten free!"
+        }
+      ],
+      "total_review_count": 17,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.86,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.71,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 39,
+      "rating_distribution": [
+        {
+          "Count": 3,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 2,
+          "RatingValue": 3
+        },
+        {
+          "Count": 0,
+          "RatingValue": 4
+        },
+        {
+          "Count": 51,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Soy",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 18  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 18-ounce family size box of Kellogg's Crispix Corn and Rice Cereal",
+          "Perfectly sweetened breakfast cereal with crispy rice cereal and crunchy corn",
+          "Supplies eight vitamins and minerals and contains only colors and flavors from natural sources",
+          "Crispix cereal makes a delicious option for classic breakfast food lovers",
+          "Kellogg's family size cereal box conveniently holds about 13 servings of crispy rice cereal"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "54201938",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "12920691": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.46",
+        "weight_unit_of_measure": "POUND",
+        "width": "7.89",
+        "depth": "13.55",
+        "height": "3.5",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Froot Loops Breakfast Cereal - 19.4oz - Kellogg's",
+      "tcin": "12920691",
+      "type": "Stand Alone",
+      "dpci": "231-00-1059",
+      "upc": "038000181719",
+      "url": "/p/froot-loops-breakfast-cereal-19-4oz-kellogg-s/-/A-12920691",
+      "description": "Kellogg's Froot Loops cereal is packed with a delicious fruity taste, fruity aroma and fun, bright colors. Made with whole grains and natural fruit flavors, this sweetened fruity cereal is a fun part of a complete breakfast for kids. Every serving of this Kellogg's cereal provides 25 percent daily value of vitamin C to help bring nutrition to your mornings, Kellogg's Froot Loops contains no high fructose corn syrup. Give your child\u2019s morning a delightful start with a colorful bowl of Kellogg's Froot Loops.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Froot Loops",
+      "product_brand": {
+        "facet_id": "56gqd",
+        "brand": "Froot Loops"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_45b359ab-33ae-4fa3-8270-20960029d826",
+          "alternate_urls": [
+            "GUEST_76f48942-7e86-43da-81c9-98ac0e85bd34",
+            "GUEST_c053a30c-cd43-4365-a354-90f6167ff2f7",
+            "GUEST_00546839-0480-4739-b491-8d62b2e369ac",
+            "GUEST_240cedc5-4f62-4d47-bc67-1a83726662f7",
+            "GUEST_7bd1764b-9cff-4f9d-a67f-cb39dfe93bc9",
+            "GUEST_cf9c046d-59f9-4a58-aeec-df7cb6844a3c",
+            "GUEST_b5455bd0-76a6-41b7-b7a0-106ad88e760e",
+            "GUEST_bf8648ef-63ea-4678-b74b-be4e3eff5254"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_45b359ab-33ae-4fa3-8270-20960029d826"
+            },
+            {
+              "image_url": "GUEST_b5455bd0-76a6-41b7-b7a0-106ad88e760e"
+            },
+            {
+              "image_url": "GUEST_3f69efab-39b3-40b9-a3e2-e304e91ab627"
+            },
+            {
+              "image_url": "GUEST_6739f285-49d3-4766-a92a-96624f7107c4"
+            },
+            {
+              "image_url": "GUEST_76f48942-7e86-43da-81c9-98ac0e85bd34"
+            },
+            {
+              "image_url": "GUEST_cf9c046d-59f9-4a58-aeec-df7cb6844a3c"
+            },
+            {
+              "image_url": "GUEST_240cedc5-4f62-4d47-bc67-1a83726662f7"
+            },
+            {
+              "image_url": "GUEST_7bd1764b-9cff-4f9d-a67f-cb39dfe93bc9"
+            },
+            {
+              "image_url": "GUEST_8a350b6c-52de-48af-aa23-cfc45bfa3b0b"
+            }
+          ]
+        }
+      ],
+      "bundle_components": {
+        "related_master_dpci": "231-00-0808",
+        "related_master_tcin": "81579229",
+        "product_relationship_type": "Bundle Component",
+        "product_relationship_type_code": "BNDLCMP"
+      },
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": false,
+      "average_rating": 4.79,
+      "total_reviews": 326,
+      "top_reviews": [
+        {
+          "user_nickname": "saintnicole",
+          "title": "Bought for Food Pantry",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "On sale and big box! Fast delivery!"
+        },
+        {
+          "user_nickname": "Anonymous",
+          "title": "Perfect Snack",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Froot Loops, with or without milk, is the perfect snack for me anytime of the day!"
+        },
+        {
+          "user_nickname": "salthehunter",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "great big box will last you a week"
+        }
+      ],
+      "total_review_count": 277,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.89,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.88,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.89,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 49,
+      "rating_distribution": [
+        {
+          "Count": 3,
+          "RatingValue": 1
+        },
+        {
+          "Count": 2,
+          "RatingValue": 2
+        },
+        {
+          "Count": 5,
+          "RatingValue": 3
+        },
+        {
+          "Count": 40,
+          "RatingValue": 4
+        },
+        {
+          "Count": 276,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Wheat",
+        "<B>May Contain:</B> Soy",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 19.4  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 19.4-ounce family size box of Kellogg's Froot Loops Breakfast Cereal",
+          "Sweetened, fruity, crispy loops made with whole grains and natural fruit flavors",
+          "Each serving provides 25 percent daily value of vitamin C and contains no high fructose corn syrup",
+          "Cereal or quick snack for kids with a delicious taste and fun, bright colors",
+          "Kellogg's family size cereal box conveniently holds about 14 servings of kids cereal"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "12920691",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "13361816": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "20.78",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.563",
+        "depth": "2.233",
+        "height": "11.25",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Original Frosted Mini-Wheats Breakfast Cereal - 18oz - Kellogg's",
+      "tcin": "13361816",
+      "type": "Stand Alone",
+      "dpci": "231-00-0437",
+      "upc": "038000199349",
+      "url": "/p/original-frosted-mini-wheats-breakfast-cereal-18oz-kellogg-s/-/A-13361816",
+      "description": "Greet the day with Kellogg's Original Frosted Mini-Wheats - a wholesome, low fat breakfast cereal that's built for big days. These bite-size biscuits pack a hearty crunch with crispy layers of wheat made from 100% whole grain that are frosted with irresistible sweetness in every bite. With 48 grams of whole grain per 60 gram serving, these tasty squares are not only delicious but are an excellent source of fiber. Each satisfying serving contains a good source of 7 vitamins and minerals to help fuel you for what's ahead. Kellogg's Frosted Mini-Wheats make a nutritious, anytime meal or snack. Enjoy wheat bites throughout the day - as a well-deserved snack at the office, an afternoon pick-me-up, a post-workout treat, or a late-night bowlful of sweet, crunchy cereal. Frosted Mini-Wheats also make a scrumptious addition to homemade trail mix. A travel-ready food, this cereal is perfect to pack for lunchboxes, after-school snacks, sporting events, and busy, on-the-go moments. Kellogg's Original Frosted Mini-Wheats are a great start to your morning breakfast routine and for the adventures that follow.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Frosted Mini-Wheats",
+      "product_brand": {
+        "facet_id": "7v4jj",
+        "brand": "Frosted Mini-Wheats"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_cf2cf36a-f170-4e7a-833b-515a5dce2e9f",
+          "alternate_urls": [
+            "GUEST_7574c547-fdea-44bc-9ad6-93107ae16377",
+            "GUEST_167c031d-a014-4d8e-9d31-3debe885a604",
+            "GUEST_5f9be533-967f-418b-b49a-04fc0ce17efb",
+            "GUEST_bb9de258-04c2-4e4d-b446-6048fbaa5fd4",
+            "GUEST_7e51ae63-1fc9-46f9-9170-916792de26cd",
+            "GUEST_dcadcf60-45cf-4a04-a7f9-a7d9b9cfbd0e",
+            "GUEST_9662c7bc-98a1-42d2-9958-dbffe1368e15",
+            "GUEST_1e463b2f-c6c1-4f5e-97e8-6d4bab3e2f8a"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_7574c547-fdea-44bc-9ad6-93107ae16377"
+            },
+            {
+              "image_url": "GUEST_7e51ae63-1fc9-46f9-9170-916792de26cd"
+            },
+            {
+              "image_url": "GUEST_dcadcf60-45cf-4a04-a7f9-a7d9b9cfbd0e"
+            },
+            {
+              "image_url": "GUEST_9662c7bc-98a1-42d2-9958-dbffe1368e15"
+            },
+            {
+              "image_url": "GUEST_1e463b2f-c6c1-4f5e-97e8-6d4bab3e2f8a"
+            },
+            {
+              "image_url": "GUEST_56d15cb5-6b93-4716-8802-945688611dc1"
+            },
+            {
+              "image_url": "GUEST_167c031d-a014-4d8e-9d31-3debe885a604"
+            },
+            {
+              "image_url": "GUEST_cf2cf36a-f170-4e7a-833b-515a5dce2e9f"
+            },
+            {
+              "image_url": "GUEST_8e6b7f71-4b8a-4d26-83bb-48e2dbe7c40c"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.79,
+      "total_reviews": 552,
+      "top_reviews": [
+        {
+          "user_nickname": "Kat D.",
+          "title": "Childhood to Adulthood favorite",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I have loved Frosted mini wheats for as long as I can remember. There is no other cereal on the market that can keep you feeling full longer than this cereal. I love to pour them in a bowl, pour on some milk, then I make some toast with butter before I sit down to eat. I love to let them soak up the milk and get soggy first."
+        },
+        {
+          "user_nickname": "Anonymous",
+          "title": "Best Breakfast Ever",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I eat this every morning with Blueberries, Yum-yum!!"
+        },
+        {
+          "user_nickname": "Anonymous",
+          "title": "Delicious and good for you!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Who would believe something so delicious could be so good for you! Crunchy and sweet. My breakfast every morning is a bowl of Kellogg's Frosted Mini Wheats with almond milk and then I'm not hungry until lunch!"
+        }
+      ],
+      "total_review_count": 541,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.29,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.5,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 11,
+      "rating_distribution": [
+        {
+          "Count": 11,
+          "RatingValue": 1
+        },
+        {
+          "Count": 5,
+          "RatingValue": 2
+        },
+        {
+          "Count": 11,
+          "RatingValue": 3
+        },
+        {
+          "Count": 34,
+          "RatingValue": 4
+        },
+        {
+          "Count": 491,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 18  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "Crunchy, bite-sized wheat biscuits with the irresistible taste of sweet frosting in every satisfying spoonful",
+          "Start your day off right with the fortifying goodness of wheat biscuits made with 100% whole grain and delicious frosting",
+          "With 48 grams of whole grain per 60 gram serving; Good source of 7 vitamins and minerals per serving; No artificial flavors or colors; No high fructose corn syrup; Contains wheat ingredients",
+          "A low fat, healthy cereal that's sure to please both kids and adults; Enjoy with or without your favorite milk; Makes a tasty snack at work, school, or as a late-night treat",
+          "Includes 1, 18-ounce box of delicious Frosted Mini-Wheats cereal; Convenient, ready-to-eat cereal packaged for freshness and great taste"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "835620",
+          "value_name": "Whole Grain",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_6472ad96e4614d43",
+          "wellness_description": "A product that carries an on-pack Whole Grain Council Stamp, or has at least 8g of whole grains per serving."
+        }
+      ],
+      "price": {
+        "tcin": "13361816",
+        "formatted_current_price": "$2.99",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 2.99
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "53580066": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "1.28",
+        "weight_unit_of_measure": "POUND",
+        "width": "7.69",
+        "depth": "2.41",
+        "height": "13.31",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Fruity Pebbles Breakfast Cereal - 20.5oz - Post",
+      "tcin": "53580066",
+      "type": "Stand Alone",
+      "dpci": "231-00-0651",
+      "upc": "884912289490",
+      "url": "/p/fruity-pebbles-breakfast-cereal-20-5oz-post/-/A-53580066",
+      "description": "Make your morning rock with Fruity PEBBLES. Fruity PEBBLES cereal is a sweetened crispy rice breakfast cereal with intense fruity flavor.  This sweet breakfast treat is the cereal kids love and adults can appreciate for its gluten free formula. It's both a breakfast cereal and a snack to be enjoyed by the handful. Fruity PEBBLES breakfast cereal's delicious taste has been a family favorite for over 40 years. Grab a spoon, dig in, and taste the fruity fun.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "PEBBLES",
+      "product_brand": {
+        "facet_id": "bdcnf",
+        "brand": "PEBBLES"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_0e8044d3-fd2d-4d1d-9850-dac37e5da068",
+          "alternate_urls": [
+            "GUEST_53f8456a-fe14-4138-9646-c1897bdc278b",
+            "GUEST_77d5ffc5-4942-47b2-b40d-38d2691369cf",
+            "GUEST_2d7b97ef-6641-433f-a39f-e3568b5eab82",
+            "GUEST_70863e97-b39d-4f10-be93-b10a460f1954",
+            "GUEST_15e9ab58-d3e4-4e5a-96a9-0d1da11dda0c",
+            "GUEST_7d3a04f6-1e76-4fef-8833-075cbb3c402f",
+            "GUEST_1b9c16c4-7511-494c-9f56-9cf32e5c15c1",
+            "GUEST_0f4f3e2f-b8dd-42e0-a444-1d975232735f",
+            "GUEST_8d159e90-44a9-4166-a1b1-63c54c737a4e",
+            "GUEST_39a2e80d-9c26-4040-9eef-88fb177fc137"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_53f8456a-fe14-4138-9646-c1897bdc278b"
+            },
+            {
+              "image_url": "GUEST_0e8044d3-fd2d-4d1d-9850-dac37e5da068"
+            },
+            {
+              "image_url": "GUEST_1b9c16c4-7511-494c-9f56-9cf32e5c15c1"
+            },
+            {
+              "image_url": "GUEST_15e9ab58-d3e4-4e5a-96a9-0d1da11dda0c"
+            },
+            {
+              "image_url": "GUEST_8d159e90-44a9-4166-a1b1-63c54c737a4e"
+            },
+            {
+              "image_url": "GUEST_39a2e80d-9c26-4040-9eef-88fb177fc137"
+            },
+            {
+              "image_url": "GUEST_2d7b97ef-6641-433f-a39f-e3568b5eab82"
+            },
+            {
+              "image_url": "GUEST_0f4f3e2f-b8dd-42e0-a444-1d975232735f"
+            },
+            {
+              "image_url": "GUEST_77d5ffc5-4942-47b2-b40d-38d2691369cf"
+            },
+            {
+              "image_url": "GUEST_7d3a04f6-1e76-4fef-8833-075cbb3c402f"
+            },
+            {
+              "image_url": "GUEST_70863e97-b39d-4f10-be93-b10a460f1954"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4,
+      "total_reviews": 66,
+      "top_reviews": [
+        {
+          "user_nickname": "Yehaw",
+          "title": "Works Well",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "It's cereal. Just pour it in a bowl, add an optional dash of milk, put it in your mouth and eat it. Can't go wrong with that recipe. Fruity and Chocolate Pebbles are especially good because the cereal grains are smaller. They soak up milk more quickly, which in turn makes them softer and less likely to stab your mouth with dryness. My favorite type of cereal."
+        }
+      ],
+      "total_review_count": 42,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 4.89,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.89,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 4.89,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 24,
+      "rating_distribution": [
+        {
+          "Count": 13,
+          "RatingValue": 1
+        },
+        {
+          "Count": 3,
+          "RatingValue": 2
+        },
+        {
+          "Count": 1,
+          "RatingValue": 3
+        },
+        {
+          "Count": 3,
+          "RatingValue": 4
+        },
+        {
+          "Count": 46,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 20.5 Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "A gluten-free breakfast cerealNatural and artificial fruit flavorsSweetened crispy rice cerealA great ingredient to use in sweet treat recipes!They're the perfect bite at breakfast, snack time or any time."
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "wellness_merchandise_attributes": [
+        {
+          "parent_id": "304049",
+          "parent_name": "wellness standard",
+          "value_id": "825392",
+          "value_name": "Gluten Free",
+          "badge_url": "https://target.scene7.com/is/image/Target/wellness_25c25b609d1c43b7",
+          "wellness_description": "A product that has an unqualified independent third-party certification, or carries an on-pack statement relating to the finished product being gluten-free."
+        }
+      ],
+      "price": {
+        "tcin": "53580066",
+        "formatted_current_price": "$3.79",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.79
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "12959808": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "21.899",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.77",
+        "depth": "3.104",
+        "height": "13.5",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Corn Flakes Breakfast Cereal - 18oz - Kellogg's",
+      "tcin": "12959808",
+      "type": "Stand Alone",
+      "dpci": "231-00-0126",
+      "upc": "038000001208",
+      "url": "/p/corn-flakes-breakfast-cereal-18oz-kellogg-s/-/A-12959808",
+      "description": "Greet your morning with Kellogg\u2019s Corn Flakes Cereal, a healthy and delicious breakfast cereal that\u2019s simple inside to help you start the day off right. Kellogg's Corn Flakes is a classic, family-favorite cereal that's perfect for both kids and adults and made to enjoy by the bowlful. Each serving contains a good source of 8 essential vitamins and minerals. This cereal is cholesterol free, fat free, and does not contain artificial colors or flavors (0g monounsaturated fat; 0g polyunsaturated fat). You can use these flakes to prepare numerous sweet and savory dishes; Kellogg's Corn Flakes can be incorporated into casseroles whole, crushed for a tasty breading on chicken, or added to a yogurt parfait for added crunch. Just add your favorite dairy or nut-milk or enjoy as a crispy treat straight from the box. Fill a baggie with Kellogg\u2019s Corn Flakes for lunchboxes, after-school snacks, and busy, on-the-go moments. Kellogg\u2019s Corn Flakes, the Original and Best.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Corn Flakes",
+      "product_brand": {
+        "facet_id": "54uig",
+        "brand": "Corn Flakes"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_61638d6a-b11c-4f1c-ab3f-9d9cff905ac3",
+          "alternate_urls": [
+            "GUEST_53078b1e-69f6-4121-b87c-0fab970b431f",
+            "GUEST_774af2cf-f3ef-4b7e-a8d8-b3bbbc2391da",
+            "GUEST_4ab99988-00f3-4129-924e-fef1b3c951e3",
+            "GUEST_a23fc2c7-eba9-421d-9565-ba002d58e3c0",
+            "GUEST_72c91a3f-b7bb-421a-9889-2b0e4217ddf8",
+            "GUEST_0742918f-e2c2-4589-8016-4ba44f9a5bd5",
+            "GUEST_10305900-ea78-411d-98e1-8e372a7278bd"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_53078b1e-69f6-4121-b87c-0fab970b431f"
+            },
+            {
+              "image_url": "GUEST_72c91a3f-b7bb-421a-9889-2b0e4217ddf8"
+            },
+            {
+              "image_url": "GUEST_0742918f-e2c2-4589-8016-4ba44f9a5bd5"
+            },
+            {
+              "image_url": "GUEST_a23fc2c7-eba9-421d-9565-ba002d58e3c0"
+            },
+            {
+              "image_url": "GUEST_10305900-ea78-411d-98e1-8e372a7278bd"
+            },
+            {
+              "image_url": "GUEST_774af2cf-f3ef-4b7e-a8d8-b3bbbc2391da"
+            },
+            {
+              "image_url": "GUEST_61638d6a-b11c-4f1c-ab3f-9d9cff905ac3"
+            },
+            {
+              "image_url": "GUEST_4ab99988-00f3-4129-924e-fef1b3c951e3"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.87,
+      "total_reviews": 47,
+      "top_reviews": [
+        {
+          "user_nickname": "Mileena",
+          "title": "My favorite cereal, great snack as well",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I honestly love this cereal because of the fact it\u2019s so plain and it\u2019s perfect for when I crave carbs. Does have a slight flavor but it\u2019s so delicious. I can eat so much of this cereal!"
+        },
+        {
+          "user_nickname": "LHJ",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "A healthy option for a quick and easy breakfast with no very little sugar content"
+        },
+        {
+          "user_nickname": "ShopStar",
+          "title": "Still my number 1 Cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "I love Kellogg's Corn Flakes because you can monitor the sugar and you can add any kind of fruit."
+        }
+      ],
+      "total_review_count": 8,
+      "secondary_ratings_averages_order": [
+        "Taste",
+        "Value",
+        "Quality"
+      ],
+      "secondary_ratings_averages": {
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.88,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 39,
+      "rating_distribution": [
+        {
+          "Count": 1,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 1,
+          "RatingValue": 3
+        },
+        {
+          "Count": 0,
+          "RatingValue": 4
+        },
+        {
+          "Count": 45,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Does Not Contain Any of the 8 Major Allergens",
+        "<B>May Contain:</B> Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 18  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "Kellogg\u2019s Corn Flakes are a crispy, golden way to start your day; Made with a simple recipe, every bite is as delicious as the first",
+          "A classic, family-favorite cereal that's perfect for both kids and adults; Enjoy by the bowlful, with yogurt and fruit, or as the base for your favorite desserts and savory dishes",
+          "Good source of 8 vitamins and minerals; Cholesterol and fat free (0g monounsaturated fat; 0g polyunsaturated fat); Kosher Pareve",
+          "Made with no artificial colors or flavors; A travel-ready food; Pack some cereal in your lunch box for a crispy treat, or stow some in your tote bag, car, and desk for anytime snacking",
+          "Includes 1, 18-ounce box of ready-to-eat Corn Flakes Cereal; Packaged for freshness and great taste"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "12959808",
+        "formatted_current_price": "$3.49",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.49
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
+  },
+  "12935293": {
+    "product": {
+      "subscribable": false,
+      "package_dimensions": {
+        "weight": "18.781",
+        "weight_unit_of_measure": "OUNCE",
+        "width": "7.44",
+        "depth": "1.77",
+        "height": "9.84",
+        "dimension_unit_of_measure": "INCH"
+      },
+      "title": "Cracklin&#39; Oat Bran Breakfast Cereal - 16.5oz - Kellogg&#39;s",
+      "tcin": "12935293",
+      "type": "Stand Alone",
+      "dpci": "231-00-0125",
+      "upc": "038000198786",
+      "url": "/p/cracklin-39-oat-bran-breakfast-cereal-16-5oz-kellogg-39-s/-/A-12935293",
+      "description": "Kellogg's Cracklin Oat Bran is a crunchy, sweet, oven baked oat cereal. Each delicious bite blends the flavors of golden oats, sugar, coconut flakes, a splash of vanilla flavoring and a dusting of ground cinnamon and nutmeg, making this oat cereal a great breakfast food and a tasty snack straight out of the box. Each box holds about eight servings, so it\u2019s a great addition to your rotation of cereals. With whole grain oats as the first ingredient, this cinnamon cereal is a high fiber choice to get your morning started right. Rekindle the joy of delicious cereal with Kellogg's Cracklin Oat Bran.",
+      "merch_sub_class": "0",
+      "merch_class": "BREAKFAST/WARM BEVERAGES",
+      "merch_class_id": "231",
+      "brand": "Cracklin' Oat Bran",
+      "product_brand": {
+        "facet_id": "a5dtj",
+        "brand": "Cracklin' Oat Bran"
+      },
+      "is_cart_add_on": true,
+      "images": [
+        {
+          "base_url": "https://target.scene7.com/is/image/Target/",
+          "primary": "GUEST_cb9a19fd-789e-4758-a286-2183ef2fd984",
+          "alternate_urls": [
+            "GUEST_d0af36b2-9896-4b20-bdd8-a983f65a5687",
+            "GUEST_50557a9e-8ee5-475d-aadf-756d0c342b6c",
+            "GUEST_1c0cdabb-751c-49f5-9ce8-8aaeaad2705e",
+            "GUEST_af69d3bf-af98-4c1f-973c-599e23859a0e",
+            "GUEST_883c346d-db67-4af5-871f-1494f2d9dfde",
+            "GUEST_c7c21e22-bcc1-47f2-b8a3-5a8f609066b5",
+            "GUEST_f69bd29f-e921-492a-948a-c87cb6fe6d66",
+            "GUEST_a9321287-6e11-4301-b8d8-3738b8cf657f"
+          ],
+          "content_labels": [
+            {
+              "image_url": "GUEST_c7c21e22-bcc1-47f2-b8a3-5a8f609066b5"
+            },
+            {
+              "image_url": "GUEST_f69bd29f-e921-492a-948a-c87cb6fe6d66"
+            },
+            {
+              "image_url": "GUEST_d0af36b2-9896-4b20-bdd8-a983f65a5687"
+            },
+            {
+              "image_url": "GUEST_a9321287-6e11-4301-b8d8-3738b8cf657f"
+            },
+            {
+              "image_url": "GUEST_cb9a19fd-789e-4758-a286-2183ef2fd984"
+            },
+            {
+              "image_url": "GUEST_883c346d-db67-4af5-871f-1494f2d9dfde"
+            },
+            {
+              "image_url": "GUEST_1c0cdabb-751c-49f5-9ce8-8aaeaad2705e"
+            },
+            {
+              "image_url": "GUEST_50557a9e-8ee5-475d-aadf-756d0c342b6c"
+            },
+            {
+              "image_url": "GUEST_af69d3bf-af98-4c1f-973c-599e23859a0e"
+            }
+          ]
+        }
+      ],
+      "street_date": "1970-01-01T00:00:00.000Z",
+      "release_date": "1970-01-01T00:00:00.000Z",
+      "availability_status": "IN_STOCK",
+      "pick_up_in_store": false,
+      "ship_to_store": false,
+      "ship_from_store": true,
+      "rush_delivery": false,
+      "is_out_of_stock_in_all_store_locations": false,
+      "is_out_of_stock_in_all_online_locations": true,
+      "average_rating": 4.73,
+      "total_reviews": 109,
+      "top_reviews": [
+        {
+          "user_nickname": "Dondegirl",
+          "title": "Best cereal with or without milk!",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Great cereal! best with or without milk."
+        },
+        {
+          "user_nickname": "BrooklynGrl",
+          "title": "Yummy fiber cereal",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Great as a snack, crumbled on yogurt or like an ordinary cereal...but the taste is not ordinary. The mix of oats, sweetness, hint of coconut...its like a mini crunchy oatmeal cookie bite YUM. I bought it because I wanted my daughter to get that bit of extra fiber and it has really helped her."
+        },
+        {
+          "user_nickname": "Vynal",
+          "title": "Dog food",
+          "rating": 5,
+          "rating_range": 5,
+          "review_text": "Now that\u2019s some good ish. What\u2019s not to like? Sugary? Check. Cinnamony? Check. In the shape of food made for dogs? Check. Just pour it in a bowl, put some milk on it, and lap that stuff up like it\u2019s your wedding night."
+        }
+      ],
+      "total_review_count": 83,
+      "secondary_ratings_averages_order": [
+        "Quality",
+        "Taste",
+        "Value"
+      ],
+      "secondary_ratings_averages": {
+        "Quality": {
+          "Id": "Quality",
+          "AverageRating": 5,
+          "Label": "quality",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Taste": {
+          "Id": "Taste",
+          "AverageRating": 5,
+          "Label": "taste",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        },
+        "Value": {
+          "Id": "Value",
+          "AverageRating": 4.42,
+          "Label": "value",
+          "ValueRange": 5,
+          "DisplayType": "NORMAL"
+        }
+      },
+      "ratings_only_review_count": 26,
+      "rating_distribution": [
+        {
+          "Count": 3,
+          "RatingValue": 1
+        },
+        {
+          "Count": 0,
+          "RatingValue": 2
+        },
+        {
+          "Count": 5,
+          "RatingValue": 3
+        },
+        {
+          "Count": 7,
+          "RatingValue": 4
+        },
+        {
+          "Count": 94,
+          "RatingValue": 5
+        }
+      ],
+      "overall_rating_range": 5,
+      "bullet_description": [
+        "<B>Contains:</B> Coconut, Soy, Wheat",
+        "<B>State of Readiness:</B> Ready to Eat",
+        "<B>Package Quantity:</B> 1",
+        "<B>Package type:</B> Individual Item Multi-Serving",
+        "<B>Net weight:</B> 16.5  Ounces"
+      ],
+      "soft_bullets": {
+        "title": "highlights",
+        "bullets": [
+          "One 16.5-ounce box of Kellogg's Cracklin Oat Bran Cereal",
+          "Crunchy, sweet, oven baked oat cereal with flavors of coconut, vanilla, cinnamon and nutmeg",
+          "Contains whole grain oats as first ingredient, making this breakfast cereal a high fiber choice",
+          "Delicious breakfast food for anyone who enjoys cinnamon cereal",
+          "Box of crunchy cereal is the ideal size for storing in pantries and cabinets"
+        ]
+      },
+      "eligibility_rules": {
+        "add_on": {
+          "is_active": true
+        },
+        "inventory_notification_to_guest_excluded": {
+          "is_active": true
+        },
+        "hold": {
+          "is_active": true
+        },
+        "ship_to_guest": {
+          "is_active": true
+        },
+        "scheduled_delivery": {
+          "is_active": true
+        }
+      },
+      "loyalty_availability_status": "IN_STOCK",
+      "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+      "price": {
+        "tcin": "12935293",
+        "formatted_current_price": "$3.89",
+        "formatted_current_price_type": "reg",
+        "is_current_price_range": false,
+        "current_retail": 3.89
+      },
+      "packaging": {
+        "is_retail_ticketed": false
+      }
+    }
   }
 }
