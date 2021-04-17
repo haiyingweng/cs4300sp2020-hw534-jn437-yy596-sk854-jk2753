@@ -7,6 +7,10 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import TreebankWordTokenizer
 import re
 
+import os.path
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 manufacturers = {
     "G": "General Mills",
     "K": "Kellogg's",
@@ -15,16 +19,16 @@ manufacturers = {
     "N": "Nature's Path",
 }
 
-with open("./reviews.json", "r") as f:
+with open(os.path.join(BASE_DIR, "static/reviews.json"), "r") as f:
     all_reviews = json.load(f)
 
-with open("./tcin_cereal.json", "r") as t:
+with open(os.path.join(BASE_DIR, "static/tcin_cereal.json"), "r") as t:
     tcin_to_cereal = json.load(t)
 
-with open("./descriptions.json", "r") as d:
+with open(os.path.join(BASE_DIR, "static/descriptions.json"), "r") as d:
     cereal_descriptions = json.load(d)
 
-with open("./cereal.csv", mode="r") as csv_file:
+with open(os.path.join(BASE_DIR, "static/cereal.csv"), mode="r") as csv_file:
     csv_reader = csv.DictReader(csv_file)
     cereal_nutritions = {}
     for row in csv_reader:
@@ -154,7 +158,7 @@ def get_cereal_details(ranked):
     return dets
 
 
-query = "marshmallows"
-ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
-ranked_cereal_details = get_cereal_details(ranked_cereals)
-print(ranked_cereal_details)
+#query = "marshmallows"
+#ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
+#ranked_cereal_details = get_cereal_details(ranked_cereals)
+#print(ranked_cereal_details)
