@@ -7,7 +7,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import TreebankWordTokenizer
 import re
 
-manufactors = {
+manufacturers = {
     "G": "General Mills",
     "K": "Kellogg's",
     "P": "Post",
