@@ -44,7 +44,8 @@
             <h1>{{output_message}}</h1>
             {% for d in data %}
             <br>
-            <p>{{d['name']}}</p>
+            <p>{{"cereal: ", d['name'], "calories: ", d['calories'], "protein: ",
+                d['protein'], "sodium: ", d['sodium'], "score: ", d['score']}}</p>
             {% endfor %}
             {% endif %}
         </form>
