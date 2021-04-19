@@ -11,9 +11,8 @@ net_id = "Joie Ng: jn437, Ying Yang: yy596, Haiying Weng: hw534, Jason Jungwoo K
 def search():
     query = request.args.get("search")
     if not query:
+        query = ""
         data = []
-		query=""
-        print(data)
     else:
         output_message = "Your search: " + query
         ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)

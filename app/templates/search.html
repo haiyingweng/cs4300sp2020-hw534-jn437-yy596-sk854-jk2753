@@ -41,7 +41,9 @@
             <button type="submit" class="btn btn-info"> Go! </button>
         </form>
         <div class="search-result">
+            {% if query %}
             <h3 class="output-message">Your keyword(s): {{query}}</h3>
+            {% endif %}
             <br>
             {% if data %}
             {% for d in data %}
