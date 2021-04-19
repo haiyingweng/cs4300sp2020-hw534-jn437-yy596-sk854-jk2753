@@ -19,7 +19,7 @@
         </ul>
     </div>
 
-    <div id=searchset>
+    <div id="searchset">
         <form class="form-inline global-search">
             <!-- <h1 style="font-size: 55px; font-family:Futura; color: rgb(97, 78, 48)">
             CEREAL
@@ -35,29 +35,48 @@
             <br><br>
 
             <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
+                <input id="input" type="text" name="search" class="form-control"
+                    placeholder="Keywords (e.g. marshmallows, chocolate, strawberry)">
             </div>
             <button type="submit" class="btn btn-info"> Go! </button>
         </form>
-        <form class="form-inline global-search">
-            {% if data %}
-            <h1>{{output_message}}</h1>
-            {% for d in data %}
+        <div class="search-result">
+            <h3 class="output-message">Your keyword(s): {{query}}</h3>
             <br>
-            <p>{{"cereal: ", d['name'], "calories: ", d['calories'], "protein: ",
-                d['protein'], "sodium: ", d['sodium'], "score: ", d['score']}}</p>
+            {% if data %}
+            {% for d in data %}
+            <div class="cereal">
+                <div class="cereal-img">
+                    <img src="{{d['img_url']}}" alt="{{d['name']}}" height=200 width=200>
+                </div>
+                <div class="cereal-info">
+                    <h3>{{d['name']}}</h3>
+                    <p><strong>Made by:</strong> {{d['manufacturer']}}</p>
+                    <p><strong>Rating:</strong> {{d['rating']}}</p>
+                    <p>{{d['description']}}</p>
+                    <h4>Nutrition Facts</h4>
+                    <div class="nutrition-facts">
+                        <p><strong>Calories:</strong> {{d['calories']}}</p>
+                        <p><strong>Protein:</strong> {{d['protein']}}</p>
+                        <p><strong>Fat:</strong> {{d['fat']}}</p>
+                        <p><strong>Sodium:</strong> {{d['sodium']}}</p>
+                        <p><strong>Sugar:</strong> {{d['sugars']}}</p>
+                        <p><strong>Carbohydrate:</strong> {{d['carbo']}}</p>
+                        <p><strong>Fiber:</strong> {{d['fiber']}}</p>
+                        <p><strong>Potassium:</strong> {{d['potass']}}</p>
+                    </div>
+                </div>
+
+            </div>
             {% endfor %}
+            {% else %}
+            {% if query %}
+            <p class="no-result-label">No result found</p>
             {% endif %}
-        </form>
+            {% endif %}
+        </div>
 
     </div>
 </body>
-
-
-
-
-
-
-
 
 </html>

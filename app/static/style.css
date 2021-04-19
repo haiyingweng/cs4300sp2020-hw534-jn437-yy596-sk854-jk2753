@@ -2,14 +2,14 @@ body {
   background-color: white;
 }
 
-#lefttopcorner{
-  background-color:white;
+#lefttopcorner {
+  background-color: white;
   display: inline-block;
   position: fixed;
   right: 0%;
 }
 
-#lefttopcorner ul{
+#lefttopcorner ul {
   list-style-type: none;
   margin: 0;
 }
@@ -19,9 +19,9 @@ body {
   margin: 0%;
 }
 
-#lefttopcorner a{
+#lefttopcorner a {
   float: left;
-  color:  rgb(97, 78, 48);
+  color: rgb(97, 78, 48);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,12 +29,12 @@ body {
   font-weight: bold;
 }
 
-#lefttopcorner a:hover{
+#lefttopcorner a:hover {
   background-color: #ddd;
   color: black;
 }
 
-#lefttopcorner a.active{
+#lefttopcorner a.active {
   background-color: #4CAF50;
   color: white;
 }
@@ -45,13 +45,42 @@ body {
 }
 
 img.mlogo:hover,
-img.mlogo:focus{
-  width:572px;
-  height:140px;
+img.mlogo:focus {
+  width: 572px;
+  height: 140px;
   transition-duration: 1s;
 }
 
-.logoleftop{
+.logoleftop {
   margin-left: 30px;
   margin-top: -10px;
+}
+
+.output-message {
+  text-align: center;
+}
+
+.search-result {
+  margin: auto;
+  width: 70%;
+}
+
+.cereal {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nutrition-facts {
+  display: flex;
+  flex-direction: row;
+}
+
+.nutrition-facts p {
+  padding: 10px;
+}
+
+.no-result-label {
+  text-align: center;
 }

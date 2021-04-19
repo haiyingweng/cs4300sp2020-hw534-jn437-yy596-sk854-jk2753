@@ -150,7 +150,7 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms):
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
     cereal_scores = {tcin: 0 for tcin in tcins}
     for tok in set(query_tokens):
-        if tok in inverted_index:
+        if tok in idf.keys():
             for tcin, tf in inverted_index[tok]:
                 cereal_scores[tcin] += tf * idf[tok]
     # normalize
@@ -174,7 +174,7 @@ def get_cereal_details(ranked):
     return dets
 
 
-#query = "marshmallows"
-#ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
-#ranked_cereal_details = get_cereal_details(ranked_cereals)
-#print(ranked_cereal_details)
+# query = "marshmallows"
+# ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
+# ranked_cereal_details = get_cereal_details(ranked_cereals)
+# print(ranked_cereal_details)
