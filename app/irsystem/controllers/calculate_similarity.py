@@ -40,9 +40,9 @@ num_cereals = len(tcins)
 stemmer = PorterStemmer()
 
 
-def getstems(input):
+def get_stems(input):
     # Returns list of stems, [input] is of type list
-    return [stemmer.stem(w.lower()) for word in input]
+    return [stemmer.stem(word.lower()) for word in input]
 
 
 def process_cereal_details():
@@ -83,6 +83,7 @@ def tokenize_reviews(tokenizer, cereal_reviews):
             review_text = review["ReviewText"]
             tokens = tokenizer.tokenize(review_text.lower())
             res[tcin] += tokens
+        res[tcin] = get_stems(res[tcin])
     return res
 
 
@@ -148,6 +149,7 @@ norms = get_doc_norms(inverted_index, idf, num_cereals)
 def rank_by_similarity(query, inverted_index, idf, doc_norms):
     # Returns list of tuples (cereal name, score)
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
+    query_tokens = get_stems(query_tokens)
     cereal_scores = {tcin: 0 for tcin in tcins}
     for tok in set(query_tokens):
         if tok in idf.keys():
