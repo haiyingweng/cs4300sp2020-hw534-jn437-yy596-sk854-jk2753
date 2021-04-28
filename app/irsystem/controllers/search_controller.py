@@ -10,6 +10,7 @@ net_id = "Joie Ng: jn437, Ying Yang: yy596, Haiying Weng: hw534, Jason Jungwoo K
 @irsystem.route("/", methods=["GET"])
 def search():
     query = request.args.get("search")
+		filters = request.args.get("filter")
     if not query:
         query = ""
         data = []

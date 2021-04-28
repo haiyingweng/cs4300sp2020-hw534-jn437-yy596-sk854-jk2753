@@ -145,6 +145,14 @@ inverted_index = get_inverted_index(tokenized_reviews)
 idf = get_idf(inverted_index, num_cereals)
 norms = get_doc_norms(inverted_index, idf, num_cereals)
 
+def filter(filters, tcin):
+  for k,v in filters:
+    if not v: return False
+    if cereal_info[tcin][k] in v:
+        pass
+    else: return False
+  return True
+
 
 def rank_by_similarity(query, inverted_index, idf, doc_norms):
     # Returns list of tuples (cereal name, score)
