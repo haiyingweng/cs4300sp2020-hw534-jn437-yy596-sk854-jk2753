@@ -17,7 +17,7 @@
     </div>
 
     <div id="searchset">
-        <form class="form-inline global-search">
+        <form class="form-inline global-search" method="POST">
             <div id="mainpagelogo">
                 <a href="/">
                     <img class="mlogo" src="/static/logo1.png" alt="Logo" width=532 height=132>
@@ -29,159 +29,93 @@
             <div class="form-group">
                 <input id="input" type="text" name="search" class="form-control"
                     placeholder="Keywords (e.g. marshmallows, chocolate, strawberry)">
-                    <div id="filter">
-                        <div class="filtercat">
-                            <h4>Nutrients</h4>
-                            <ul>
-                                <li>Calories
-                                    <ul>
-                                        <input type="checkbox" name="calcheckbox" id="callow" value="callow" checked><label class="category-label" for="callow">Low</label>
-                                        <input type="checkbox" name="calcheckbox" id="calmed" value="calmed" checked><label class="category-label" for="calmed">Medium</label>
-                                        <input type="checkbox" name="calcheckbox" id="calhigh" value="calhigh" checked><label class="category-label" for="calhigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Protein
-                                    <ul>
-                                        <input type="checkbox" name="procheckbox" id="prolow" value="prolow" checked><label class="category-label" for="prolow">Low</label>
-                                        <input type="checkbox" name="procheckbox" id="promed" value="promed" checked><label class="category-label" for="promed">Medium</label>
-                                        <input type="checkbox" name="procheckbox" id="prohigh" value="prohigh" checked><label class="category-label" for="prohigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Fat
-                                    <ul>
-                                        <input type="checkbox" name="fatcheckbox" id="fatlow" value="fatlow" checked><label class="category-label" for="fatlow">Low</label>
-                                        <input type="checkbox" name="fatcheckbox" id="fatmed" value="fatmed" checked><label class="category-label" for="fatmed">Medium</label>
-                                        <input type="checkbox" name="fatcheckbox" id="fathigh" value="fathigh" checked><label class="category-label" for="fathigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Sodium
-                                    <ul>
-                                        <input type="checkbox" name="sodcheckbox" id="sodlow" value="sodlow" checked><label class="category-label" for="sodlow">Low</label>
-                                        <input type="checkbox" name="sodcheckbox" id="sodmed" value="sodmed" checked><label class="category-label" for="sodmed">Medium</label>
-                                        <input type="checkbox" name="sodcheckbox" id="sodhigh" value="sodhigh" checked><label class="category-label" for="sodhigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Fiber
-                                    <ul>
-                                        <input type="checkbox" name="fibcheckbox" id="fiblow" value="fiblow" checked><label class="category-label" for="fiblow">Low</label>
-                                        <input type="checkbox" name="fibcheckbox" id="fibmed" value="fibmed" checked><label class="category-label" for="fibmed">Medium</label>
-                                        <input type="checkbox" name="fibcheckbox" id="fibhigh" value="fibhigh" checked><label class="category-label" for="fibhigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Carbohydrate
-                                    <ul>
-                                        <input type="checkbox" name="carbcheckbox" id="carblow" value="carblow" checked><label class="category-label" for="carblow">Low</label>
-                                        <input type="checkbox" name="carbcheckbox" id="carbmed" value="carbmed" checked><label class="category-label" for="carbmed">Medium</label>
-                                        <input type="checkbox" name="carbcheckbox" id="carbhigh" value="carbhigh" checked><label class="category-label" for="carbhigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Sugar
-                                    <ul>
-                                        <input type="checkbox" name="sugcheckbox" id="suglow" value="suglow" checked><label class="category-label" for="suglow">Low</label>
-                                        <input type="checkbox" name="sugcheckbox" id="sugmed" value="sugmed" checked><label class="category-label" for="sugmed">Medium</label>
-                                        <input type="checkbox" name="sugcheckbox" id="sughigh" value="sughigh" checked><label class="category-label" for="sughigh">High</label>
-                                    </ul>
-                                </li>
-                                <li>Potassium
-                                    <ul>
-                                        <input type="checkbox" name="potcheckbox" id="potlow" value="potlow" checked><label class="category-label" for="potlow">Low</label>
-                                        <input type="checkbox" name="potcheckbox" id="potmed" value="potmed" checked><label class="category-label" for="potmed">Medium</label>
-                                        <input type="checkbox" name="potcheckbox" id="pothigh" value="pothigh" checked><label class="category-label" for="pothigh">High</label>
-                                    </ul>
-                                </li>
+            </div>
+                <div id="filter">
+                    <div class="filtercat">
+                        <h4>Nutrients</h4>
+                        <ul>
+                            <li>Calories
+                                <ul>
+                                    <input type="checkbox" name="calcheckbox1" id="callow" value="callow" checked><label class="category-label" for="callow">Low</label>
+                                    <input type="checkbox" name="calcheckbox2" id="calmed" value="calmed" checked><label class="category-label" for="calmed">Medium</label>
+                                    <input type="checkbox" name="calcheckbox3" id="calhigh" value="calhigh" checked><label class="category-label" for="calhigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Protein
+                                <ul>
+                                    <input type="checkbox" name="procheckbox1" id="prolow" value="prolow" checked><label class="category-label" for="prolow">Low</label>
+                                    <input type="checkbox" name="procheckbox2" id="promed" value="promed" checked><label class="category-label" for="promed">Medium</label>
+                                    <input type="checkbox" name="procheckbox3" id="prohigh" value="prohigh" checked><label class="category-label" for="prohigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Fat
+                                <ul>
+                                    <input type="checkbox" name="fatcheckbox1" id="fatlow" value="fatlow" checked><label class="category-label" for="fatlow">Low</label>
+                                    <input type="checkbox" name="fatcheckbox2" id="fatmed" value="fatmed" checked><label class="category-label" for="fatmed">Medium</label>
+                                    <input type="checkbox" name="fatcheckbox3" id="fathigh" value="fathigh" checked><label class="category-label" for="fathigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Sodium
+                                <ul>
+                                    <input type="checkbox" name="sodcheckbox1" id="sodlow" value="sodlow" checked><label class="category-label" for="sodlow">Low</label>
+                                    <input type="checkbox" name="sodcheckbox2" id="sodmed" value="sodmed" checked><label class="category-label" for="sodmed">Medium</label>
+                                    <input type="checkbox" name="sodcheckbox3" id="sodhigh" value="sodhigh" checked><label class="category-label" for="sodhigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Fiber
+                                <ul>
+                                    <input type="checkbox" name="fibcheckbox1" id="fiblow" value="fiblow" checked><label class="category-label" for="fiblow">Low</label>
+                                    <input type="checkbox" name="fibcheckbox2" id="fibmed" value="fibmed" checked><label class="category-label" for="fibmed">Medium</label>
+                                    <input type="checkbox" name="fibcheckbox3" id="fibhigh" value="fibhigh" checked><label class="category-label" for="fibhigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Carbohydrate
+                                <ul>
+                                    <input type="checkbox" name="carbcheckbox1" id="carblow" value="carblow" checked><label class="category-label" for="carblow">Low</label>
+                                    <input type="checkbox" name="carbcheckbox2" id="carbmed" value="carbmed" checked><label class="category-label" for="carbmed">Medium</label>
+                                    <input type="checkbox" name="carbcheckbox3" id="carbhigh" value="carbhigh" checked><label class="category-label" for="carbhigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Sugar
+                                <ul>
+                                    <input type="checkbox" name="sugcheckbox1" id="suglow" value="suglow" checked><label class="category-label" for="suglow">Low</label>
+                                    <input type="checkbox" name="sugcheckbox2" id="sugmed" value="sugmed" checked><label class="category-label" for="sugmed">Medium</label>
+                                    <input type="checkbox" name="sugcheckbox3" id="sughigh" value="sughigh" checked><label class="category-label" for="sughigh">High</label>
+                                </ul>
+                            </li>
+                            <li>Potassium
+                                <ul>
+                                    <input type="checkbox" name="potcheckbox1" id="potlow" value="potlow" checked><label class="category-label" for="potlow">Low</label>
+                                    <input type="checkbox" name="potcheckbox2" id="potmed" value="potmed" checked><label class="category-label" for="potmed">Medium</label>
+                                    <input type="checkbox" name="potcheckbox3" id="pothigh" value="pothigh" checked><label class="category-label" for="pothigh">High</label>
+                                </ul>
+                            </li>
                                 
-                            </ul>
-                            <h4>Dietary</h4>
-                            <input type="checkbox" name="vegcheckbox" id="Vegan" value="Vegan" ><label class="category-label" for="Vegan" >Vegan</label>
-                            <input type="checkbox" name="PFcheckbox" id="PF" value="PF" ><label class="category-label" for="PF" >Peanut Free</label>
-                            <input type="checkbox" name="GFcheckbox" id="GF" value="GF" ><label class="category-label" for="GF" >Gluten Free</label>
-                        </div>
+                        </ul>
+                        <h4>Dietary</h4>
+                        <input type="checkbox" name="vegcheckbox" id="Vegan" value="Vegan" ><label class="category-label" for="Vegan" >Vegan</label>
+                        <input type="checkbox" name="PFcheckbox" id="PF" value="PF" ><label class="category-label" for="PF" >Peanut Free</label>
+                        <input type="checkbox" name="GFcheckbox" id="GF" value="GF" ><label class="category-label" for="GF" >Gluten Free</label>
                     </div>
+                </div>
             <script>
             function showhideform(){
                 var x = document.getElementById('filter');
                 if (x.style.display === "none") {
-                    x.style.display = "block";
+                    x.style.display = "inline-block";
                 } else{
                     x.style.display = "none";
                 }
             }
               </script>
-            <button type="button" id="filterbutton" onclick="showhideform();">Filter</button>
+            <button type="button" id="filterbutton" onclick="showhideform();">
+            </button>
                 
-            </div>
+            
             
             <button type="submit" class="btn btn-info"> Go! </button>
 
         </form>
-            <!-- <div class="filter">
-                <div class="filtercat">
-                    <h4>Nutrients</h4>
-                    <ul>
-                        <li>Calories
-                            <ul>
-                                <input type="checkbox" name="calcheckbox" id="callow" value="callow" checked><label class="category-label" for="callow">Low</label>
-                                <input type="checkbox" name="calcheckbox" id="calmed" value="calmed" checked><label class="category-label" for="calmed">Medium</label>
-                                <input type="checkbox" name="calcheckbox" id="calhigh" value="calhigh" checked><label class="category-label" for="calhigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Protein
-                            <ul>
-                                <input type="checkbox" name="procheckbox" id="prolow" value="prolow" checked><label class="category-label" for="prolow">Low</label>
-                                <input type="checkbox" name="procheckbox" id="promed" value="promed" checked><label class="category-label" for="promed">Medium</label>
-                                <input type="checkbox" name="procheckbox" id="prohigh" value="prohigh" checked><label class="category-label" for="prohigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Fat
-                            <ul>
-                                <input type="checkbox" name="fatcheckbox" id="fatlow" value="fatlow" checked><label class="category-label" for="fatlow">Low</label>
-                                <input type="checkbox" name="fatcheckbox" id="fatmed" value="fatmed" checked><label class="category-label" for="fatmed">Medium</label>
-                                <input type="checkbox" name="fatcheckbox" id="fathigh" value="fathigh" checked><label class="category-label" for="fathigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Sodium
-                            <ul>
-                                <input type="checkbox" name="sodcheckbox" id="sodlow" value="sodlow" checked><label class="category-label" for="sodlow">Low</label>
-                                <input type="checkbox" name="sodcheckbox" id="sodmed" value="sodmed" checked><label class="category-label" for="sodmed">Medium</label>
-                                <input type="checkbox" name="sodcheckbox" id="sodhigh" value="sodhigh" checked><label class="category-label" for="sodhigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Fiber
-                            <ul>
-                                <input type="checkbox" name="fibcheckbox" id="fiblow" value="fiblow" checked><label class="category-label" for="fiblow">Low</label>
-                                <input type="checkbox" name="fibcheckbox" id="fibmed" value="fibmed" checked><label class="category-label" for="fibmed">Medium</label>
-                                <input type="checkbox" name="fibcheckbox" id="fibhigh" value="fibhigh" checked><label class="category-label" for="fibhigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Carbohydrate
-                            <ul>
-                                <input type="checkbox" name="carbcheckbox" id="carblow" value="carblow" checked><label class="category-label" for="carblow">Low</label>
-                                <input type="checkbox" name="carbcheckbox" id="carbmed" value="carbmed" checked><label class="category-label" for="carbmed">Medium</label>
-                                <input type="checkbox" name="carbcheckbox" id="carbhigh" value="carbhigh" checked><label class="category-label" for="carbhigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Sugar
-                            <ul>
-                                <input type="checkbox" name="sugcheckbox" id="suglow" value="suglow" checked><label class="category-label" for="suglow">Low</label>
-                                <input type="checkbox" name="sugcheckbox" id="sugmed" value="sugmed" checked><label class="category-label" for="sugmed">Medium</label>
-                                <input type="checkbox" name="sugcheckbox" id="sughigh" value="sughigh" checked><label class="category-label" for="sughigh">High</label>
-                            </ul>
-                        </li>
-                        <li>Potassium
-                            <ul>
-                                <input type="checkbox" name="potcheckbox" id="potlow" value="potlow" checked><label class="category-label" for="potlow">Low</label>
-                                <input type="checkbox" name="potcheckbox" id="potmed" value="potmed" checked><label class="category-label" for="potmed">Medium</label>
-                                <input type="checkbox" name="potcheckbox" id="pothigh" value="pothigh" checked><label class="category-label" for="pothigh">High</label>
-                            </ul>
-                        </li>
-                        
-                    </ul>
-                    <h4>Dietary</h4>
-                    <input type="checkbox" name="vegcheckbox" id="Vegan" value="Vegan" ><label class="category-label" for="Vegan" >Vegan</label>
-                    <input type="checkbox" name="PFcheckbox" id="PF" value="PF" ><label class="category-label" for="PF" >Peanut Free</label>
-                    <input type="checkbox" name="GFcheckbox" id="GF" value="GF" ><label class="category-label" for="GF" >Gluten Free</label>
-                </div>
-            </div> -->
             
         <div class="search-result">
             {% if query %}

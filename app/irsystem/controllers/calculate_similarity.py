@@ -145,6 +145,104 @@ inverted_index = get_inverted_index(tokenized_reviews)
 idf = get_idf(inverted_index, num_cereals)
 norms = get_doc_norms(inverted_index, idf, num_cereals)
 
+
+def filteritems(request):
+    filters = dict.fromkeys(["cal", "pro", "fat", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"], [])
+    #1
+    if request.form.get('calcheckbox1'):
+    #check if low calories is checked
+        filters["cal"] += "LOW"
+    if request.form.get('calcheckbox2'):
+    #check if medium calories is checked
+        filters["cal"] += "MEDIUM"
+    if request.form.get('calcheckbox3'):
+    #check if high calories is checked
+        filters["cal"] += "HIGH"
+    #2
+    if request.form.get('procheckbox1'):
+    #check if low protein is checked
+        filters["pro"] += "LOW"
+    if request.form.get('procheckbox2'):
+    #check if medium protein is checked
+        filters["pro"] += "MEDIUM"
+    if request.form.get('procheckbox3'):
+    #check if high protein is checked
+        filters["pro"] += "HIGH"
+    #3
+    if request.form.get('fatcheckbox1'):
+    #check if low Fat is checked
+        filters["fat"] += "LOW"
+    if request.form.get('fatcheckbox2'):
+    #check if medium Fat is checked
+        filters["fat"] += "MEDIUM"
+    if request.form.get('fatcheckbox3'):
+    #check if high Fat is checked
+        filters["fat"] += "HIGH"
+    #4
+    if request.form.get('sodcheckbox1'):
+    #check if low Sodium is checked
+        filters["sod"] += "LOW"
+    if request.form.get('sodcheckbox2'):
+    #check if medium Sodium is checked
+        filters["sod"] += "MEDIUM"
+    if request.form.get('sodcheckbox3'):
+    #check if high Sodium is checked
+        filters["sod"] += "HIGH"
+    #5
+    if request.form.get('fibcheckbox1'):
+    #check if low Fiber is checked
+        filters["fib"] += "LOW"
+    if request.form.get('fibcheckbox2'):
+    #check if medium Fiber is checked
+        filters["fib"] += "MEDIUM"
+    if request.form.get('fibcheckbox3'):
+    #check if high Fiber is checked
+        filters["fib"] += "HIGH"
+    #6
+    if request.form.get('carbcheckbox1'):
+    #check if low Carbohydrate is checked
+        filters["carb"] += "LOW"
+    if request.form.get('carbcheckbox2'):
+    #check if medium Carbohydrate is checked
+        filters["carb"] += "MEDIUM"
+    if request.form.get('carbcheckbox3'):
+    #check if high Carbohydrate is checked
+        filters["carb"] += "HIGH"
+    #7
+    if request.form.get('sugcheckbox1'):
+    #check if low Sugar is checked
+        filters["sug"] += "LOW"
+    if request.form.get('sugcheckbox2'):
+    #check if medium Sugar is checked
+        filters["sug"] += "MEDIUM"
+    if request.form.get('sugcheckbox3'):
+    #check if high Sugar is checked
+        filters["sug"] += "HIGH"
+    #8
+    if request.form.get('potcheckbox1'):
+    #check if low Potassium is checked
+        filters["pot"] += "LOW"
+    if request.form.get('potcheckbox2'):
+    #check if medium Potassium is checked
+        filters["pot"] += "MEDIUM"
+    if request.form.get('potcheckbox3'):
+    #check if high Potassium is checked
+        filters["pot"] += "HIGH"
+
+    if request.form.get('vegcheckbox'):
+    #check if vegan is checked
+        filters["veg"] += "TRUE"
+        else: filters["veg"] += "FALSE"
+    if request.form.get('PFcheckbox'):
+    #check if Peanut Free is checked
+        filters["pf"] += "TRUE"
+        else: filters["pf"] += "FALSE"
+    if request.form.get('GFcheckbox'):
+    #check if Gluten Free is checked
+        filters["gf"] += "TRUE"
+        else: filters["gf"] += "FALSE"
+    return filters
+
 def filter(filters, tcin):
   for k,v in filters:
     if not v: return False
@@ -152,7 +250,6 @@ def filter(filters, tcin):
         pass
     else: return False
   return True
-
 
 def rank_by_similarity(query, inverted_index, idf, doc_norms):
     # Returns list of tuples (cereal name, score)

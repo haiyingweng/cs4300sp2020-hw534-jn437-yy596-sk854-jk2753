@@ -100,21 +100,45 @@ img.mlogo:focus {
 }
 
 #filter{
-  position: fixed;
+  position: absolute;
+  align-items: center;
   display: none;
-  width: 500px;
-  height: 500px;
-  background-color: white;
+  margin-top: 40px;
+  width: 480px;
+  height: 520px;
+  background-color: #F6F6F6;
+  border-style: solid;
+}
+
+.filtercat h4{
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .filtercat ul{
+  text-align: left;
   list-style-type: none;
   font-weight: bold;
+  padding-bottom: 5px;
 }
 
 #filter .filtercat label.category-label{
   margin-right: 50px;
   margin-left:3px;
+}
+
+#filterbutton{
+  border:none;
+  background-color:transparent;
+  outline:none;
+  display: inline-block;
+  background-image: url(/static/filtericon.png);
+  background-size: 30px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
 }
 
 
