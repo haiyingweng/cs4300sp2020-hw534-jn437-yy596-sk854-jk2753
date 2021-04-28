@@ -11,7 +11,6 @@
     }
 
     body {
-        padding-top: 2%;
         padding-bottom: 15px;
     }
 
@@ -22,12 +21,6 @@
 
     .global-search .form-control {
         width: 500px;
-    }
-
-    .topcorner {
-        position: absolute;
-        top: 2%;
-        left: 2%;
     }
 
     .btn {
