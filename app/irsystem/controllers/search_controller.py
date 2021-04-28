@@ -25,3 +25,13 @@ def search():
         query=query,
         data=data,
     )
+
+@irsystem.route("/cerealname", methods=["GET"])
+def click():
+    name = request.args.get("cereal_name")
+    
+    # TODO: add cerealname to list for each keyword in query
+
+    # TODO: return page for the clicked cereal details
+    # return render_template("____.html",target=name)
+    return name
