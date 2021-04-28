@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/main.css">
     <link rel="stylesheet" href="/static/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
                     <img src="{{d['img_url']}}" alt="{{d['name']}}" height=200 width=200>
                 </div>
                 <div class="cereal-info">
-                    <h3>{{d['name']}}</h3>
+                    <h3 class="cereal-name">{{d['name']}}</h3>
                     <p><strong>Made by:</strong> {{d['manufacturer']}}</p>
                     <p><strong>Rating:</strong> {{d['rating']}}</p>
                     <p>{{d['description']}}</p>
@@ -68,8 +69,24 @@
                         <p><strong>Potassium:</strong> {{d['potass']}}</p>
                     </div>
                 </div>
-
             </div>
+            <script>
+                $(document).ready(function () {
+                    $(".cereal").on("click", function (event) {
+                        event.stopPropagation();
+                        event.stopImmediatePropagation();
+                        var name = $(this).find(".cereal-name").text();
+                        $.ajax({
+                            url: "/cerealname",
+                            type: "get",
+                            data: { cereal_name: name },
+                            success: function (response) {
+                                console.log(response);
+                            },
+                        });
+                    })
+                });
+            </script>
             {% endfor %}
             {% else %}
             {% if query %}
