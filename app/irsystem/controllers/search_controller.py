@@ -2,6 +2,9 @@ from . import *
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from .calculate_similarity import *
+from .db_related import *
+
+# from app.irsystem.models.test_db import *
 
 project_name = "Cerealizer"
 net_id = "Joie Ng: jn437, Ying Yang: yy596, Haiying Weng: hw534, Jason Jungwoo Kim: jk2753, Sooah Kang: sk854"
@@ -10,7 +13,8 @@ net_id = "Joie Ng: jn437, Ying Yang: yy596, Haiying Weng: hw534, Jason Jungwoo K
 @irsystem.route("/", methods=["GET"])
 def search():
     query = request.args.get("search")
-		filters = request.args.get("filter")
+    filters = request.args.get("filter")
+
     if not query:
         query = ""
         data = []
@@ -26,11 +30,12 @@ def search():
         data=data,
     )
 
+
 @irsystem.route("/cerealname", methods=["GET"])
 def click():
     name = request.args.get("cereal_name")
-    
-    # TODO: add cerealname to list for each keyword in query
+    query = request.args.get("query")
+    add_cereal_for_query(query, name)
 
     # TODO: return page for the clicked cereal details
     # return render_template("____.html",target=name)

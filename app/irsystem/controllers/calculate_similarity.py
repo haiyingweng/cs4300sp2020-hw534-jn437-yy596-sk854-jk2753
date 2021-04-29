@@ -3,11 +3,12 @@ import csv
 import json
 import math
 import numpy as np
-from nltk.stem import PorterStemmer
 from nltk.tokenize import TreebankWordTokenizer
 import re
-
 import os.path
+
+from .db_related import *
+from .helper import *
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -36,13 +37,6 @@ with open(os.path.join(BASE_DIR, "static/cereal.csv"), mode="r") as csv_file:
 
 tcins = all_reviews.keys()
 num_cereals = len(tcins)
-
-stemmer = PorterStemmer()
-
-
-def get_stems(input):
-    # Returns list of stems, [input] is of type list
-    return [stemmer.stem(word.lower()) for word in input]
 
 
 def process_cereal_details():
