@@ -226,15 +226,15 @@ def filteritems(request):
     if request.form.get('vegcheckbox'):
     #check if vegan is checked
         filters["veg"] += "TRUE"
-        else: filters["veg"] += "FALSE"
+    else: filters["veg"] += "FALSE"
     if request.form.get('PFcheckbox'):
     #check if Peanut Free is checked
         filters["pf"] += "TRUE"
-        else: filters["pf"] += "FALSE"
+    else: filters["pf"] += "FALSE"
     if request.form.get('GFcheckbox'):
     #check if Gluten Free is checked
         filters["gf"] += "TRUE"
-        else: filters["gf"] += "FALSE"
+    else: filters["gf"] += "FALSE"
     return filters
 
 def filter(filters, tcin):
@@ -245,7 +245,7 @@ def filter(filters, tcin):
     else: return False
   return True
 
-def rank_by_similarity(query, inverted_index, idf, doc_norms):
+def rank_by_similarity(query, inverted_index, idf, doc_norms, filters):
     # Returns list of tuples (cereal name, score)
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
     query_tokens = get_stems(query_tokens)
@@ -256,7 +256,10 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms):
                 cereal_scores[tcin] += tf * idf[tok]
     # normalize
     for tcin in cereal_scores.keys():
-        cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
+        if filter(filters, tcin):
+            cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
+        else:
+            pass
     score_lst = [
         (tcin_to_cereal[tcin], tcin, score)
         for tcin, score in cereal_scores.items()

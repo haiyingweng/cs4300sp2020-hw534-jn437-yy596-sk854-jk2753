@@ -13,14 +13,13 @@ net_id = "Joie Ng: jn437, Ying Yang: yy596, Haiying Weng: hw534, Jason Jungwoo K
 @irsystem.route("/", methods=["GET"])
 def search():
     query = request.args.get("search")
-    filters = request.args.get("filter")
-
+    filters = filteritems(request)
     if not query:
         query = ""
         data = []
     else:
         output_message = "Your search: " + query
-        ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
+        ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms, filters)
         data = get_cereal_details(ranked_cereals)
     return render_template(
         "search.html",
