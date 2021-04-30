@@ -6,6 +6,56 @@
     <link rel="stylesheet" href="/static/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
+<style>
+    .cereal {
+        cursor: pointer;
+    }
+
+    .details {
+        position: absolute;
+        width: 800px;
+        height: 500px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 3px solid #fcc404;
+        border-radius: 20px;
+        padding: 20px;
+        overflow: scroll;
+    }
+
+    .det-cereal-img img {
+        height: auto;
+        width: 300px;
+        margin-top: 25px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cereal-info {
+        margin-left: 25px;
+    }
+
+    .x-btn {
+        font-size: 30px;
+        /* position: absolute;
+        top: 5px;
+        right: 20px; */
+        position: fixed;
+        top: 130px;
+        right: 335px;
+        color: gray;
+        border: none;
+        background: none !important;
+        outline: none;
+        fill: none;
+    }
+</style>
 
 <body>
     <div id="lefttopcorner">
@@ -15,6 +65,60 @@
             <li><a href="/compare">Compare Cereals</a></li>
         </ul>
     </div>
+
+    {% if details %}
+    {% set d = details[0] %}
+    <div class="details" name={{query}}>
+        <button class="x-btn"><span>&times;</span></button>
+
+        <!-- TODO: figure out how to go back to page with query results -->
+        <!-- <script>
+            $(document).ready(function () {
+                $(".x-btn").on("click", function (event) {
+                    var query = document.getElementById("details").attr('name');
+                    console.log(query);
+                    $.ajax({
+                        url: "/",
+                        type: "get",
+                        data: {
+                            search: query
+                        },
+                        success: function (response) {
+                            // console.log(response);
+                            document.write(response);
+                        },
+                    });
+                })
+            });
+        </script> -->
+
+        <div class="row">
+            <div class="cereal-info">
+                <h3 class="cereal-name">{{d['name']}}</h3>
+                <p><strong>Made by:</strong> {{d['manufacturer']}}</p>
+                <p><strong>Rating:</strong> {{d['rating']}}</p>
+                <p class="score" name="{{d['score']}}"><strong>Score:</strong> {{d['score']}}</p>
+                <p>{{d['description']}}</p>
+
+            </div>
+            <div class="det-cereal-img">
+                <img src="{{d['img_url']}}" height=200 width=200>
+            </div>
+        </div>
+        <h4>Nutrition Facts</h4>
+        <div class="nutrition-facts">
+            <p><strong>Calories:</strong> {{d['calories']}}</p>
+            <p><strong>Protein:</strong> {{d['protein']}}</p>
+            <p><strong>Fat:</strong> {{d['fat']}}</p>
+            <p><strong>Sodium:</strong> {{d['sodium']}}</p>
+            <p><strong>Sugar:</strong> {{d['sugars']}}</p>
+            <p><strong>Carbohydrate:</strong> {{d['carbo']}}</p>
+            <p><strong>Fiber:</strong> {{d['fiber']}}</p>
+            <p><strong>Potassium:</strong> {{d['potass']}}</p>
+        </div>
+    </div>
+
+    {% else %}
 
     <div id="searchset">
         <form class="form-inline global-search" method="GET">
@@ -149,7 +253,7 @@
             <br>
             {% if data %}
             {% for d in data %}
-            <div class="cereal">
+            <div class="cereal" name="{{d['tcin']}}">
                 <div class="cereal-img">
                     <img src="{{d['img_url']}}" alt="{{d['name']}}" height=200 width=200>
                 </div>
@@ -157,6 +261,7 @@
                     <h3 class="cereal-name">{{d['name']}}</h3>
                     <p><strong>Made by:</strong> {{d['manufacturer']}}</p>
                     <p><strong>Rating:</strong> {{d['rating']}}</p>
+                    <p class="score" name="{{d['score']}}"><strong>Score:</strong> {{d['score']}}</p>
                     <p>{{d['description']}}</p>
                     <h4>Nutrition Facts</h4>
                     <div class="nutrition-facts">
@@ -177,17 +282,24 @@
                     $(".cereal").on("click", function (event) {
                         event.stopPropagation();
                         event.stopImmediatePropagation();
+                        var tcin = $(this).attr('name');
                         var name = $(this).find(".cereal-name").text();
                         var query = document.getElementById("query").textContent;
+                        var score = $(this).find(".score").attr('name');
+                        console.log(score);
                         $.ajax({
                             url: "/cerealname",
                             type: "get",
                             data: {
                                 query: query,
-                                cereal_name: name
+                                cereal_name: name,
+                                tcin: tcin,
+                                score: score
                             },
                             success: function (response) {
-                                console.log(response);
+                                // console.log(response);
+                                // TODO: fix error - A parser-blocking, cross site (i.e. different eTLD+1) script, https://code.jquery.com/jquery-3.5.1.min.js, is invoked via document.write.
+                                document.write(response);
                             },
                         });
                     })
@@ -202,6 +314,7 @@
         </div>
 
     </div>
+    {% endif %}
 
     <div class="sfooter">
         <p>Project Name: Cerealizer </p>
