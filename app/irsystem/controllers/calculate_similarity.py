@@ -322,6 +322,7 @@ def get_cereal_details(ranked):
     for name, tcin, score in ranked:
         detail = cereal_details[tcin]
         detail["score"] = score
+        detail["tcin"] = tcin
         dets.append(detail)
     return dets
 

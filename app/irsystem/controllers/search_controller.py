@@ -21,6 +21,8 @@ def search():
         output_message = "Your search: " + query
         ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms, filters)
         data = get_cereal_details(ranked_cereals)
+        print(data[0])
+    print('called')
     return render_template(
         "search.html",
         name=project_name,
@@ -34,8 +36,14 @@ def search():
 def click():
     name = request.args.get("cereal_name")
     query = request.args.get("query")
-    add_cereal_for_query(query, name)
+    tcin = query = request.args.get("tcin")
+    score = query = request.args.get("score")
+    # add_cereal_for_query(query, name)
+
+    # get details for clicked cereal
+    details = get_cereal_details([(name, tcin, score)])
+    # print(details)
 
     # TODO: return page for the clicked cereal details
     # return render_template("____.html",target=name)
-    return name
+    return render_template("search.html", name=name, score=score, details=details, query=query)
