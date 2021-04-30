@@ -348,13 +348,13 @@ def ranking_rocchio(query, tf_idf_matrix, input_rocchio=rocchio_update):
     return cereal_score_list
 
 
-rocchio = ranking_rocchio("happy kid", tf_idf_matrix)
-dets = []
-for tcin, score in rocchio:
-        detail = cereal_details[tcin]
-        detail["score"] = score
-        dets.append(detail['name'])
-print(dets)
+# rocchio = ranking_rocchio("happy kid", tf_idf_matrix)
+# dets = []
+# for tcin, score in rocchio:
+#         detail = cereal_details[tcin]
+#         detail["score"] = score
+#         dets.append(detail['name'])
+# print(dets)
 
 # query = "marshmallows"
 # ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
