@@ -20,9 +20,8 @@ def search():
     else:
         output_message = "Your search: " + query
         ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms, filters)
+        # ranked_cereals = ranking_rocchio(query, tf_idf_matrix, filters)
         data = get_cereal_details(ranked_cereals)
-        print(data[0])
-    print('called')
     return render_template(
         "search.html",
         name=project_name,
@@ -38,12 +37,15 @@ def click():
     query = request.args.get("query")
     tcin = query = request.args.get("tcin")
     score = query = request.args.get("score")
-    # add_cereal_for_query(query, name)
+    # add cereal and keyword to database
+    add_cereal_for_query(query, name)
 
     # get details for clicked cereal
-    details = get_cereal_details([(name, tcin, score)])
+    details = get_cereal_details([(tcin, float(score))])
     # print(details)
 
     # TODO: return page for the clicked cereal details
     # return render_template("____.html",target=name)
-    return render_template("search.html", name=name, score=score, details=details, query=query)
+    return render_template(
+        "search.html", name=name, score=score, details=details, query=query
+    )
