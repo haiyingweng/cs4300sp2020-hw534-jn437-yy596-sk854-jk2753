@@ -65,6 +65,17 @@ def process_cereal_details():
         cereal_info[tcin]["bullets"] = cereal_descriptions[tcin]["product"][
             "soft_bullets"
         ]["bullets"]
+        cereal_info[tcin]["cal"] = info['cal']
+        cereal_info[tcin]["pro"] = info['pro']
+        cereal_info[tcin]["fat1"] = info['fat1']
+        cereal_info[tcin]["sod"] = info['sod']
+        cereal_info[tcin]["sug"] = info['sug']
+        cereal_info[tcin]["carb"] = info['carb']
+        cereal_info[tcin]["fib"] = info['fib']
+        cereal_info[tcin]['pot'] = info['pot']
+        cereal_info[tcin]['veg'] = info['veg']
+        cereal_info[tcin]['gf'] = info['gf']
+        cereal_info[tcin]['pf'] = info['pf']
     return cereal_info
 
 
