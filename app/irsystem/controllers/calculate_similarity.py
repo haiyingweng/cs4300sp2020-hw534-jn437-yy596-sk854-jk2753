@@ -141,7 +141,7 @@ norms = get_doc_norms(inverted_index, idf, num_cereals)
 
 
 def filteritems(request):
-    filters = dict.fromkeys(["cal", "pro", "fat", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"], [])
+    filters = dict.fromkeys(["cal", "pro", "fat1", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"], [])
     #1
     if request.form.get('calcheckbox1'):
     #check if low calories is checked
@@ -238,9 +238,9 @@ def filteritems(request):
     return filters
 
 def filter(filters, tcin):
-  for k,v in filters:
+  for k,v in filters.items():
     if not v: return False
-    if cereal_info[tcin][k] in v:
+    if cereal_details[tcin][k] in v:
         pass
     else: return False
   return True
