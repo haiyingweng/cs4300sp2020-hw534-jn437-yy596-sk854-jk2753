@@ -65,6 +65,17 @@ def process_cereal_details():
         cereal_info[tcin]["bullets"] = cereal_descriptions[tcin]["product"][
             "soft_bullets"
         ]["bullets"]
+        cereal_info[tcin]["cal"] = info['cal']
+        cereal_info[tcin]["pro"] = info['pro']
+        cereal_info[tcin]["fat1"] = info['fat1']
+        cereal_info[tcin]["sod"] = info['sod']
+        cereal_info[tcin]["sug"] = info['sug']
+        cereal_info[tcin]["carb"] = info['carb']
+        cereal_info[tcin]["fib"] = info['fib']
+        cereal_info[tcin]['pot'] = info['pot']
+        cereal_info[tcin]['veg'] = info['veg']
+        cereal_info[tcin]['gf'] = info['gf']
+        cereal_info[tcin]['pf'] = info['pf']
     return cereal_info
 
 
@@ -140,10 +151,24 @@ inverted_index = get_inverted_index(tokenized_reviews)
 idf = get_idf(inverted_index, num_cereals)
 norms = get_doc_norms(inverted_index, idf, num_cereals)
 
+idf_word_to_index = {word: i for i, word in enumerate(idf.keys())}
+
+def get_tf_idf_matrix(inverted_index, idf):
+    matrix = np.zeros((len(tcin_to_index), len(idf)))
+    for tok in idf.keys():
+        for tcin, tf in inverted_index[tok]:
+            cereal_index = tcin_to_index[tcin]
+            keyword_index = idf_word_to_index[tok]
+            matrix[cereal_index][keyword_index] = tf
+    tok_idfs = np.zeros(len(idf))
+    for word, i in idf_word_to_index.items():
+        tok_idfs[i] = idf[word]
+    matrix = matrix / tok_idfs
+    return matrix
 
 
 def filteritems(request):
-    filters = dict.fromkeys(["cal", "pro", "fat", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"], [])
+    filters = dict.fromkeys(["cal", "pro", "fat1", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"], [])
     #1
     if request.form.get('calcheckbox1'):
     #check if low calories is checked
@@ -167,13 +192,13 @@ def filteritems(request):
     #3
     if request.form.get('fatcheckbox1'):
     #check if low Fat is checked
-        filters["fat"] += "LOW"
+        filters["fat1"] += "LOW"
     if request.form.get('fatcheckbox2'):
     #check if medium Fat is checked
-        filters["fat"] += "MEDIUM"
+        filters["fat1"] += "MEDIUM"
     if request.form.get('fatcheckbox3'):
     #check if high Fat is checked
-        filters["fat"] += "HIGH"
+        filters["fat1"] += "HIGH"
     #4
     if request.form.get('sodcheckbox1'):
     #check if low Sodium is checked
@@ -228,43 +253,27 @@ def filteritems(request):
     if request.form.get('vegcheckbox'):
     #check if vegan is checked
         filters["veg"] += "TRUE"
-        else: filters["veg"] += "FALSE"
+    else: filters["veg"] += "FALSE"
     if request.form.get('PFcheckbox'):
     #check if Peanut Free is checked
         filters["pf"] += "TRUE"
-        else: filters["pf"] += "FALSE"
+    else: filters["pf"] += "FALSE"
     if request.form.get('GFcheckbox'):
     #check if Gluten Free is checked
         filters["gf"] += "TRUE"
-        else: filters["gf"] += "FALSE"
+    else: filters["gf"] += "FALSE"
     return filters
 
 def filter(filters, tcin):
-  for k,v in filters:
+  for k,v in filters.items():
     if not v: return False
-    if cereal_info[tcin][k] in v:
+    if cereal_details[tcin][k] in v:
         pass
     else: return False
   return True
 
 
-idf_word_to_index = {word: i for i, word in enumerate(idf.keys())}
-
-def get_tf_idf_matrix(inverted_index, idf):
-    matrix = np.zeros((len(tcin_to_index), len(idf)))
-    for tok in idf.keys():
-        for tcin, tf in inverted_index[tok]:
-            cereal_index = tcin_to_index[tcin]
-            keyword_index = idf_word_to_index[tok]
-            matrix[cereal_index][keyword_index] = tf
-    tok_idfs = np.zeros(len(idf))
-    for word, i in idf_word_to_index.items():
-        tok_idfs[i] = idf[word]
-    matrix = matrix / tok_idfs
-    return matrix
-
-
-def rank_by_similarity(query, inverted_index, idf, doc_norms):
+def rank_by_similarity(query, inverted_index, idf, doc_norms, filters):
     # Returns list of tuples (cereal name, score)
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
     query_tokens = get_stems(query_tokens)
@@ -275,7 +284,10 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms):
                 cereal_scores[tcin] += tf * idf[tok]
     # normalize
     for tcin in cereal_scores.keys():
-        cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
+        if filter(filters, tcin):
+            cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
+        else:
+            pass
     score_lst = [
         (tcin_to_cereal[tcin], tcin, score)
         for tcin, score in cereal_scores.items()
