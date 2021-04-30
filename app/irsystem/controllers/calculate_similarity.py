@@ -170,116 +170,125 @@ def get_tf_idf_matrix(inverted_index, idf):
 
 
 def filteritems(request):
-    filters = dict.fromkeys(
-        ["cal", "pro", "fat1", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"],
-        [],
-    )
+    filter_keys = [
+        "cal",
+        "pro",
+        "fat1",
+        "sod",
+        "fib",
+        "carb",
+        "sug",
+        "pot",
+        "veg",
+        "pf",
+        "gf",
+    ]
+    filters = {key: [] for key in filter_keys}
     # 1
-    if request.form.get("calcheckbox1"):
+    if request.args.get("calcheckbox1"):
         # check if low calories is checked
-        filters["cal"] += "LOW"
-    if request.form.get("calcheckbox2"):
+        filters["cal"].append("LOW")
+    if request.args.get("calcheckbox2"):
         # check if medium calories is checked
-        filters["cal"] += "MEDIUM"
-    if request.form.get("calcheckbox3"):
+        filters["cal"].append("MEDIUM")
+    if request.args.get("calcheckbox3"):
         # check if high calories is checked
-        filters["cal"] += "HIGH"
+        filters["cal"].append("HIGH")
     # 2
-    if request.form.get("procheckbox1"):
+    if request.args.get("procheckbox1"):
         # check if low protein is checked
-        filters["pro"] += "LOW"
-    if request.form.get("procheckbox2"):
+        filters["pro"].append("LOW")
+    if request.args.get("procheckbox2"):
         # check if medium protein is checked
-        filters["pro"] += "MEDIUM"
-    if request.form.get("procheckbox3"):
+        filters["pro"].append("MEDIUM")
+    if request.args.get("procheckbox3"):
         # check if high protein is checked
-        filters["pro"] += "HIGH"
+        filters["pro"].append("HIGH")
     # 3
-    if request.form.get("fatcheckbox1"):
+    if request.args.get("fatcheckbox1"):
         # check if low Fat is checked
-        filters["fat1"] += "LOW"
-    if request.form.get("fatcheckbox2"):
+        filters["fat1"].append("LOW")
+    if request.args.get("fatcheckbox2"):
         # check if medium Fat is checked
-        filters["fat1"] += "MEDIUM"
-    if request.form.get("fatcheckbox3"):
+        filters["fat1"].append("MEDIUM")
+    if request.args.get("fatcheckbox3"):
         # check if high Fat is checked
-        filters["fat1"] += "HIGH"
+        filters["fat1"].append("HIGH")
     # 4
-    if request.form.get("sodcheckbox1"):
+    if request.args.get("sodcheckbox1"):
         # check if low Sodium is checked
-        filters["sod"] += "LOW"
-    if request.form.get("sodcheckbox2"):
+        filters["sod"].append("LOW")
+    if request.args.get("sodcheckbox2"):
         # check if medium Sodium is checked
-        filters["sod"] += "MEDIUM"
-    if request.form.get("sodcheckbox3"):
+        filters["sod"].append("MEDIUM")
+    if request.args.get("sodcheckbox3"):
         # check if high Sodium is checked
-        filters["sod"] += "HIGH"
+        filters["sod"].append("HIGH")
     # 5
-    if request.form.get("fibcheckbox1"):
+    if request.args.get("fibcheckbox1"):
         # check if low Fiber is checked
-        filters["fib"] += "LOW"
-    if request.form.get("fibcheckbox2"):
+        filters["fib"].append("LOW")
+    if request.args.get("fibcheckbox2"):
         # check if medium Fiber is checked
-        filters["fib"] += "MEDIUM"
-    if request.form.get("fibcheckbox3"):
+        filters["fib"].append("MEDIUM")
+    if request.args.get("fibcheckbox3"):
         # check if high Fiber is checked
-        filters["fib"] += "HIGH"
+        filters["fib"].append("HIGH")
     # 6
-    if request.form.get("carbcheckbox1"):
+    if request.args.get("carbcheckbox1"):
         # check if low Carbohydrate is checked
-        filters["carb"] += "LOW"
-    if request.form.get("carbcheckbox2"):
+        filters["carb"].append("LOW")
+    if request.args.get("carbcheckbox2"):
         # check if medium Carbohydrate is checked
-        filters["carb"] += "MEDIUM"
-    if request.form.get("carbcheckbox3"):
+        filters["carb"].append("MEDIUM")
+    if request.args.get("carbcheckbox3"):
         # check if high Carbohydrate is checked
-        filters["carb"] += "HIGH"
+        filters["carb"].append("HIGH")
     # 7
-    if request.form.get("sugcheckbox1"):
+    if request.args.get("sugcheckbox1"):
         # check if low Sugar is checked
-        filters["sug"] += "LOW"
-    if request.form.get("sugcheckbox2"):
+        filters["sug"].append("LOW")
+    if request.args.get("sugcheckbox2"):
         # check if medium Sugar is checked
-        filters["sug"] += "MEDIUM"
-    if request.form.get("sugcheckbox3"):
+        filters["sug"].append("MEDIUM")
+    if request.args.get("sugcheckbox3"):
         # check if high Sugar is checked
-        filters["sug"] += "HIGH"
+        filters["sug"].append("HIGH")
     # 8
-    if request.form.get("potcheckbox1"):
+    if request.args.get("potcheckbox1"):
         # check if low Potassium is checked
-        filters["pot"] += "LOW"
-    if request.form.get("potcheckbox2"):
+        filters["pot"].append("LOW")
+    if request.args.get("potcheckbox2"):
         # check if medium Potassium is checked
-        filters["pot"] += "MEDIUM"
-    if request.form.get("potcheckbox3"):
+        filters["pot"].append("MEDIUM")
+    if request.args.get("potcheckbox3"):
         # check if high Potassium is checked
-        filters["pot"] += "HIGH"
+        filters["pot"].append("HIGH")
 
-    if request.form.get("vegcheckbox"):
+    if request.args.get("vegcheckbox"):
         # check if vegan is checked
-        filters["veg"] += "TRUE"
+        filters["veg"].append("TRUE")
     else:
-        filters["veg"] += "FALSE"
-    if request.form.get("PFcheckbox"):
+        filters["veg"].append("FALSE")
+    if request.args.get("PFcheckbox"):
         # check if Peanut Free is checked
-        filters["pf"] += "TRUE"
+        filters["pf"].append("TRUE")
     else:
-        filters["pf"] += "FALSE"
-    if request.form.get("GFcheckbox"):
+        filters["pf"].append("FALSE")
+    if request.args.get("GFcheckbox"):
         # check if Gluten Free is checked
-        filters["gf"] += "TRUE"
+        filters["gf"].append("TRUE")
     else:
-        filters["gf"] += "FALSE"
+        filters["gf"].append("FALSE")
     return filters
 
 
 def filter_tcin(filters, tcin):
+    # print(filters)
     for k, v in filters.items():
         if not v:
             return False
-        if cereal_details[tcin][k] in v:
-            pass
-        else:
+        if cereal_details[tcin][k] not in v:
             return False
     return True
 
@@ -288,23 +297,17 @@ def filter_tcin(filters, tcin):
 #     # Returns list of tuples (cereal name, score)
 #     query_tokens = re.findall("[a-zA-Z]+", query.lower())
 #     query_tokens = get_stems(query_tokens)
-#     cereal_scores = {tcin: 0 for tcin in tcins}
+#     cereal_scores = {tcin: 0 for tcin in tcins if filter(filters, tcin)}
 #     for tok in set(query_tokens):
 #         if tok in idf.keys():
 #             for tcin, tf in inverted_index[tok]:
-#                 cereal_scores[tcin] += tf * idf[tok]
+#                 if tcin in cereal_scores.keys():
+#                     cereal_scores[tcin] += tf * idf[tok]
 #     # normalize
 #     for tcin in cereal_scores.keys():
-#         if filter(filters, tcin):
-#             cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
-#         else:
-#             pass
-#     score_lst = [
-#         (tcin_to_cereal[tcin], tcin, score)
-#         for tcin, score in cereal_scores.items()
-#         if score > 0
-#     ]
-#     score_lst.sort(key=lambda tup: (-tup[2], tup[0]))
+#         cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
+#     score_lst = [(tcin, score) for tcin, score in cereal_scores.items() if score > 0]
+#     score_lst.sort(key=lambda tup: (-tup[1], tup[0]))
 #     return score_lst
 
 
@@ -322,9 +325,6 @@ tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
 
 
 def rocchio_update(query_tokens, relev, tf_idf_matrix, a=100, b=0.1):
-    # query_tokens = re.findall("[a-zA-Z]+", query.lower())
-    # query_tokens = get_stems(query_tokens)
-    # relev= get_cereals_for_keywords(query_tokens)
     query_toks_counter = collections.Counter(query_tokens)
     q0 = np.zeros(len(idf))
     for tok, count in query_toks_counter.items():
@@ -354,9 +354,12 @@ def ranking_rocchio(query, tf_idf_matrix, filters, input_rocchio=rocchio_update)
     demonin = (np.linalg.norm(q1)) * (np.linalg.norm(tf_idf_matrix, axis=1))
     sim = numerator / demonin
     # rank
-    cereal_score_list = [(index_to_tcin[i], score) for i, score in enumerate(sim)]
+    cereal_score_list = [
+        (index_to_tcin[i], score)
+        for i, score in enumerate(sim)
+        if filter_tcin(filters, index_to_tcin[i])
+    ]
     # apply filter is any
-    cereal_score_list = filter(lambda x: filter_tcin(filters, x[0]), cereal_score_list)
     cereal_score_list = list(cereal_score_list)
     # sort cereal by score
     cereal_score_list.sort(key=lambda x: -x[1])
