@@ -165,13 +165,13 @@ def filteritems(request):
     #3
     if request.form.get('fatcheckbox1'):
     #check if low Fat is checked
-        filters["fat"] += "LOW"
+        filters["fat1"] += "LOW"
     if request.form.get('fatcheckbox2'):
     #check if medium Fat is checked
-        filters["fat"] += "MEDIUM"
+        filters["fat1"] += "MEDIUM"
     if request.form.get('fatcheckbox3'):
     #check if high Fat is checked
-        filters["fat"] += "HIGH"
+        filters["fat1"] += "HIGH"
     #4
     if request.form.get('sodcheckbox1'):
     #check if low Sodium is checked
