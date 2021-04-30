@@ -37,7 +37,7 @@ with open(os.path.join(BASE_DIR, "static/cereal.csv"), mode="r") as csv_file:
 
 tcins = all_reviews.keys()
 num_cereals = len(tcins)
-
+cereal_to_tcin = { cereal:tcin for tcin, cereal in tcin_to_cereal.items() }
 
 def process_cereal_details():
     cereal_info = collections.defaultdict(dict)
@@ -97,6 +97,7 @@ tokenized_reviews = tokenize_reviews(tokenizer, all_reviews)
 reviews_vocab = list(get_reviews_vocab(tokenized_reviews))
 word_to_index = {word: i for i, word in enumerate(reviews_vocab)}
 tcin_to_index = {tcin: i for i, tcin in enumerate(tcins)}
+index_to_tcin = {i: tcin for i, tcin in enumerate(tcins)}
 
 
 def get_inverted_index(tokenized_reviews):
@@ -138,6 +139,7 @@ def get_doc_norms(inverted_index, idf, n_docs):
 inverted_index = get_inverted_index(tokenized_reviews)
 idf = get_idf(inverted_index, num_cereals)
 norms = get_doc_norms(inverted_index, idf, num_cereals)
+
 
 
 def filteritems(request):
@@ -245,6 +247,23 @@ def filter(filters, tcin):
     else: return False
   return True
 
+
+idf_word_to_index = {word: i for i, word in enumerate(idf.keys())}
+
+def get_tf_idf_matrix(inverted_index, idf):
+    matrix = np.zeros((len(tcin_to_index), len(idf)))
+    for tok in idf.keys():
+        for tcin, tf in inverted_index[tok]:
+            cereal_index = tcin_to_index[tcin]
+            keyword_index = idf_word_to_index[tok]
+            matrix[cereal_index][keyword_index] = tf
+    tok_idfs = np.zeros(len(idf))
+    for word, i in idf_word_to_index.items():
+        tok_idfs[i] = idf[word]
+    matrix = matrix / tok_idfs
+    return matrix
+
+
 def rank_by_similarity(query, inverted_index, idf, doc_norms):
     # Returns list of tuples (cereal name, score)
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
@@ -274,6 +293,56 @@ def get_cereal_details(ranked):
         dets.append(detail)
     return dets
 
+
+tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
+
+
+def rocchio_update(query_tokens,relev,tf_idf_matrix,a=100,b=0.1):
+    # query_tokens = re.findall("[a-zA-Z]+", query.lower())
+    # query_tokens = get_stems(query_tokens)
+    # relev= get_cereals_for_keywords(query_tokens)
+    query_toks_counter = collections.Counter(query_tokens)
+    q0 = np.zeros(len(idf))
+    for tok, count in query_toks_counter.items():
+        idx = idf_word_to_index[tok]
+        q0[idx] = count * idf[tok]
+
+    if len(relev)!=0:
+        relev_indeces=[tcin_to_index[tcin] for tcin in relev]
+        sum_rel=np.sum(tf_idf_matrix[relev_indeces],axis=0)
+        q1= a*q0+b/len(relev)*sum_rel
+    else:
+        q1= a*q0
+    q1=np.clip(q1,a_min=0, a_max=None)
+    return q1
+
+
+def ranking_rocchio(query, tf_idf_matrix, input_rocchio=rocchio_update):
+    # get tokens
+    query_tokens = re.findall("[a-zA-Z]+", query.lower())
+    query_tokens = get_stems(query_tokens)
+    # get relevant cereals
+    relev_names=get_cereals_for_keywords(query_tokens)
+    relev = [cereal_to_tcin[cereal_name] for cereal_name in relev_names] 
+    # get cos sim
+    q1=input_rocchio(query_tokens,relev,tf_idf_matrix)
+    numerator=np.dot(tf_idf_matrix, q1)
+    demonin=(np.linalg.norm(q1)) * (np.linalg.norm(tf_idf_matrix, axis=1))
+    sim = numerator / demonin
+    # rank
+    cereal_score_list=[ (index_to_tcin[i],score) for i, score in enumerate(sim) ]
+    cereal_score_list=sorted(cereal_score_list, key=lambda x: -x[1])
+    
+    return cereal_score_list
+
+
+rocchio = ranking_rocchio("happy kid", tf_idf_matrix)
+dets = []
+for tcin, score in rocchio:
+        detail = cereal_details[tcin]
+        detail["score"] = score
+        dets.append(detail['name'])
+print(dets)
 
 # query = "marshmallows"
 # ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms)
