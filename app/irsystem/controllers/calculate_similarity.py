@@ -37,7 +37,8 @@ with open(os.path.join(BASE_DIR, "static/cereal.csv"), mode="r") as csv_file:
 
 tcins = all_reviews.keys()
 num_cereals = len(tcins)
-cereal_to_tcin = { cereal:tcin for tcin, cereal in tcin_to_cereal.items() }
+cereal_to_tcin = {cereal: tcin for tcin, cereal in tcin_to_cereal.items()}
+
 
 def process_cereal_details():
     cereal_info = collections.defaultdict(dict)
@@ -65,17 +66,17 @@ def process_cereal_details():
         cereal_info[tcin]["bullets"] = cereal_descriptions[tcin]["product"][
             "soft_bullets"
         ]["bullets"]
-        cereal_info[tcin]["cal"] = info['cal']
-        cereal_info[tcin]["pro"] = info['pro']
-        cereal_info[tcin]["fat1"] = info['fat1']
-        cereal_info[tcin]["sod"] = info['sod']
-        cereal_info[tcin]["sug"] = info['sug']
-        cereal_info[tcin]["carb"] = info['carb']
-        cereal_info[tcin]["fib"] = info['fib']
-        cereal_info[tcin]['pot'] = info['pot']
-        cereal_info[tcin]['veg'] = info['veg']
-        cereal_info[tcin]['gf'] = info['gf']
-        cereal_info[tcin]['pf'] = info['pf']
+        cereal_info[tcin]["cal"] = info["cal"]
+        cereal_info[tcin]["pro"] = info["pro"]
+        cereal_info[tcin]["fat1"] = info["fat1"]
+        cereal_info[tcin]["sod"] = info["sod"]
+        cereal_info[tcin]["sug"] = info["sug"]
+        cereal_info[tcin]["carb"] = info["carb"]
+        cereal_info[tcin]["fib"] = info["fib"]
+        cereal_info[tcin]["pot"] = info["pot"]
+        cereal_info[tcin]["veg"] = info["veg"]
+        cereal_info[tcin]["gf"] = info["gf"]
+        cereal_info[tcin]["pf"] = info["pf"]
     return cereal_info
 
 
@@ -153,6 +154,7 @@ norms = get_doc_norms(inverted_index, idf, num_cereals)
 
 idf_word_to_index = {word: i for i, word in enumerate(idf.keys())}
 
+
 def get_tf_idf_matrix(inverted_index, idf):
     matrix = np.zeros((len(tcin_to_index), len(idf)))
     for tok in idf.keys():
@@ -168,6 +170,7 @@ def get_tf_idf_matrix(inverted_index, idf):
 
 
 def filteritems(request):
+<<<<<<< HEAD
     filters = dict.fromkeys(["cal", "pro", "fat1", "sod", "fib", "carb", "sug", "pot", "veg", "pf", "gf"], [])
     #1
     cal = []
@@ -315,13 +318,154 @@ def rank_by_similarity(query, inverted_index, idf, doc_norms, filters):
     ]
     score_lst.sort(key=lambda tup: (-tup[2], tup[0]))
     return score_lst
+=======
+    filter_keys = [
+        "cal",
+        "pro",
+        "fat1",
+        "sod",
+        "fib",
+        "carb",
+        "sug",
+        "pot",
+        "veg",
+        "pf",
+        "gf",
+    ]
+    filters = {key: [] for key in filter_keys}
+    # 1
+    if request.args.get("calcheckbox1"):
+        # check if low calories is checked
+        filters["cal"].append("LOW")
+    if request.args.get("calcheckbox2"):
+        # check if medium calories is checked
+        filters["cal"].append("MEDIUM")
+    if request.args.get("calcheckbox3"):
+        # check if high calories is checked
+        filters["cal"].append("HIGH")
+    # 2
+    if request.args.get("procheckbox1"):
+        # check if low protein is checked
+        filters["pro"].append("LOW")
+    if request.args.get("procheckbox2"):
+        # check if medium protein is checked
+        filters["pro"].append("MEDIUM")
+    if request.args.get("procheckbox3"):
+        # check if high protein is checked
+        filters["pro"].append("HIGH")
+    # 3
+    if request.args.get("fatcheckbox1"):
+        # check if low Fat is checked
+        filters["fat1"].append("LOW")
+    if request.args.get("fatcheckbox2"):
+        # check if medium Fat is checked
+        filters["fat1"].append("MEDIUM")
+    if request.args.get("fatcheckbox3"):
+        # check if high Fat is checked
+        filters["fat1"].append("HIGH")
+    # 4
+    if request.args.get("sodcheckbox1"):
+        # check if low Sodium is checked
+        filters["sod"].append("LOW")
+    if request.args.get("sodcheckbox2"):
+        # check if medium Sodium is checked
+        filters["sod"].append("MEDIUM")
+    if request.args.get("sodcheckbox3"):
+        # check if high Sodium is checked
+        filters["sod"].append("HIGH")
+    # 5
+    if request.args.get("fibcheckbox1"):
+        # check if low Fiber is checked
+        filters["fib"].append("LOW")
+    if request.args.get("fibcheckbox2"):
+        # check if medium Fiber is checked
+        filters["fib"].append("MEDIUM")
+    if request.args.get("fibcheckbox3"):
+        # check if high Fiber is checked
+        filters["fib"].append("HIGH")
+    # 6
+    if request.args.get("carbcheckbox1"):
+        # check if low Carbohydrate is checked
+        filters["carb"].append("LOW")
+    if request.args.get("carbcheckbox2"):
+        # check if medium Carbohydrate is checked
+        filters["carb"].append("MEDIUM")
+    if request.args.get("carbcheckbox3"):
+        # check if high Carbohydrate is checked
+        filters["carb"].append("HIGH")
+    # 7
+    if request.args.get("sugcheckbox1"):
+        # check if low Sugar is checked
+        filters["sug"].append("LOW")
+    if request.args.get("sugcheckbox2"):
+        # check if medium Sugar is checked
+        filters["sug"].append("MEDIUM")
+    if request.args.get("sugcheckbox3"):
+        # check if high Sugar is checked
+        filters["sug"].append("HIGH")
+    # 8
+    if request.args.get("potcheckbox1"):
+        # check if low Potassium is checked
+        filters["pot"].append("LOW")
+    if request.args.get("potcheckbox2"):
+        # check if medium Potassium is checked
+        filters["pot"].append("MEDIUM")
+    if request.args.get("potcheckbox3"):
+        # check if high Potassium is checked
+        filters["pot"].append("HIGH")
+
+    if request.args.get("vegcheckbox"):
+        # check if vegan is checked
+        filters["veg"].append("TRUE")
+    else:
+        filters["veg"].append("FALSE")
+    if request.args.get("PFcheckbox"):
+        # check if Peanut Free is checked
+        filters["pf"].append("TRUE")
+    else:
+        filters["pf"].append("FALSE")
+    if request.args.get("GFcheckbox"):
+        # check if Gluten Free is checked
+        filters["gf"].append("TRUE")
+    else:
+        filters["gf"].append("FALSE")
+    return filters
+
+
+def filter_tcin(filters, tcin):
+    # print(filters)
+    for k, v in filters.items():
+        if not v:
+            return False
+        if cereal_details[tcin][k] not in v:
+            return False
+    return True
+
+
+# def rank_by_similarity(query, inverted_index, idf, doc_norms, filters):
+#     # Returns list of tuples (cereal name, score)
+#     query_tokens = re.findall("[a-zA-Z]+", query.lower())
+#     query_tokens = get_stems(query_tokens)
+#     cereal_scores = {tcin: 0 for tcin in tcins if filter(filters, tcin)}
+#     for tok in set(query_tokens):
+#         if tok in idf.keys():
+#             for tcin, tf in inverted_index[tok]:
+#                 if tcin in cereal_scores.keys():
+#                     cereal_scores[tcin] += tf * idf[tok]
+#     # normalize
+#     for tcin in cereal_scores.keys():
+#         cereal_scores[tcin] = cereal_scores[tcin] / doc_norms[tcin_to_index[tcin]]
+#     score_lst = [(tcin, score) for tcin, score in cereal_scores.items() if score > 0]
+#     score_lst.sort(key=lambda tup: (-tup[1], tup[0]))
+#     return score_lst
+>>>>>>> aa38984c01c58b41f5650de859ab2719a68a2ae0
 
 
 def get_cereal_details(ranked):
     dets = []
-    for name, tcin, score in ranked:
+    for tcin, score in ranked:
         detail = cereal_details[tcin]
-        detail["score"] = score
+        detail["score"] = round(score, 2)
         detail["tcin"] = tcin
         dets.append(detail)
     return dets
@@ -330,42 +474,49 @@ def get_cereal_details(ranked):
 tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
 
 
-def rocchio_update(query_tokens,relev,tf_idf_matrix,a=100,b=0.1):
-    # query_tokens = re.findall("[a-zA-Z]+", query.lower())
-    # query_tokens = get_stems(query_tokens)
-    # relev= get_cereals_for_keywords(query_tokens)
+def rocchio_update(query_tokens, relev, tf_idf_matrix, a=100, b=0.1):
     query_toks_counter = collections.Counter(query_tokens)
     q0 = np.zeros(len(idf))
     for tok, count in query_toks_counter.items():
         idx = idf_word_to_index[tok]
         q0[idx] = count * idf[tok]
 
-    if len(relev)!=0:
-        relev_indeces=[tcin_to_index[tcin] for tcin in relev]
-        sum_rel=np.sum(tf_idf_matrix[relev_indeces],axis=0)
-        q1= a*q0+b/len(relev)*sum_rel
+    if len(relev) != 0:
+        relev_indeces = [tcin_to_index[tcin] for tcin in relev]
+        sum_rel = np.sum(tf_idf_matrix[relev_indeces], axis=0)
+        q1 = a * q0 + b / len(relev) * sum_rel
     else:
-        q1= a*q0
-    q1=np.clip(q1,a_min=0, a_max=None)
+        q1 = a * q0
+    q1 = np.clip(q1, a_min=0, a_max=None)
     return q1
 
 
-def ranking_rocchio(query, tf_idf_matrix, input_rocchio=rocchio_update):
+def ranking_rocchio(query, tf_idf_matrix, filters, input_rocchio=rocchio_update):
     # get tokens
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
     query_tokens = get_stems(query_tokens)
+    query_tokens = [tok for tok in query_tokens if tok in idf_word_to_index]
+    if not query_tokens:
+        return []
     # get relevant cereals
-    relev_names=get_cereals_for_keywords(query_tokens)
-    relev = [cereal_to_tcin[cereal_name] for cereal_name in relev_names] 
+    relev_names = get_cereals_for_keywords(query_tokens)
+    relev = [cereal_to_tcin[cereal_name] for cereal_name in relev_names]
     # get cos sim
-    q1=input_rocchio(query_tokens,relev,tf_idf_matrix)
-    numerator=np.dot(tf_idf_matrix, q1)
-    demonin=(np.linalg.norm(q1)) * (np.linalg.norm(tf_idf_matrix, axis=1))
+    q1 = input_rocchio(query_tokens, relev, tf_idf_matrix)
+    numerator = np.dot(tf_idf_matrix, q1)
+    demonin = (np.linalg.norm(q1)) * (np.linalg.norm(tf_idf_matrix, axis=1))
     sim = numerator / demonin
     # rank
-    cereal_score_list=[ (index_to_tcin[i],score) for i, score in enumerate(sim) ]
-    cereal_score_list=sorted(cereal_score_list, key=lambda x: -x[1])
-    
+    cereal_score_list = [
+        (index_to_tcin[i], score)
+        for i, score in enumerate(sim)
+        if filter_tcin(filters, index_to_tcin[i])
+    ]
+    # apply filter is any
+    cereal_score_list = list(cereal_score_list)
+    # sort cereal by score
+    cereal_score_list.sort(key=lambda x: -x[1])
+
     return cereal_score_list
 
 
