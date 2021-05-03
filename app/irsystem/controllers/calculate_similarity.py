@@ -345,6 +345,9 @@ def ranking_rocchio(query, tf_idf_matrix, filters, input_rocchio=rocchio_update)
     # get tokens
     query_tokens = re.findall("[a-zA-Z]+", query.lower())
     query_tokens = get_stems(query_tokens)
+    query_tokens = [tok for tok in query_tokens if tok in idf_word_to_index]
+    if not query_tokens:
+        return []
     # get relevant cereals
     relev_names = get_cereals_for_keywords(query_tokens)
     relev = [cereal_to_tcin[cereal_name] for cereal_name in relev_names]
