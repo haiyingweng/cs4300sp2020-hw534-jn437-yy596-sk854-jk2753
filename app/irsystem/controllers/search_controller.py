@@ -3,6 +3,7 @@ from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from .calculate_similarity import *
 from .db_related import *
+from .similar_cereals import *
 
 # from app.irsystem.models.test_db import *
 
