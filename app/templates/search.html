@@ -84,6 +84,9 @@
 </style>
 
 <body>
+    <p id="search-by" hidden>{{search_by}}</p>
+    <p id="query" hidden>{{query}}</p>
+
     <div id="lefttopcorner">
         <ul>
             <li><a href="https://cerealizer-v1.herokuapp.com/">Version One</a></li>
@@ -93,8 +96,7 @@
         </ul>
     </div>
 
-    {% if details %}
-    {% set d = details[0] %}
+    {% if details %} {% set d = details[0] %}
     <div class="details" name={{query}}>
         <button class="x-btn"><span>&times;</span></button>
 
@@ -158,8 +160,24 @@
             <br><br>
 
             <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control"
-                    placeholder="Keywords (e.g. marshmallows, crunchy, tasty)">
+                <input type="radio" id="keyword_search" name="search_by" value="keyword" checked="checked">
+                <label for="keyword">Search By Keywords</label><br>
+                <input type="radio" id="cereal_search" name="search_by" value="cereal">
+                <label for="cereal_search">Search By Similar Cereal</label><br>
+                <div>
+                    <input id="input_keyword" type="text" name="keywords" class="form-control"
+                        placeholder="Keywords (e.g. marshmallows, crunchy, tasty)">
+                    <input id="input_cereal" list="cereal_list" type="text" name="cereal" class="form-control"
+                        placeholder="Enter a cereal">
+                    <datalist id="cereal_list">
+                        {% for cereal in all_cereals %}
+                        <option>{{cereal}}</option>
+                        {% endfor %}
+                    </datalist>
+                    <button type="button" id="filterbutton" onclick="showhideform();">
+                    </button>
+                    <button type="submit" class="btn btn-info"> Go! </button>
+                </div>
             </div>
             <div id="filter">
                 <div class="filtercat">
@@ -265,21 +283,43 @@
                         x.style.display = "none";
                     }
                 }
+                $(document).ready(function () {
+                    $('#keyword_search').change(function () {
+                        if (this.checked) {
+                            $("#input_keyword").show();
+                            $("#input_cereal").hide();
+                        }
+                    });
+                    $('#cereal_search').change(function () {
+                        if (this.checked) {
+                            $("#input_keyword").hide();
+                            $("#input_cereal").show();
+                        }
+                    });
+                })
+
+                let searchBy = document.getElementById('search-by').textContent
+                let query = document.getElementById('query').textContent
+                if (searchBy === "cereal") {
+                    document.getElementById('cereal_search').checked = true;
+                    $("#input_keyword").hide();
+                    $("#input_cereal").show();
+                    $("#input_cereal").val(query);
+                } else {
+                    document.getElementById('keyword_search').checked = true;
+                    $("#input_keyword").show();
+                    $("#input_cereal").hide();
+                    $("#input_keyword").val(query);
+                }
             </script>
-            <button type="button" id="filterbutton" onclick="showhideform();">
-            </button>
-            <button type="submit" class="btn btn-info"> Go! </button>
 
         </form>
 
         <div class="search-result">
             {% if query %}
-            <h3 class="output-message">Your keyword(s): {{query}}</h3>
-            <p id="query" hidden>{{query}}</p>
+            <h3 class="output-message">Your search: {{query}}</h3>
             {% endif %}
-            <br>
-            {% if data %}
-            {% for d in data %}
+            <br> {% if data %} {% for d in data %}
             <div class="cereal" name="{{d['tcin']}}">
                 <div class="cereal-img">
                     <img src="{{d['img_url']}}" alt="{{d['name']}}" height=250 width=250>
@@ -314,6 +354,7 @@
                         var tcin = $(this).attr('name');
                         var name = $(this).find(".cereal-name").text();
                         var query = document.getElementById("query").textContent;
+                        var search_by = document.getElementById("search-by").textContent;
                         var score = $(this).find(".score").attr('name');
                         console.log(score);
                         $.ajax({
@@ -323,7 +364,8 @@
                                 query: query,
                                 cereal_name: name,
                                 tcin: tcin,
-                                score: score
+                                score: score,
+                                search_by: search_by
                             },
                             success: function (response) {
                                 // console.log(response);
@@ -334,12 +376,9 @@
                     })
                 });
             </script>
-            {% endfor %}
-            {% else %}
-            {% if query %}
+            {% endfor %} {% else %} {% if query %}
             <p class="no-result-label">No result found</p>
-            {% endif %}
-            {% endif %}
+            {% endif %} {% endif %}
         </div>
 
     </div>

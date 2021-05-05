@@ -47,21 +47,25 @@ def build_cos_sim_matrix(num_cereals, tfidf_mat, input_get_sim_method=get_cosine
 cereal_sims_cos = build_cos_sim_matrix(num_cereals, tfidf_mat)
 
 
-def rank_by_similar_cereal(query_cereal, sim_matrix):
+def rank_by_similar_cereal(query_cereal, sim_matrix, filters):
     tcin = cereal_to_tcin[query_cereal]
     idx = tcin_to_index[tcin]
-    score_lst = sim_matrix[idx]
-    score_lst = [(index_to_tcin[i], s) for i, s in enumerate(score_lst)]
+    sim_score_lst = sim_matrix[idx]
+    score_lst = [
+        (index_to_tcin[i], s)
+        for i, s in enumerate(sim_score_lst)
+        if filter_tcin(filters, index_to_tcin[i]) and round(s, 3) != 0
+    ]
     score_lst = score_lst[:idx] + score_lst[idx + 1 :]
     score_lst = sorted(score_lst, key=lambda x: -x[1])
 
     return score_lst[:15]
 
 
-similar = rank_by_similar_cereal("Corn Pops", cereal_sims_cos)
-dets = []
-for tcin, score in similar:
-    detail = cereal_details[tcin]
-    detail["score"] = score
-    dets.append(detail["name"])
-print(dets)
+# similar = rank_by_similar_cereal("Corn Pops", cereal_sims_cos)
+# dets = []
+# for tcin, score in similar:
+#     detail = cereal_details[tcin]
+#     detail["score"] = score
+#     dets.append(detail["name"])
+# print(dets)
