@@ -34,7 +34,8 @@
     }
 
     .btn:hover {
-        background-color: coral;
+        background-color: #ffc20c;
+        color:  #060802;
     }
 
     .step-links a {

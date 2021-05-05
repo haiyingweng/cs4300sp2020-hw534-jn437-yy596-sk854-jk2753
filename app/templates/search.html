@@ -19,24 +19,34 @@
         max-width: 500px;
     }
 
-    .details {
-        position: absolute;
-        width: 800px;
-        height: 500px;
+    #popup {
+        position: fixed;
+        width: 820px;
+        height: 530px;
         margin: auto;
         left: 0;
         right: 0;
-        top: 0;
-        bottom: 0;
-        border: 3px solid #fcc404;
+        top: 100;
+        /* border: 3px solid #fcc404; */
         border-radius: 20px;
-        padding: 20px;
+        padding: 30px;
+        padding-left: 50px;
+        padding-bottom: 40px;
         overflow: scroll;
+        box-shadow: 0 4px 6px 0 rgba(27, 26, 26, 0.01), 0 5px 10px 0 rgba(15, 15, 15, 0.05);
+        display: none;
+        background-color: white;
+    }
+
+    .details {
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 10px;
     }
 
     .det-cereal-img img {
-        height: auto;
-        width: 300px;
+        height: 300px;
+        width: auto;
         margin-top: 25px;
     }
 
@@ -46,17 +56,17 @@
     }
 
     .cereal-info {
-        margin-left: 25px;
+        margin-left: 16px;
     }
 
     .x-btn {
         font-size: 30px;
-        /* position: absolute;
+        position: absolute;
         top: 5px;
-        right: 20px; */
-        position: fixed;
+        right: 20px;
+        /* position: fixed;
         top: 130px;
-        right: 335px;
+        right: 335px; */
         color: gray;
         border: none;
         background: none !important;
@@ -81,6 +91,81 @@
         margin: 0;
         margin-top: 20px;
     }
+
+    .details {
+        display: none;
+        background-color: white;
+    }
+
+    .light {
+        font-weight: 200;
+    }
+
+    .med {
+        font-weight: 400;
+    }
+
+    .overlay {
+        width: 100vw;
+        height: 100%;
+        margin-top: -100px;
+        /* background-color: black; */
+        background-color: #fff3e0;
+        /* opacity: 50%; */
+        display: none;
+        position: fixed;
+    }
+
+    .noscroll {
+        overflow: hidden;
+    }
+
+    .sub-header {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #bullet-details {
+        max-width: 700px;
+    }
+
+    li {
+        margin-left: -15px;
+    }
+
+    .btn {
+        margin: 5px;
+    }
+
+    .btn:hover {
+        background-color: #ffc20c;
+    }
+
+    #btns {
+        position: fixed;
+        margin: auto;
+        left: 44vw;
+        top: 650;
+    }
+
+    #reviews-page {
+        display: none;
+        padding: 20px;
+        padding-right: 45px;
+        padding-top: 17px;
+    }
+
+    .author {
+        color: gray;
+        margin-top: -10px;
+        float: right;
+    }
+
+    .review {
+        margin-top: 13px;
+    }
 </style>
 
 <body>
@@ -96,58 +181,52 @@
         </ul>
     </div>
 
-    {% if details %} {% set d = details[0] %}
-    <div class="details" name={{query}}>
+    <div id="overlay" class="overlay"></div>
+    </div>
+    <div id="popup">
+
+        <div id="btns">
+            <button class="btn" id="details-btn">details</button>
+            <button class="btn" id="reviews-btn">reviews</button>
+        </div>
+
         <button class="x-btn"><span>&times;</span></button>
-
-        <!-- TODO: figure out how to go back to page with query results -->
-        <!-- <script>
-            $(document).ready(function () {
-                $(".x-btn").on("click", function (event) {
-                    var query = document.getElementById("details").attr('name');
-                    console.log(query);
-                    $.ajax({
-                        url: "/",
-                        type: "get",
-                        data: {
-                            search: query
-                        },
-                        success: function (response) {
-                            // console.log(response);
-                            document.write(response);
-                        },
-                    });
-                })
-            });
-        </script> -->
-
-        <div class="row">
-            <div class="cereal-info">
-                <h3 class="cereal-name">{{d['name']}}</h3>
-                <p><strong>Made by:</strong> {{d['manufacturer']}}</p>
-                <p><strong>Rating:</strong> {{d['rating']}}</p>
-                <p class="score" name="{{d['score']}}"><strong>Score:</strong> {{d['score']}}</p>
-                <p>{{d['description']}}</p>
-
+        <div id="details" class="details">
+            <div class="row">
+                <div id="cereal-info" class=" cereal-info">
+                    <h3 id="cereal-name" class="cereal-name"></h3>
+                    <p id="manufacturer"><strong>Made by: </strong></p>
+                    <p id="rating"><strong>Rating: </strong> </p>
+                    <p id="score" class="score"><strong>Score: </strong></p>
+                    <p id="description"></p>
+                </div>
+                <div class="det-cereal-img">
+                    <img id="cereal-img" height=200 width=200>
+                </div>
             </div>
-            <div class="det-cereal-img">
-                <img src="{{d['img_url']}}" height=200 width=200>
+            <div class="sub-header">
+                DETAILS
+            </div>
+            <ul id="bullet-details">
+            </ul>
+            <div class="sub-header">NUTRITION FACTS</div>
+            <div id="nutrition-facts" class="nutrition-facts">
+                <p id="calories"><strong>Calories:</strong></p>
+                <p id="protein"><strong>Protein:</strong></p>
+                <p id="fat"><strong>Fat:</strong> </p>
+                <p id="sodium"><strong>Sodium:</strong> </p>
+                <p id="sugars"><strong>Sugar:</strong> </p>
+                <p id="carbo"><strong>Carbohydrate:</strong> </p>
+                <p id="fiber"><strong>Fiber:</strong> </p>
+                <p id="potass"><strong>Potassium:</strong> </p>
             </div>
         </div>
-        <h4>Nutrition Facts</h4>
-        <div class="nutrition-facts">
-            <p><strong>Calories:</strong> {{d['calories']}}</p>
-            <p><strong>Protein:</strong> {{d['protein']}}</p>
-            <p><strong>Fat:</strong> {{d['fat']}}</p>
-            <p><strong>Sodium:</strong> {{d['sodium']}}</p>
-            <p><strong>Sugar:</strong> {{d['sugars']}}</p>
-            <p><strong>Carbohydrate:</strong> {{d['carbo']}}</p>
-            <p><strong>Fiber:</strong> {{d['fiber']}}</p>
-            <p><strong>Potassium:</strong> {{d['potass']}}</p>
+        <div id="reviews-page">
+
         </div>
+
     </div>
 
-    {% else %}
 
     <div id="searchset">
         <form class="form-inline global-search" method="GET">
@@ -326,8 +405,6 @@
                 </div>
                 <div class="cereal-info">
                     <h3 class="cereal-name">{{d['name']}}</h3>
-                    <!-- <p><strong>Made by:</strong> {{d['manufacturer']}}</p> -->
-
                     <p><strong>Rating:</strong> {{d['rating']}}</p>
                     <p class="score" name="{{d['score']}}"><strong>Score:</strong> {{d['score']}}</p>
                     <p class="description">{{d['description']}}</p>
@@ -346,35 +423,118 @@
             </div>
             <hr>
             <script>
-                $(document).ready(function () {
-                    var x = document.getElementById('filter');
-                    $(".cereal").on("click", function (event) {
-                        event.stopPropagation();
-                        event.stopImmediatePropagation();
-                        var tcin = $(this).attr('name');
-                        var name = $(this).find(".cereal-name").text();
-                        var query = document.getElementById("query").textContent;
-                        var search_by = document.getElementById("search-by").textContent;
-                        var score = $(this).find(".score").attr('name');
-                        console.log(score);
-                        $.ajax({
-                            url: "/cerealname",
-                            type: "get",
-                            data: {
-                                query: query,
-                                cereal_name: name,
-                                tcin: tcin,
-                                score: score,
-                                search_by: search_by
-                            },
-                            success: function (response) {
-                                // console.log(response);
-                                // TODO: fix error - A parser-blocking, cross site (i.e. different eTLD+1) script, https://code.jquery.com/jquery-3.5.1.min.js, is invoked via document.write.
-                                document.write(response);
-                            },
-                        });
+                function showDetails(data) {
+                    document.getElementById("popup").style.display = "block";
+                    document.getElementById("details").style.display = "block";
+                    document.getElementById("overlay").style.display = "block";
+                    document.body.style.overflow = "hidden";
+
+                    var nutr_facts = document.getElementById("nutrition-facts").querySelectorAll("p");
+                    nutr_facts.forEach((fact, i) => {
+                        fact.innerHTML = `<strong>${nutr_items[i]}</strong>`;
+                        fact.appendChild(document.createElement("br"));
+                        var d = document.createTextNode(JSON.parse(data)[fact.id]);
+                        fact.appendChild(d);
                     })
+                    var cereal_info = document.getElementById("cereal-info");
+                    cereal_info.querySelectorAll("p").forEach((info, i) => {
+                        if (info.id !== "description") {
+                            info.innerHTML = `<strong>${info_items[i]}: </strong>`;
+
+                        }
+                        var d = document.createTextNode(JSON.parse(data)[info.id]);
+                        info.appendChild(d);
+
+                    })
+                    cereal_info.querySelector("h3").innerHTML = JSON.parse(data)["name"];
+                    document.getElementById("cereal-img").src = JSON.parse(data)["img_url"];
+                    document.getElementById("description").innerHTML = JSON.parse(data)["description"];
+
+                    document.getElementById("bullet-details").innerHTML = "";
+                    JSON.parse(data)["bullets"].forEach((bullet, i) => {
+                        if (i < 6) {
+                            document.getElementById("bullet-details").appendChild(document.createElement("li"))
+                                .innerHTML = bullet;
+                        }
+                    })
+                }
+                var data;
+                var nutr_items = ["Calories", "Protein", "Fat", "Sodium", "Sugar", "Carbohydrates", "Fiber",
+                    "Potassium"
+                ];
+                var info_items = ["Manufacturer", "Rating", "Score"];
+
+                // $(document).ready(function () {
+                var x = document.getElementById('filter');
+                $(".x-btn").on("click", () => {
+                    document.getElementById("cereal-info").querySelector("h3").innerHTML = "";
+                    document.getElementById("description").innerHTML = "";
+                    document.getElementById("popup").style.display = "none";
+                    document.getElementById("overlay").style.display = "none";
+                    document.body.style.overflow = "scroll";
+                })
+                $(".cereal").on("click", function (event) {
+
+                    event.stopPropagation();
+                    event.stopImmediatePropagation();
+                    var tcin = $(this).attr('name');
+                    console.log(tcin);
+                    var name = $(this).find(".cereal-name").text();
+                    var query = document.getElementById("query").textContent;
+                    var search_by = document.getElementById("search-by").textContent;
+                    var score = $(this).find(".score").attr('name');
+                    data = '{{ d | tojson | safe }}';
+
+                    // console.log('{{data}}')
+                    console.log(JSON.parse(data));
+                    // console.log(data.fat);
+
+                    showDetails(data);
+                    $.ajax({
+                        url: "/cerealname",
+                        type: "get",
+                        data: {
+                            query: query,
+                            cereal_name: name,
+                            tcin: tcin,
+                            score: score,
+                            search_by: search_by
+                        },
+                        success: function (response) {
+                            // console.log(response);
+                            // TODO: fix error - A parser-blocking, cross site (i.e. different eTLD+1) script, https://code.jquery.com/jquery-3.5.1.min.js, is invoked via document.write.
+                            // document.write(response);
+                        },
+                    });
+                })
+                $("#details-btn").on("click", function (event) {
+                    document.getElementById("reviews-page").style.display = "none";
+                    showDetails(data);
+
                 });
+
+                $("#reviews-btn").on("click", function (event) {
+                    event.stopPropagation();
+                    event.stopImmediatePropagation();
+                    document.getElementById("reviews-page").innerHTML = "";
+                    console.log("reviews")
+                    document.getElementById("details").style.display = "none";
+                    var rev_page = document.getElementById("reviews-page");
+                    rev_page.style.display = "block";
+                    console.log(JSON.parse(data));
+                    JSON.parse(data)["top_reviews"].forEach((rev, i) => {
+                        rev_page.appendChild(document.createElement("p")).innerHTML = rev.review_text;
+                        rev_page.appendChild(document.createElement("div")).innerHTML = `&#x2500;` +
+                            " " + rev.user_nickname;
+                        rev_page.appendChild(document.createElement("br"));
+                        rev_page.appendChild(document.createElement("br"));
+                    })
+                    var rev_list = rev_page.querySelectorAll("p");
+                    rev_list.forEach(rev => rev.classList.add("review"));
+                    var author_list = rev_page.querySelectorAll("div");
+                    author_list.forEach(author => author.classList.add("author"));
+                })
+                // });
             </script>
             {% endfor %} {% else %} {% if query %}
             <p class="no-result-label">No result found</p>
@@ -382,12 +542,12 @@
         </div>
 
     </div>
-    {% endif %}
 
+    <!-- 
     <div class="sfooter">
         <p>Project Name: Cerealizer </p>
         <p>Student Name: hw534, jn437, yy596, sk854, jk2753</p>
-    </div>
+    </div> -->
 
 </body>
 
