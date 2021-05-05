@@ -21,10 +21,61 @@
         </a>
     </div>
 
-    <!-- <div class="sfooter">
-        <p>Project Name: Cerealizer </p>
-        <p>Student Name: hw534, jn437, yy596, sk854, jk2753</p>
-    </div> -->
+    <div id="rankfilterpg">
+        <h1 id="ranktitle">Cereal Rankings</h1>
+        <form id="rankform" method="GET">
+                <div class="filterrank">
+                    <input class="filterButton active" type="button" name="allfilter" id="all" value="All">
+                    <input class="filterButton" type="button" name="vegfilter" id="Vegan" value="Vegan">
+                    <input class="filterButton" type="button" name="PFfilter" id="PF" value="Peanut Free">
+                    <input class="filterButton" type="button" name="GFfilter" id="GF" value="Gluten Free">
+                </div>
+        </form>
+        <script>
+        function filtercat(selectedCategory) {
+            filterCategory = selectedCategory;
+
+            let buttonID = ["all", "Vegan", "PF", "GF"];
+            buttonID.forEach(d => {
+                document.getElementById(d).classList.remove("active");
+            })
+            document.getElementById(filterCategory).classList.add("active");
+            console.log(filterCategory)
+        }
+
+        all.addEventListener('click', () => filtercat('all'));
+        Vegan.addEventListener('click', () => filtercat('Vegan'));
+        PF.addEventListener('click', () => filtercat('PF'));
+        GF.addEventListener('click', () => filtercat('GF'));
+        </script>
+        
+        <div class="searchrank">
+        {% for d in data %}
+        <div class="cereal" name="{{d['tcin']}}">
+            <div class="cereal-img">
+                <img src="{{d['img_url']}}" alt="{{d['name']}}" height=250 width=250>
+            </div>
+            <div class="cereal-info">
+                <h3 class="cereal-name">{{d['name']}}</h3>
+                <p><strong>Rating:</strong> {{d['rating']}}</p>
+                <p class="score" name="{{d['score']}}"><strong>Score:</strong> {{d['score']}}</p>
+                <p class="description">{{d['description']}}</p>
+                <h4 class="nutrition-facts-header">Nutrition Facts</h4>
+                <div class="nutrition-facts">
+                    <p><strong>Calories:</strong> {{d['calories']}}</p>
+                    <p><strong>Protein:</strong> {{d['protein']}}</p>
+                    <p><strong>Fat:</strong> {{d['fat']}}</p>
+                    <p><strong>Sodium:</strong> {{d['sodium']}}</p>
+                    <p><strong>Sugar:</strong> {{d['sugars']}}</p>
+                    <p><strong>Carbohydrate:</strong> {{d['carbo']}}</p>
+                    <p><strong>Fiber:</strong> {{d['fiber']}}</p>
+                    <p><strong>Potassium:</strong> {{d['potass']}}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
 
 
 </body>
