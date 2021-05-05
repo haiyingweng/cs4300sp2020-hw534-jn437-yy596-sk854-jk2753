@@ -4,6 +4,8 @@ from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from .calculate_similarity import *
 from .db_related import *
 from .similar_cereals import *
+import json
+from flask import Flask, request
 
 project_name = "Cerealizer"
 net_id = "Joie Ng: jn437, Ying Yang: yy596, Haiying Weng: hw534, Jason Jungwoo Kim: jk2753, Sooah Kang: sk854"
@@ -30,9 +32,12 @@ def search():
     )
 
 # Top 100
-@irsystem.route('/top', methods=['GET'])
+@irsystem.route('/top/', methods=["GET"])
 def rankings():
-    category = request.args.get("filterCategory")
+    body = json.loads(request.data)
+    category = body.get("category")
+    print("category is " + category)
+    data = []   
     if category == "all":
         data = allrankings()
     elif category == "Vegan":
@@ -41,6 +46,7 @@ def rankings():
         data = pfranking()
     elif category == "GF":
         data = gfranking()
+    print(data)
     return render_template("Top100.html", data = data)
 
 @irsystem.route("/cerealname", methods=["GET"])

@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/main.css">
     <link rel="stylesheet" href="/static/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,30 +27,37 @@
         <h1 id="ranktitle">Cereal Rankings</h1>
         <form id="rankform" method="GET">
                 <div class="filterrank">
-                    <input class="filterButton active" type="button" name="allfilter" id="all" value="All">
-                    <input class="filterButton" type="button" name="vegfilter" id="Vegan" value="Vegan">
-                    <input class="filterButton" type="button" name="PFfilter" id="PF" value="Peanut Free">
-                    <input class="filterButton" type="button" name="GFfilter" id="GF" value="Gluten Free">
+                    <input class="filterButton active" type="button" name="all" id="all" value="all" onclick="filtercat('all')">
+                    <input class="filterButton" type="button" name="Vegan" id="Vegan" value="Vegan" onclick="filtercat('Vegan')">
+                    <input class="filterButton" type="button" name="PF" id="PF" value="Peanut Free" onclick="filtercat('PF')">
+                    <input class="filterButton" type="button" name="GF" id="GF" value="Gluten Free" onclick="filtercat('GF')">
                 </div>
+                <script>
+                    function filtercat(selectedCategory) {
+                        filterCategory = selectedCategory;
+            
+                        let buttonID = ["all", "Vegan", "PF", "GF"];
+                        buttonID.forEach(d => {
+                            document.getElementById(d).classList.remove("active");
+                        })
+                        document.getElementById(filterCategory).classList.add("active");
+                        console.log(selectedCategory)
+                        fetch('http://0.0.0.0:5000/top/', {
+                            method: 'GET',
+                            body: JSON.stringify({
+                                "category": selectedCategory
+                            })
+                        }).then(function (resp) {
+                            console.log(resp);
+                        }).then(function (data) {
+                            console.log(data);
+                        }).catch(function (error) {
+                            console.log(error);
+                        })
+                    };
+                    </script>
         </form>
-        <script>
-        function filtercat(selectedCategory) {
-            filterCategory = selectedCategory;
 
-            let buttonID = ["all", "Vegan", "PF", "GF"];
-            buttonID.forEach(d => {
-                document.getElementById(d).classList.remove("active");
-            })
-            document.getElementById(filterCategory).classList.add("active");
-            console.log(filterCategory)
-        }
-
-        all.addEventListener('click', () => filtercat('all'));
-        Vegan.addEventListener('click', () => filtercat('Vegan'));
-        PF.addEventListener('click', () => filtercat('PF'));
-        GF.addEventListener('click', () => filtercat('GF'));
-        </script>
-        
         <div class="searchrank">
         {% for d in data %}
         <div class="cereal" name="{{d['tcin']}}">
