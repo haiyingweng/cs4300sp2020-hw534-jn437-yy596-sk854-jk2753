@@ -68,6 +68,9 @@ def process_cereal_details():
         cereal_info[tcin]["bullets"] = cereal_descriptions[tcin]["product"][
             "soft_bullets"
         ]["bullets"]
+        cereal_info[tcin]["top_reviews"] = cereal_descriptions[tcin]["product"][
+            "top_reviews"
+        ]
         cereal_info[tcin]["cal"] = info["cal"]
         cereal_info[tcin]["pro"] = info["pro"]
         cereal_info[tcin]["fat1"] = info["fat1"]
