@@ -75,11 +75,11 @@
     }
 
     .description {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .output-message {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .nutrition-facts p {
@@ -121,7 +121,7 @@
     }
 
     .sub-header {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 5px;
@@ -169,6 +169,8 @@
 </style>
 
 <body>
+    <p id="search-by" hidden>{{search_by}}</p>
+    <p id="query" hidden>{{query}}</p>
 
     <div id="lefttopcorner">
         <ul>
@@ -178,7 +180,6 @@
     </div>
 
     <div id="overlay" class="overlay"></div>
-
     </div>
     <div id="popup">
 
@@ -236,8 +237,24 @@
             <br><br>
 
             <div class="form-group">
-                <input id="input" type="text" name="search" class="form-control"
-                    placeholder="Keywords (e.g. marshmallows, crunchy, tasty)">
+                <input type="radio" id="keyword_search" name="search_by" value="keyword" checked="checked">
+                <label for="keyword">Search By Keywords</label><br>
+                <input type="radio" id="cereal_search" name="search_by" value="cereal">
+                <label for="cereal_search">Search By Similar Cereal</label><br>
+                <div>
+                    <input id="input_keyword" type="text" name="keywords" class="form-control"
+                        placeholder="Keywords (e.g. marshmallows, crunchy, tasty)">
+                    <input id="input_cereal" list="cereal_list" type="text" name="cereal" class="form-control"
+                        placeholder="Enter a cereal">
+                    <datalist id="cereal_list">
+                        {% for cereal in all_cereals %}
+                        <option>{{cereal}}</option>
+                        {% endfor %}
+                    </datalist>
+                    <button type="button" id="filterbutton" onclick="showhideform();">
+                    </button>
+                    <button type="submit" class="btn btn-info"> Go! </button>
+                </div>
             </div>
             <div id="filter">
                 <div class="filtercat">
@@ -343,21 +360,43 @@
                         x.style.display = "none";
                     }
                 }
+                $(document).ready(function () {
+                    $('#keyword_search').change(function () {
+                        if (this.checked) {
+                            $("#input_keyword").show();
+                            $("#input_cereal").hide();
+                        }
+                    });
+                    $('#cereal_search').change(function () {
+                        if (this.checked) {
+                            $("#input_keyword").hide();
+                            $("#input_cereal").show();
+                        }
+                    });
+                })
+
+                let searchBy = document.getElementById('search-by').textContent
+                let query = document.getElementById('query').textContent
+                if (searchBy === "cereal") {
+                    document.getElementById('cereal_search').checked = true;
+                    $("#input_keyword").hide();
+                    $("#input_cereal").show();
+                    $("#input_cereal").val(query);
+                } else {
+                    document.getElementById('keyword_search').checked = true;
+                    $("#input_keyword").show();
+                    $("#input_cereal").hide();
+                    $("#input_keyword").val(query);
+                }
             </script>
-            <button type="button" id="filterbutton" onclick="showhideform();">
-            </button>
-            <button type="submit" class="btn btn-info"> Go! </button>
 
         </form>
 
         <div class="search-result">
             {% if query %}
-            <h3 class="output-message">Your keyword(s): {{query}}</h3>
-            <p id="query" hidden>{{query}}</p>
+            <h3 class="output-message">Your search: {{query}}</h3>
             {% endif %}
-            <br>
-            {% if data %}
-            {% for d in data %}
+            <br> {% if data %} {% for d in data %}
             <div class="cereal" name="{{d['tcin']}}">
                 <div class="cereal-img">
                     <img src="{{d['img_url']}}" alt="{{d['name']}}" height=250 width=250>
@@ -367,7 +406,8 @@
                     <p><strong>Rating:</strong> {{d['rating']}}</p>
                     <p class="score" name="{{d['score']}}"><strong>Score:</strong> {{d['score']}}</p>
                     <p class="description">{{d['description']}}</p>
-                    <h4 class="nutrition-facts-header">Nutrition Facts</h4>
+                    <h4 class="nutrition-facts-header">NUTRITION FACTS</h4>
+                    <br>
                     <div class="nutrition-facts">
                         <p><strong>Calories:</strong> {{d['calories']}}</p>
                         <p><strong>Protein:</strong> {{d['protein']}}</p>
@@ -382,7 +422,6 @@
             </div>
             <hr>
             <script>
-
                 function showDetails(data) {
                     document.getElementById("popup").style.display = "block";
                     document.getElementById("details").style.display = "block";
@@ -413,15 +452,16 @@
                     document.getElementById("bullet-details").innerHTML = "";
                     JSON.parse(data)["bullets"].forEach((bullet, i) => {
                         if (i < 6) {
-                            document.getElementById("bullet-details").appendChild(document.createElement("li")).innerHTML = bullet;
+                            document.getElementById("bullet-details").appendChild(document.createElement("li"))
+                                .innerHTML = bullet;
                         }
                     })
                 }
                 var data;
-                var nutr_items = ["Calories", "Protein", "Fat", "Sodium", "Sugar", "Carbohydrates", "Fiber", "Potassium"];
+                var nutr_items = ["Calories", "Protein", "Fat", "Sodium", "Sugar", "Carbohydrates", "Fiber",
+                    "Potassium"
+                ];
                 var info_items = ["Manufacturer", "Rating", "Score"];
-
-
 
                 // $(document).ready(function () {
                 var x = document.getElementById('filter');
@@ -440,6 +480,7 @@
                     console.log(tcin);
                     var name = $(this).find(".cereal-name").text();
                     var query = document.getElementById("query").textContent;
+                    var search_by = document.getElementById("search-by").textContent;
                     var score = $(this).find(".score").attr('name');
                     data = '{{ d | tojson | safe }}';
 
@@ -455,7 +496,8 @@
                             query: query,
                             cereal_name: name,
                             tcin: tcin,
-                            score: score
+                            score: score,
+                            search_by: search_by
                         },
                         success: function (response) {
                             // console.log(response);
@@ -481,7 +523,8 @@
                     console.log(JSON.parse(data));
                     JSON.parse(data)["top_reviews"].forEach((rev, i) => {
                         rev_page.appendChild(document.createElement("p")).innerHTML = rev.review_text;
-                        rev_page.appendChild(document.createElement("div")).innerHTML = `&#x2500;` + " " + rev.user_nickname;
+                        rev_page.appendChild(document.createElement("div")).innerHTML = `&#x2500;` +
+                            " " + rev.user_nickname;
                         rev_page.appendChild(document.createElement("br"));
                         rev_page.appendChild(document.createElement("br"));
                     })
@@ -492,12 +535,9 @@
                 })
                 // });
             </script>
-            {% endfor %}
-            {% else %}
-            {% if query %}
+            {% endfor %} {% else %} {% if query %}
             <p class="no-result-label">No result found</p>
-            {% endif %}
-            {% endif %}
+            {% endif %} {% endif %}
         </div>
 
     </div>

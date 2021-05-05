@@ -3,7 +3,7 @@ import csv
 from sklearn.feature_extraction.text import TfidfVectorizer
 from .calculate_similarity import *
 
-all_cereals = tcin_to_cereal.values()
+all_cereals = sorted(tcin_to_cereal.values())
 
 
 def build_vectorizer(max_n_terms=5000, max_prop_docs=0.8, min_n_docs=10):
@@ -17,7 +17,10 @@ def build_vectorizer(max_n_terms=5000, max_prop_docs=0.8, min_n_docs=10):
 
 tfidf_vec = build_vectorizer()
 tfidf_mat = tfidf_vec.fit_transform(
-    [info["product"]["description"] for tcin, info in cereal_descriptions.items()]
+    [
+        stem_sentence(info["product"]["description"])
+        for tcin, info in cereal_descriptions.items()
+    ]
 ).toarray()
 
 
@@ -47,21 +50,25 @@ def build_cos_sim_matrix(num_cereals, tfidf_mat, input_get_sim_method=get_cosine
 cereal_sims_cos = build_cos_sim_matrix(num_cereals, tfidf_mat)
 
 
-def rank_by_similar_cereal(query_cereal, sim_matrix):
+def rank_by_similar_cereal(query_cereal, sim_matrix, filters):
     tcin = cereal_to_tcin[query_cereal]
     idx = tcin_to_index[tcin]
-    score_lst = sim_matrix[idx]
-    score_lst = [(index_to_tcin[i], s) for i, s in enumerate(score_lst)]
-    score_lst = score_lst[:idx] + score_lst[idx + 1 :]
+    sim_score_lst = sim_matrix[idx]
+    score_lst = [
+        (index_to_tcin[i], s)
+        for i, s in enumerate(sim_score_lst)
+        if filter_tcin(filters, index_to_tcin[i]) and round(s, 3) != 0 and i != idx
+    ]
+    # score_lst = score_lst[:idx] + score_lst[idx + 1 :]
     score_lst = sorted(score_lst, key=lambda x: -x[1])
 
     return score_lst[:15]
 
 
-similar = rank_by_similar_cereal("Corn Pops", cereal_sims_cos)
-dets = []
-for tcin, score in similar:
-    detail = cereal_details[tcin]
-    detail["score"] = score
-    dets.append(detail["name"])
-print(dets)
+# similar = rank_by_similar_cereal("Corn Pops", cereal_sims_cos)
+# dets = []
+# for tcin, score in similar:
+#     detail = cereal_details[tcin]
+#     detail["score"] = score
+#     dets.append(detail["name"])
+# print(dets)

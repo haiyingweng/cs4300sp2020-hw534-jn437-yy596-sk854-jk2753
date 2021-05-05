@@ -397,35 +397,6 @@ def ranking_rocchio(query, tf_idf_matrix, filters, input_rocchio=rocchio_update)
     return cereal_score_list[:15]
 
 
-# def ranking_similar_cereals(query_cereal, tf_idf_matrix, filters):
-#     if query_cereal in cereal_to_tcin:
-#         query_tcin = cereal_to_tcin[query_cereal]
-#         query_idx = tcin_to_index[query_tcin]
-#         query = tf_idf_matrix[query_idx]
-#         numerator = np.dot(tf_idf_matrix, query)
-#         demonin = (np.linalg.norm(query)) * (np.linalg.norm(tf_idf_matrix, axis=1))
-#         cos_sim = numerator / demonin
-#         rank_list = [
-#             (index_to_tcin[i], score)
-#             for i, score in enumerate(cos_sim)
-#             if filter_tcin(filters, index_to_tcin[i])
-#         ]
-#         rank_list = list(rank_list)
-#         rank_list.sort(key=lambda x: -x[1])
-#         return rank_list
-#     else:
-#         return []
-
-
-# similar = ranking_similar_cereals("Lucky Charms", tf_idf_matrix, [])
-# dets = []
-# for tcin, score in similar:
-#     detail = cereal_details[tcin]
-#     detail["score"] = score
-#     dets.append(detail["name"])
-# print(dets)
-
-
 # rocchio = ranking_rocchio("happy kid", tf_idf_matrix)
 # dets = []
 # for tcin, score in rocchio:
