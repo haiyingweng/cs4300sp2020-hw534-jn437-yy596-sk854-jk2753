@@ -328,16 +328,20 @@ def get_cereal_details(ranked):
     return dets
 
 def allrankings():
-    return [cereal for cereal in cereal_details]
+    data = [cereal for cereal in cereal_details]
+    return sorted(data, key = lambda c: c["rating"])
 
 def veganranking():
-    return [cereal for cereal in cereal_details if cereal['vegan'] == "TRUE"]
+    data = [cereal for cereal in cereal_details if cereal['vegan'] == "TRUE"]
+    return sorted(data, key = lambda c: c["rating"])
 
 def pfranking():
-    return [cereal for cereal in cereal_details if cereal['pf'] == "TRUE"]
+    data = [cereal for cereal in cereal_details if cereal['pf'] == "TRUE"]
+    return sorted(data, key = lambda c: c["rating"])
 
 def gfranking():
-    return [cereal for cereal in cereal_details if cereal['gf'] == "TRUE"]
+    data = [cereal for cereal in cereal_details if cereal['gf'] == "TRUE"]
+    return sorted(data, key = lambda c: c["rating"])
 
 
 tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
