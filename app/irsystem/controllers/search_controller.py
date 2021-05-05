@@ -39,23 +39,23 @@ def search():
         all_cereals=all_cereals,
     )
 
-# Top 100
-@irsystem.route('/top/', methods=["GET"])
-def rankings():
-    body = json.loads(request.data)
-    category = body.get("category")
-    print("category is " + category)
-    data = []   
-    if category == "all":
-        data = allrankings()
-    elif category == "Vegan":
-        data = veganranking()
-    elif category == "PF":
-        data = pfranking()
-    elif category == "GF":
-        data = gfranking()
-    print(data)
-    return render_template("Top100.html", data = data)
+# # Top 100
+# @irsystem.route('/top/', methods=["GET"])
+# def rankings():
+#     body = json.loads(request.data)
+#     category = body.get("category")
+#     print("category is " + category)
+#     data = []   
+#     if category == "all":
+#         data = allrankings()
+#     elif category == "Vegan":
+#         data = veganranking()
+#     elif category == "PF":
+#         data = pfranking()
+#     elif category == "GF":
+#         data = gfranking()
+#     print(data)
+#     return render_template("Top100.html", data = data)
 
 @irsystem.route("/cerealname", methods=["GET"])
 def click():
