@@ -109,6 +109,7 @@ def get_reviews_vocab(tokenized_reviews):
 
 cereal_details = process_cereal_details()
 
+
 tokenizer = TreebankWordTokenizer()
 tokenized_reviews = tokenize_reviews(tokenizer, all_reviews)
 reviews_vocab = list(get_reviews_vocab(tokenized_reviews))
@@ -326,6 +327,14 @@ def get_cereal_details(ranked):
         dets.append(detail)
     return dets
 
+def return_rankings(category):
+    if category == "all":
+        cereals = [cereal for cereal in cereal_details]
+    else:
+        cereals = [
+            cereal for cereal in cereal_details 
+            if cereal[category] == "TRUE"]
+    return cereals
 
 tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
 
