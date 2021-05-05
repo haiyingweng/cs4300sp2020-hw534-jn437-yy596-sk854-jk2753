@@ -68,6 +68,9 @@ def process_cereal_details():
         cereal_info[tcin]["bullets"] = cereal_descriptions[tcin]["product"][
             "soft_bullets"
         ]["bullets"]
+        cereal_info[tcin]["top_reviews"] = cereal_descriptions[tcin]["product"][
+            "top_reviews"
+        ]
         cereal_info[tcin]["cal"] = info["cal"]
         cereal_info[tcin]["pro"] = info["pro"]
         cereal_info[tcin]["fat1"] = info["fat1"]
@@ -269,20 +272,20 @@ def filteritems(request):
         # check if vegan is checked
         filters["veg"].append("TRUE")
     else:
-        filters["veg"].append("TRUE")
         filters["veg"].append("FALSE")
+        filters["veg"].append("TRUE")
     if request.args.get("PFcheckbox"):
         # check if Peanut Free is checked
         filters["pf"].append("TRUE")
     else:
-        filters["pf"].append("TRUE")
         filters["pf"].append("FALSE")
+        filters["pf"].append("TRUE")
     if request.args.get("GFcheckbox"):
         # check if Gluten Free is checked
         filters["gf"].append("TRUE")
     else:
-        filters["gf"].append("TRUE")
         filters["gf"].append("FALSE")
+        filters["gf"].append("TRUE")
     return filters
 
 
@@ -300,7 +303,7 @@ def filter_tcin(filters, tcin):
 #     # Returns list of tuples (cereal name, score)
 #     query_tokens = re.findall("[a-zA-Z]+", query.lower())
 #     query_tokens = get_stems(query_tokens)
-#     cereal_scores = {tcin: 0 for tcin in tcins if filter(filters, tcin)}
+#     cereal_scores = {tcin: 0 for tcin in tcins if filter_tcin(filters, tcin)}
 #     for tok in set(query_tokens):
 #         if tok in idf.keys():
 #             for tcin, tf in inverted_index[tok]:

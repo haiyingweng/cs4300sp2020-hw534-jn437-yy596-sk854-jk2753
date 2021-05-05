@@ -1,0 +1,214 @@
+{
+  "product": {
+    "subscribable": false,
+    "package_dimensions": {
+      "weight": "1.8",
+      "weight_unit_of_measure": "POUND",
+      "width": "8.0",
+      "depth": "13.0",
+      "height": "3.5",
+      "dimension_unit_of_measure": "INCH"
+    },
+    "title": "Frosted Flakes Breakfast Cereal - 24oz - Kellogg's",
+    "tcin": "12935368",
+    "type": "Stand Alone",
+    "dpci": "231-00-0080",
+    "upc": "038000181771",
+    "url": "/p/frosted-flakes-breakfast-cereal-24oz-kellogg-s/-/A-12935368",
+    "description": "Kellogg's Frosted Flakes Corn Cereal is the classic breakfast that kids and adults know and love. Made with crunchy corn flakes with a coating of sweet frosting, this frosted cereal is a delicious breakfast food and a tasty and quick snack for kids. Offered in a 24-ounce family size cereal box, this corn cereal conveniently provides about 17 servings, with 140 calories per serving. Kellogg's Frosted Flakes cereal includes wholesome vitamins and minerals, and the frosted goodness of this Kellogg's cereal is great every time.",
+    "merch_sub_class": "0",
+    "merch_class": "BREAKFAST/WARM BEVERAGES",
+    "merch_class_id": "231",
+    "brand": "Frosted Flakes",
+    "product_brand": {
+      "facet_id": "bv70i",
+      "brand": "Frosted Flakes"
+    },
+    "is_cart_add_on": true,
+    "images": [
+      {
+        "base_url": "https://target.scene7.com/is/image/Target/",
+        "primary": "GUEST_d12614b0-2dd2-4e98-ab19-5aac382c31eb",
+        "alternate_urls": [
+          "GUEST_bda669d2-fa86-496b-864c-ab2e96751a3e",
+          "GUEST_c3ebc40c-1a12-4378-b0a6-4e1ac4871017",
+          "GUEST_363dc674-be82-4eec-b462-fadbe2862ff3",
+          "GUEST_b6daf590-e426-4d5a-b401-0f34bdbf431d",
+          "GUEST_0fafcc30-58cd-46b1-ac7f-7439253e494d",
+          "GUEST_ca067118-18ab-4a93-a88a-1a30cad3a544",
+          "GUEST_68ce6379-bb11-480f-aa15-5cc7cd4fa351",
+          "GUEST_9ff766cf-de2d-4a45-bf0b-c53af6ce0909"
+        ],
+        "content_labels": [
+          {
+            "image_url": "GUEST_ca067118-18ab-4a93-a88a-1a30cad3a544"
+          },
+          {
+            "image_url": "GUEST_bda669d2-fa86-496b-864c-ab2e96751a3e"
+          },
+          {
+            "image_url": "GUEST_d12614b0-2dd2-4e98-ab19-5aac382c31eb"
+          },
+          {
+            "image_url": "GUEST_0fafcc30-58cd-46b1-ac7f-7439253e494d"
+          },
+          {
+            "image_url": "GUEST_c3ebc40c-1a12-4378-b0a6-4e1ac4871017"
+          },
+          {
+            "image_url": "GUEST_9ff766cf-de2d-4a45-bf0b-c53af6ce0909"
+          },
+          {
+            "image_url": "GUEST_68ce6379-bb11-480f-aa15-5cc7cd4fa351"
+          },
+          {
+            "image_url": "GUEST_928a7022-835c-404f-bb73-a0e4cabcef16"
+          },
+          {
+            "image_url": "GUEST_2e2c2504-50c7-4654-8222-5ac43f9fb6f4"
+          }
+        ]
+      }
+    ],
+    "bundle_components": {
+      "related_master_dpci": "231-00-0808",
+      "related_master_tcin": "81579229",
+      "product_relationship_type": "Bundle Component",
+      "product_relationship_type_code": "BNDLCMP"
+    },
+    "street_date": "1970-01-01T00:00:00.000Z",
+    "release_date": "1970-01-01T00:00:00.000Z",
+    "availability_status": "IN_STOCK",
+    "pick_up_in_store": false,
+    "ship_to_store": false,
+    "ship_from_store": true,
+    "rush_delivery": false,
+    "is_out_of_stock_in_all_store_locations": false,
+    "is_out_of_stock_in_all_online_locations": false,
+    "average_rating": 4.84,
+    "total_reviews": 629,
+    "top_reviews": [
+      {
+        "user_nickname": "saintnicole",
+        "title": "Bought for Food Pantry",
+        "rating": 5,
+        "rating_range": 5,
+        "review_text": "Nice, Fast delivery! Thank you!"
+      },
+      {
+        "user_nickname": "Anonymous",
+        "title": "They’re Grreat!",
+        "rating": 5,
+        "rating_range": 5,
+        "review_text": "Frosted Flakes are a staple in our house. Light, crispy delicious flakes with just enough sweet goodness to satisfy."
+      },
+      {
+        "user_nickname": "MNLuckyCats307",
+        "title": "Tastes great.",
+        "rating": 5,
+        "rating_range": 5,
+        "review_text": "Tastes great even when milk soggy. Not too sweet, just right amount of sweetness. The corn flakes hold up well in milk. Best eaten with very cold milk."
+      }
+    ],
+    "total_review_count": 567,
+    "secondary_ratings_averages_order": [
+      "Taste",
+      "Value",
+      "Quality"
+    ],
+    "secondary_ratings_averages": {
+      "Taste": {
+        "Id": "Taste",
+        "AverageRating": 5,
+        "Label": "taste",
+        "ValueRange": 5,
+        "DisplayType": "NORMAL"
+      },
+      "Value": {
+        "Id": "Value",
+        "AverageRating": 4.45,
+        "Label": "value",
+        "ValueRange": 5,
+        "DisplayType": "NORMAL"
+      },
+      "Quality": {
+        "Id": "Quality",
+        "AverageRating": 4.62,
+        "Label": "quality",
+        "ValueRange": 5,
+        "DisplayType": "NORMAL"
+      }
+    },
+    "ratings_only_review_count": 62,
+    "rating_distribution": [
+      {
+        "Count": 9,
+        "RatingValue": 1
+      },
+      {
+        "Count": 1,
+        "RatingValue": 2
+      },
+      {
+        "Count": 10,
+        "RatingValue": 3
+      },
+      {
+        "Count": 44,
+        "RatingValue": 4
+      },
+      {
+        "Count": 565,
+        "RatingValue": 5
+      }
+    ],
+    "overall_rating_range": 5,
+    "bullet_description": [
+      "<B>Contains:</B> Soy",
+      "<B>May Contain:</B> Wheat",
+      "<B>State of Readiness:</B> Ready to Eat",
+      "<B>Package Quantity:</B> 1",
+      "<B>Package type:</B> Individual Item Multi-Serving",
+      "<B>Net weight:</B> 24  Ounces"
+    ],
+    "soft_bullets": {
+      "title": "highlights",
+      "bullets": [
+        "One 24-ounce box of Kellogg's Frosted Flakes Corn Cereal",
+        "Crunchy corn flake cereal coated with a sweet, original frosting",
+        "Breakfast cereal made with vitamins and minerals",
+        "A perfect option for kids and adults looking for classic breakfast cereals",
+        "24-ounce Kellogg's family size cereal box provides enough for everyone"
+      ]
+    },
+    "eligibility_rules": {
+      "add_on": {
+        "is_active": true
+      },
+      "inventory_notification_to_guest_excluded": {
+        "is_active": true
+      },
+      "hold": {
+        "is_active": true
+      },
+      "ship_to_guest": {
+        "is_active": true
+      },
+      "scheduled_delivery": {
+        "is_active": true
+      }
+    },
+    "loyalty_availability_status": "IN_STOCK",
+    "loyalty_purchase_start_date_time": "1970-01-01T00:00:00.000Z",
+    "price": {
+      "tcin": "12935368",
+      "formatted_current_price": "$3.79",
+      "formatted_current_price_type": "reg",
+      "is_current_price_range": false,
+      "current_retail": 3.79
+    },
+    "packaging": {
+      "is_retail_ticketed": false
+    }
+  }
+}
