@@ -32,9 +32,9 @@ def search():
 # Top 100
 @irsystem.route('/top', methods=['GET'])
 def rankings():
-    category = request.args.get("category")
-    data = return_rankings(category)
-    return render_template("Top100.html", data = data)
+#     category = request.args.get("category")
+#     data = return_rankings(category)
+    return render_template("Top100.html")
 
 @irsystem.route("/cerealname", methods=["GET"])
 def click():

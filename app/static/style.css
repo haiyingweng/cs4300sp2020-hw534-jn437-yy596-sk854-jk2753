@@ -141,4 +141,51 @@ img.mlogo:focus {
   vertical-align: middle;
 }
 
+#ranktitle{
+  margin-top: 20px;
+  font-size: 64px;
+  text-align: center;
+  padding: 2%
+}
 
+#rankfilterpg{
+  background-color: fff3e0;
+  width: 90%;
+  height: 90%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+#rankform{
+  display: inline-flex;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.filterrank button{
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.filterbutton {
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.filterButton:hover {
+  background-color: #ddd;
+}
+
+.filterButton.active {
+  background-color: #666;
+  color: white;
+}
