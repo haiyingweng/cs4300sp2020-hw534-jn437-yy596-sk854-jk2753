@@ -37,6 +37,11 @@ def search():
         all_cereals=all_cereals,
     )
 
+# Top 100
+@irsystem.route('/top', methods=['GET'])
+def top_generator():
+    
+    return render_template("Top100.html")
 
 @irsystem.route("/cerealname", methods=["GET"])
 def click():
