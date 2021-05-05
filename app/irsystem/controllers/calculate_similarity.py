@@ -327,14 +327,18 @@ def get_cereal_details(ranked):
         dets.append(detail)
     return dets
 
-def return_rankings(category):
-    if category == "all":
-        cereals = [cereal for cereal in cereal_details]
-    else:
-        cereals = [
-            cereal for cereal in cereal_details 
-            if cereal[category] == "TRUE"]
-    return cereals
+def allrankings():
+    return [cereal for cereal in cereal_details]
+
+def veganranking():
+    return [cereal for cereal in cereal_details if cereal['vegan'] == "TRUE"]
+
+def pfranking():
+    return [cereal for cereal in cereal_details if cereal['pf'] == "TRUE"]
+
+def gfranking():
+    return [cereal for cereal in cereal_details if cereal['gf'] == "TRUE"]
+
 
 tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
 

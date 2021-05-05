@@ -32,8 +32,15 @@ def search():
 # Top 100
 @irsystem.route('/top', methods=['GET'])
 def rankings():
-    category = request.args.get("category")
-    data = return_rankings(category)
+    category = request.args.get("filterCategory")
+    if category == "all":
+        data = allrankings()
+    elif category == "Vegan":
+        data = veganranking()
+    elif category == "PF":
+        data = pfranking()
+    elif category == "GF":
+        data = gfranking()
     return render_template("Top100.html", data = data)
 
 @irsystem.route("/cerealname", methods=["GET"])
