@@ -18,7 +18,7 @@ def search():
         data = []
     else:
         output_message = "Your search: " + query
-        # ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms, filters)
+        #ranked_cereals = rank_by_similarity(query, inverted_index, idf, norms, filters)
         ranked_cereals = ranking_rocchio(query, tf_idf_matrix, filters)
         data = get_cereal_details(ranked_cereals)
     return render_template(
