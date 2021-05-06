@@ -62,7 +62,7 @@ def rank_by_similar_cereal(query_cereal, sim_matrix, filters):
     # score_lst = score_lst[:idx] + score_lst[idx + 1 :]
     score_lst = sorted(score_lst, key=lambda x: -x[1])
 
-    return score_lst[:15]
+    return score_lst[:10]
 
 
 # similar = rank_by_similar_cereal("Corn Pops", cereal_sims_cos)

@@ -351,18 +351,25 @@ def gfranking():
 tf_idf_matrix = get_tf_idf_matrix(inverted_index, idf)
 
 
-def rocchio_update(query_tokens, relev, tf_idf_matrix, a=10, b=0.01):
+def rocchio_update(query_tokens, relev, tf_idf_matrix, a=1, b=0.05):
     query_toks_counter = collections.Counter(query_tokens)
     q0 = np.zeros(len(idf))
 
     if len(relev) != 0:
         relev_indeces = [tcin_to_index[tcin] for tcin in relev]
         rel_max = np.max(tf_idf_matrix[relev_indeces], axis=0)
+        sum_rel = np.sum(tf_idf_matrix[relev_indeces], axis=0)
+        min_clip = float("inf")
         for tok, _ in query_toks_counter.items():
             idx = idf_word_to_index[tok]
             q0[idx] = rel_max[idx]
-        sum_rel = np.sum(tf_idf_matrix[relev_indeces], axis=0)
-        q1 = a * len(relev) * q0 + b / len(relev) * sum_rel
+            min_clip = min(min_clip, sum_rel[idx])
+        # sum_rel = np.clip(sum_rel, a_min=None, a_max=min_clip)
+        new_rel = sum_rel / np.max(sum_rel) * min_clip
+        for tok, _ in query_toks_counter.items():
+            idx = idf_word_to_index[tok]
+            new_rel[idx] = sum_rel[idx]
+        q1 = a * len(relev) * q0 + (b * new_rel) / len(relev)
     else:
         max_tf_idf = np.max(tf_idf_matrix, axis=0)
         for tok, _ in query_toks_counter.items():
@@ -398,7 +405,7 @@ def ranking_rocchio(query, tf_idf_matrix, filters, input_rocchio=rocchio_update)
     # sort cereal by score
     cereal_score_list.sort(key=lambda x: -x[1])
 
-    return cereal_score_list[:15]
+    return cereal_score_list[:10]
 
 
 # rocchio = ranking_rocchio("happy kid", tf_idf_matrix)
