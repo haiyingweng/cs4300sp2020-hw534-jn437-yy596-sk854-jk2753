@@ -96,14 +96,21 @@ img.mlogo:focus {
 }
 
 #filter{
-  position: absolute;
+  /* position: absolute; */
   align-items: center;
   display: none;
-  margin-top: 40px;
-  width: 480px;
-  height: 580px;
+  width: 400px;
+  /* height: 580px; */
   background-color: #F6F6F6;
-  border-style: solid;
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+  /* margin-left: 30%; */
+  margin: auto;
+  padding: 30px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+
 }
 
 .filtercat h4{
@@ -119,10 +126,14 @@ img.mlogo:focus {
   font-weight: bold;
   padding-bottom: 5px;
 }
+ul {
+  padding-left: 10px;
+}
 
 #filter .filtercat label.category-label{
-  margin-right: 50px;
+  margin-right: 40px;
   margin-left:3px;
+  margin-top: -5px;
 }
 
 #filterbutton{
