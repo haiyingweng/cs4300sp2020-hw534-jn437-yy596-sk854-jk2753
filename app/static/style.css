@@ -8,8 +8,9 @@ body {
   background-color: white;
   display: inline-block;
   position: absolute;
-  right: 0%;
-  top: 2%;
+  right: 1%;
+  top: 1.5% !important;
+
 }
 
 #lefttopcorner ul {
@@ -30,11 +31,6 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-weight: bold;
-}
-
-#lefttopcorner a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 #lefttopcorner a.active {
@@ -65,7 +61,7 @@ img.mlogo:focus {
 
 .search-result {
   margin: auto;
-  width: 70%;
+  width: 75%;
 }
 
 .cereal {

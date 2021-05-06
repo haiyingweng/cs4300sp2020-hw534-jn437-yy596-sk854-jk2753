@@ -14,6 +14,19 @@
         font-family: 'Karla', sans-serif;
     }
 
+    .search-result {
+        background-color: white;
+        margin: auto;
+        width: 75%;
+        border-radius: 10px;
+
+    }
+
+    .search-result {
+        margin-top: -45px;
+        padding: 0px 20px;
+    }
+
     .cereal {
         cursor: pointer;
         max-width: 500px;
@@ -27,7 +40,6 @@
         left: 0;
         right: 0;
         top: 100;
-        /* border: 3px solid #fcc404; */
         border-radius: 20px;
         padding: 30px;
         padding-left: 50px;
@@ -64,9 +76,6 @@
         position: absolute;
         top: 5px;
         right: 20px;
-        /* position: fixed;
-        top: 130px;
-        right: 335px; */
         color: gray;
         border: none;
         background: none !important;
@@ -139,9 +148,18 @@
         margin: 5px;
     }
 
-    .btn:hover {
-        background-color: #ffc20c;
+    .btn:focus {
+        outline: 0 !important;
+        color: white;
     }
+
+    .btn:hover,
+    .btn:active {
+        background-color: #ffc20c;
+        outline: 0;
+
+    }
+
 
     #btns {
         position: fixed;
@@ -166,6 +184,30 @@
     .review {
         margin-top: 13px;
     }
+
+    .creator-names {
+        position: absolute;
+        left: 2%;
+        top: 3%;
+    }
+
+    .search-by {
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .radio-btn-label {
+        margin: 1px 5px 10px 4px;
+    }
+
+    .radio-btn {
+        margin-left: 15px !important;
+    }
+
+    #lefttopcorner a {
+        font-size: 15px !important;
+        padding: 10px 15px;
+    }
 </style>
 
 <body>
@@ -174,12 +216,15 @@
 
     <div id="lefttopcorner">
         <ul>
-            <li><a href="https://cerealizer-v1.herokuapp.com/">Version One</a></li>
-            <li><a href="https://cerealizer-v2.herokuapp.com/">Version Two</a></li>
+            <li class="version-btn"><a href="https://cerealizer-v1.herokuapp.com/">version one</a></li>
+            <li class="version-btn"><a href="https://cerealizer-v2.herokuapp.com/">version two</a></li>
             <!-- <li><a href="/top">Rankings</a></li> -->
         </ul>
     </div>
 
+    <div class="creator-names">
+        Created by: hw534, jn437, yy596, sk854, jk2753
+    </div>
     <div id="overlay" class="overlay"></div>
     </div>
     <div id="popup">
@@ -238,10 +283,15 @@
             <br><br>
 
             <div class="form-group">
-                <input type="radio" id="keyword_search" name="search_by" value="keyword" checked="checked">
-                <label for="keyword">Search By Keywords</label><br>
-                <input type="radio" id="cereal_search" name="search_by" value="cereal">
-                <label for="cereal_search">Search By Similar Cereal</label><br>
+                <div class="search-by">
+                    Search by:
+                    <input class="radio-btn" type="radio" id="keyword_search" name="search_by" value="keyword"
+                        checked="checked">
+                    <label class="radio-btn-label" for="keyword">keywords</label><br>
+                    <input class="radio-btn" type="radio" id="cereal_search" name="search_by" value="cereal">
+                    <label class="radio-btn-label" for="cereal_search">similar cereal</label><br>
+                </div>
+
                 <div>
                     <input id="input_keyword" type="text" name="keywords" class="form-control"
                         placeholder="Keywords (e.g. marshmallows, crunchy, tasty)">
@@ -256,6 +306,11 @@
                     </button>
                     <button type="submit" class="btn btn-info"> Go! </button>
                 </div>
+                {% if query %}
+                <h3 class="output-message">Your search: {{query}}</h3>
+                {% endif %}
+                <br>
+                <br>
             </div>
             <div id="filter">
                 <div class="filtercat">
@@ -394,10 +449,8 @@
         </form>
 
         <div class="search-result">
-            {% if query %}
-            <h3 class="output-message">Your search: {{query}}</h3>
-            {% endif %}
-            <br> {% if data %} {% for d in data %}
+
+            {% if data %} {% for d in data %}
             <div class="cereal" name="{{d['tcin']}}">
                 <div class="cereal-img">
                     <img src="{{d['img_url']}}" alt="{{d['name']}}" height=250 width=250>
@@ -542,12 +595,6 @@
         </div>
 
     </div>
-
-    <!-- 
-    <div class="sfooter">
-        <p>Project Name: Cerealizer </p>
-        <p>Student Name: hw534, jn437, yy596, sk854, jk2753</p>
-    </div> -->
 
 </body>
 
